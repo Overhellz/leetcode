@@ -178,11 +178,16 @@ Python(сохрани к себе, ещё пригодится):
 
 Задачи:
 
-* https://leetcode.com/problems/two-sum/description/
-* https://leetcode.com/problems/fibonacci-number/
-* https://leetcode.com/problems/plus-one/description/
-* https://leetcode.com/problems/spiral-matrix/description/
-* https://leetcode.com/problems/sparse-matrix-multiplication/description/
+| Level | Name                  | Link                                                |
+|-------|-----------------------|-----------------------------------------------------|
+| Easy  | 509. Fibonacci Number | https://leetcode.com/problems/fibonacci-number/     |
+| Easy  | 66. Plus One          | https://leetcode.com/problems/plus-one/description/ |
+
+
+ 
+      https://leetcode.com/problems/two-sum/description/
+* Medium
+    * https://leetcode.com/problems/spiral-matrix/description/
 
 # 1 Two pointers
 
