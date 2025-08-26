@@ -1,13 +1,14 @@
-package com.github.rodiond26.linked_list.task141;
-
-import com.github.rodiond26.linked_list.ListNode;
+package com.github.rodiond26.linked_list;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Solution {
+public class LinkedListSolution {
+}
+
+class Solution141_1 {
     public boolean hasCycle(ListNode head) {
         Map<ListNode, ListNode> map = new HashMap<>();
         return hasCycle(head, map);
@@ -26,7 +27,7 @@ public class Solution {
     }
 }
 
-class SolutionSet {
+class Solution141_2 {
     public boolean hasCycle(ListNode head) {
         Set<ListNode> set = new HashSet<>();
         return hasCycle(head, set);
@@ -41,6 +42,27 @@ class SolutionSet {
         } else {
             set.add(head);
             return hasCycle(head.next, set);
+        }
+    }
+}
+
+class Solution141_3_correct {
+    public boolean hasCycle(ListNode head) {
+        if (head == null) {
+            return false;
+        }
+
+        ListNode first = head;
+        ListNode second = head;
+        while (true) {
+            if (second.next == null || second.next.next == null) {
+                return false;
+            }
+            if (second.next == first) {
+                return true;
+            }
+            first = first.next;
+            second = second.next.next;
         }
     }
 }

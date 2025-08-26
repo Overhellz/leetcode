@@ -28,6 +28,11 @@
 
 # 8. Linked List
 
+Tasks:
+
+- Easy
+    - 141.Linked List Cycle
+
 ---
 
 # 9. Binary Tree - DFS
