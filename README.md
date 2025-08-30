@@ -1,4 +1,30 @@
+# 0. Big O
+
+Сложность алгоритмов оценивается:
+
+- по времени - сколько операций займет выполнение алгоритма в зависимости от входных данных,
+- по памяти - сколько памяти потребуется при выполнении алгоритма.
+
+Big O - это оценка алгоритма при худшем случае.
+
+**Big O - это верхняя оценка сложности алгоритма в зависимости от входных данных.**
+
+**Амортизационный анализ** - это средняя производительность операций в худшем случае на протяжении длинной
+последовательности операций несмотря на то, что отдельные операции могут быть дорогими, можно посчитать, но большинство
+операций дешевые.
+
+* Big O Cheatsheet https://www.bigocheatsheet.com/
+* Code Visualizer https://pythontutor.com/java.html#mode=edit
+* Exercises https://exercism.org/tracks/java
+
+---
+
 # 1. Arrays And Strings
+
+| Level | Name            | Link | Repeatable |
+|:-----:|:----------------|:-----|:----------:|
+| Easy  | 1. Two Sum      |      |            |
+| Easy  | 167. Two Sum II |      |            |
 
 ---
 
@@ -164,28 +190,15 @@ BFS:
 
 # 0 Big O
 
-Big-O Cheets sheet:
-https://www.bigocheatsheet.com/
-
-Python(сохрани к себе, ещё пригодится):
-
-* https://pythontutor.com/
-* https://exercism.org/tracks/python
-
-Почему Python хорош для собеса:
-
-* https://www.youtube.com/watch?v=8wysIxzqgPI&t=88s
-
 Задачи:
 
-| Level | Name                  | Link                                                |
-|-------|-----------------------|-----------------------------------------------------|
-| Easy  | 509. Fibonacci Number | https://leetcode.com/problems/fibonacci-number/     |
-| Easy  | 66. Plus One          | https://leetcode.com/problems/plus-one/description/ |
+| Level | Name                  | Link                                                | Repeatable |
+|:-----:|:----------------------|:----------------------------------------------------|:----------:|
+| Easy  | 509. Fibonacci Number | https://leetcode.com/problems/fibonacci-number/     |            |
+| Easy  | 66. Plus One          | https://leetcode.com/problems/plus-one/description/ |            |
 
-
- 
       https://leetcode.com/problems/two-sum/description/
+
 * Medium
     * https://leetcode.com/problems/spiral-matrix/description/
 
