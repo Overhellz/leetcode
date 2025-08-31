@@ -1,4 +1,8 @@
-# 0. Big O
+# LeetCode
+
+---
+
+# 0. Big O (Большое О)
 
 Сложность алгоритмов оценивается:
 
@@ -14,21 +18,33 @@ Big O - это оценка алгоритма при худшем случае.
 операций дешевые.
 
 * Big O Cheatsheet https://www.bigocheatsheet.com/
-* Code Visualizer https://pythontutor.com/java.html#mode=edit
-* Exercises https://exercism.org/tracks/java
 
 ---
 
-# 1. Arrays And Strings
+# 1. Two Pointers (Два указателя)
 
-| Level | Name            | Link | Repeatable |
+| Level  | Name                           | Link | Done | Repeatable | Other |
+|:------:|:-------------------------------|:-----|:----:|:----------:|:------|
+|  Easy  | 344. Reverse String            |      |      |            |       |
+|  Easy  | 125.                           |      |      |            |       |
+| Medium | 167.                           |      |      |            |       |
+| Medium | 15. 3Sum                       |      |      |     *      |       |
+|  Easy  | 977. Squares of a Sorted Array |      |      |            |       |
+| Medium | 11. Container With Most Water  |      |      |            |       |
+|  Easy  | 26.                            |      |      |            |       |
+|  Easy  | 283.Move Zeroes                |      |      |     *      |       |
+|  Easy  | 392. Is Subsequence            |      |      |            |       |
+|  Easy  | 844.                           |      |      |            | Stack |
+|  Easy  | 88. Merge Sorted Array         |      |      |     *      |       |
+
+---
+
+# 2. Arrays And Strings
+
+| Level | Name            | Link | Repeatable | 
 |:-----:|:----------------|:-----|:----------:|
 | Easy  | 1. Two Sum      |      |            |
 | Easy  | 167. Two Sum II |      |            |
-
----
-
-# 2. Two Pointers
 
 ---
 
@@ -235,9 +251,10 @@ ___
 
 # Etc
 
-## Visualizers
+https://leetcode.com/explore/learn/
 
-- TODO
+* Code Visualizer https://pythontutor.com/java.html#mode=edit
+* Exercises https://exercism.org/tracks/java
 
 ## LeetCode Problem books
 
@@ -246,3 +263,5 @@ ___
 - Grind 75 https://leetcode.com/problem-list/rab78cw1/
 - Grind 169 https://leetcode.com/problem-list/rabvlt31/
 - Blind 75 https://leetcode.com/problem-list/oizxjoit/
+- Top 100 Liked https://leetcode.com/studyplan/top-100-liked/
+- Top Interview 150 https://leetcode.com/studyplan/top-interview-150/
