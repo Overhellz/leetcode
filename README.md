@@ -91,6 +91,28 @@ public class SlidingWindowTemplate {
 
 ---
 
+# 3. Linked List (Связный список)
+
+Linked List (Связный список) - это набор Node (узлов), которые содержат в себе какие-то данные и связаны в цепочку.
+
+Head - начало (голова) связного спика, tail - конец (хвост) списка.
+
+| Level  | Name                    | Link | Done | Repeatable | Other |
+|:------:|:------------------------|:-----|:----:|:----------:|:------|
+|  Easy  | 141.Linked List Cycle   |      |      |            |       |
+|  TODO  | 707. Design Linked List |      |      |            |       |
+|  Easy  | 876.                    |      |      |            |       |
+| Medium | 2095.                   |      |      |            |       |
+|  TODO  | 206.                    |      |      |            |       |
+|  TODO  | 234.                    |      |      |            |       |
+|  TODO  | 83.                     |      |      |            |       |
+|  TODO  | 19.                     |      |      |            |       |
+|  TODO  | 24.                     |      |      |            |       |
+|  TODO  | 21.                     |      |      |            |       |
+|  TODO  | 141.                    |      |      |            |       |
+
+---
+
 # 3. Arrays And Strings
 
 | Level | Name            | Link | Repeatable | 
@@ -116,12 +138,6 @@ public class SlidingWindowTemplate {
 
 ---
 
-# 8. Linked List
-
-Tasks:
-
-- Easy
-    - 141.Linked List Cycle
 
 ---
 
