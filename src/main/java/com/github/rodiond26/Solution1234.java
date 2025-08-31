@@ -2,7 +2,7 @@ package com.github.rodiond26;
 
 import java.util.*;
 
-public class Solution1 {
+public class Solution1234 {
 }
 
 class Solution977 {
@@ -77,53 +77,6 @@ class Solution209 {
     }
 }
 
-class MyLinkedList {
-
-    private int value;
-    private MyLinkedList next;
-
-    public MyLinkedList() {
-
-    }
-
-    public int get(int index) {
-        int count = 0;
-        MyLinkedList target = this;
-        if (count == index) {
-            return target.value;
-        }
-
-        return -1;
-
-    }
-
-    public void addAtHead(int val) {
-
-    }
-
-    public void addAtTail(int val) {
-
-    }
-
-    public void addAtIndex(int index, int val) {
-
-    }
-
-    public void deleteAtIndex(int index) {
-
-    }
-}
-
-/**
- * Your MyLinkedList object will be instantiated and called as such:
- * MyLinkedList obj = new MyLinkedList();
- * int param_1 = obj.get(index);
- * obj.addAtHead(val);
- * obj.addAtTail(val);
- * obj.addAtIndex(index,val);
- * obj.deleteAtIndex(index);
- */
-
 class Solution15 {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
@@ -164,7 +117,7 @@ class Solution15 {
     }
 }
 
-class Solution11 {
+class Solution11111 {
 //    public int maxArea(int[] height) {
 //        int maxArea = 0;
 //        for (int i = 0; i < height.length - 1; i++) {
@@ -193,14 +146,14 @@ class Solution11 {
         return maxArea;
     }
 
-    public static void main(String[] args) {
-        Solution11 s = new Solution11();
-
-        int[] height1 = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-        int result1 = s.maxArea(height1);
-        System.out.println(result1);
-
-    }
+//    public static void main(String[] args) {
+//        Solution11 s = new Solution11();
+//
+//        int[] height1 = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+//        int result1 = s.maxArea(height1);
+//        System.out.println(result1);
+//
+//    }
 }
 
 class ListNode {

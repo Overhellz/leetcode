@@ -34,7 +34,7 @@ class Solution2 {
     }
 }
 
-class Solution3 {
+class Solution3999999 {
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {

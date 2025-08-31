@@ -97,19 +97,21 @@ Linked List (Связный список) - это набор Node (узлов),
 
 Head - начало (голова) связного спика, tail - конец (хвост) списка.
 
-| Level  | Name                    | Link | Done | Repeatable | Other |
-|:------:|:------------------------|:-----|:----:|:----------:|:------|
-|  Easy  | 141.Linked List Cycle   |      |      |            |       |
-|  TODO  | 707. Design Linked List |      |      |            |       |
-|  Easy  | 876.                    |      |      |            |       |
-| Medium | 2095.                   |      |      |            |       |
-|  TODO  | 206.                    |      |      |            |       |
-|  TODO  | 234.                    |      |      |            |       |
-|  TODO  | 83.                     |      |      |            |       |
-|  TODO  | 19.                     |      |      |            |       |
-|  TODO  | 24.                     |      |      |            |       |
-|  TODO  | 21.                     |      |      |            |       |
-|  TODO  | 141.                    |      |      |            |       |
+Своя реализация [здесь](./src/main/java/com/github/rodiond26/linked_list/theory/MyLinkedListImpl.java).
+
+| Level  | Name                    | Link                                              | Done | Repeatable | Other |
+|:------:|:------------------------|:--------------------------------------------------|:----:|:----------:|:------|
+|  Easy  | 141.Linked List Cycle   |                                                   |      |            |       |
+| Medium | 707. Design Linked List | https://leetcode.com/problems/design-linked-list/ | Done |     *      |       |
+|  Easy  | 876.                    |                                                   |      |            |       |
+| Medium | 2095.                   |                                                   |      |            |       |
+|  TODO  | 206.                    |                                                   |      |            |       |
+|  TODO  | 234.                    |                                                   |      |            |       |
+|  TODO  | 83.                     |                                                   |      |            |       |
+|  TODO  | 19.                     |                                                   |      |            |       |
+|  TODO  | 24.                     |                                                   |      |            |       |
+|  TODO  | 21.                     |                                                   |      |            |       |
+|  TODO  | 141.                    |                                                   |      |            |       |
 
 ---
 

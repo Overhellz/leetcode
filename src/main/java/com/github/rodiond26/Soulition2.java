@@ -166,7 +166,7 @@ class Solution3477_2 {
     }
 }
 
-class Solution14 {
+class Solution1488888 {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0 || strs[0].isEmpty()) {
             return "";

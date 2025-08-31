@@ -290,7 +290,7 @@ class Solution701 {
     }
 }
 
-class Solution {
+class Solution555 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0, head);
         ListNode first = dummy;
