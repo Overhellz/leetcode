@@ -23,6 +23,12 @@ Big O - это оценка алгоритма при худшем случае.
 
 # 1. Two Pointers (Два указателя)
 
+3 типа задач:
+
+* Указатели в начале и в конце.
+* Указатели в начале, первый указатель бежит быстрее второго указателя.
+* Указатели бегут параллельно в разных массивах.
+
 | Level  | Name                           | Link | Done | Repeatable | Other |
 |:------:|:-------------------------------|:-----|:----:|:----------:|:------|
 |  Easy  | 344. Reverse String            |      |      |            |       |
@@ -39,16 +45,58 @@ Big O - это оценка алгоритма при худшем случае.
 
 ---
 
-# 2. Arrays And Strings
+# 2. Sliding Window (Скользящее окно)
+
+Необходимо хранить текущее состояние окна.
+
+```java
+public class SlidingWindowTemplate {
+    public double findMaxAverage(int[] nums, int k) {
+        int sum = 0; // window state
+        int beginIndex = 0;
+        int endIndex = k - 1;
+
+        int maxSum;
+
+        for (int i = beginIndex; i <= endIndex; i++) {
+            sum += nums[i];
+        }
+        maxSum = sum;
+
+        while (endIndex < nums.length) {
+            sum = sum - nums[beginIndex];
+            beginIndex++;
+            endIndex++;
+            if (endIndex >= nums.length) {
+                break;
+            }
+
+            sum = sum + nums[endIndex];
+            maxSum = Math.max(maxSum, sum);
+        }
+
+        return (double) maxSum / k;
+    }
+}
+```
+
+| Level  | Name                             | Link                                                      | Done | Repeatable | Other |
+|:------:|:---------------------------------|:----------------------------------------------------------|:----:|:----------:|:------|
+|  Easy  | 643. Maximum Average Subarray I  | https://leetcode.com/problems/maximum-average-subarray-i/ | Done |            |       |
+|  Easy  | 209.                             |                                                           |      |            |       |
+| Medium | 1004.                            |                                                           |      |            |       |
+| Medium | 1493.                            |                                                           |      |            |       |
+| Medium | 904.                             |                                                           |      |            |       |
+|  TODO  | 2090. K Radius Subarray Averages | https://leetcode.com/problems/k-radius-subarray-averages/ |      |            |       |
+
+---
+
+# 3. Arrays And Strings
 
 | Level | Name            | Link | Repeatable | 
 |:-----:|:----------------|:-----|:----------:|
 | Easy  | 1. Two Sum      |      |            |
 | Easy  | 167. Two Sum II |      |            |
-
----
-
-# 3. Sliding Window
 
 ---
 
