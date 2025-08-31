@@ -49,36 +49,7 @@ Big O - это оценка алгоритма при худшем случае.
 
 Необходимо хранить текущее состояние окна.
 
-```java
-public class SlidingWindowTemplate {
-    public double findMaxAverage(int[] nums, int k) {
-        int sum = 0; // window state
-        int beginIndex = 0;
-        int endIndex = k - 1;
-
-        int maxSum;
-
-        for (int i = beginIndex; i <= endIndex; i++) {
-            sum += nums[i];
-        }
-        maxSum = sum;
-
-        while (endIndex < nums.length) {
-            sum = sum - nums[beginIndex];
-            beginIndex++;
-            endIndex++;
-            if (endIndex >= nums.length) {
-                break;
-            }
-
-            sum = sum + nums[endIndex];
-            maxSum = Math.max(maxSum, sum);
-        }
-
-        return (double) maxSum / k;
-    }
-}
-```
+Пример задачи [здесь](./src/main/java/com/github/rodiond26/sliding_window/LeetCode20250831.java).
 
 | Level  | Name                             | Link                                                      | Done | Repeatable | Other |
 |:------:|:---------------------------------|:----------------------------------------------------------|:----:|:----------:|:------|
@@ -115,43 +86,65 @@ Head - начало (голова) связного спика, tail - коне�
 
 ---
 
-# 3. Arrays And Strings
+# 4. Hash Map / Set (Хеш-таблица)
 
-| Level | Name            | Link | Repeatable | 
-|:-----:|:----------------|:-----|:----------:|
-| Easy  | 1. Two Sum      |      |            |
-| Easy  | 167. Two Sum II |      |            |
+| Level | Name | Link | Done | Repeatable | Other |
+|:-----:|:-----|:-----|:----:|:----------:|:------|
+|   *   | *    | *    |  *   |     *      | *     |
+
+---
+
+# 5. LRU
+
+| Level | Name | Link | Done | Repeatable | Other |
+|:-----:|:-----|:-----|:----:|:----------:|:------|
+|   *   | *    | *    |  *   |     *      | *     |
+
+---
+
+# 6. Stack, Queue (Стек, очередь)
+
+| Level | Name | Link | Done | Repeatable | Other |
+|:-----:|:-----|:-----|:----:|:----------:|:------|
+|   *   | *    | *    |  *   |     *      | *     |
+
+---
+
+# 7. Binary Tree, DFS (Двоичное дерево, DFS)
+
+| Level | Name | Link | Done | Repeatable | Other |
+|:-----:|:-----|:-----|:----:|:----------:|:------|
+|   *   | *    | *    |  *   |     *      | *     |
+
+---
+
+# 8. Binary Search Tree
+
+| Level | Name | Link | Done | Repeatable | Other |
+|:-----:|:-----|:-----|:----:|:----------:|:------|
+|   *   | *    | *    |  *   |     *      | *     |
+
+---
+
+# 9. Binary Tree, BFS (Двоичное дерево, BFS)
+
+| Level | Name | Link | Done | Repeatable | Other |
+|:-----:|:-----|:-----|:----:|:----------:|:------|
+|   *   | *    | *    |  *   |     *      | *     |
+
+---
+
+# 10. Trie, Autocomplete
+
+| Level | Name | Link | Done | Repeatable | Other |
+|:-----:|:-----|:-----|:----:|:----------:|:------|
+|   *   | *    | *    |  *   |     *      | *     |
 
 ---
 
 # 4. Prefix Sum
 
 ---
-
-# 5. Hash Map / Set
-
----
-
-# 6. Stack
-
----
-
-# 7. Queue
-
----
-
-
----
-
-# 9. Binary Tree - DFS
-
----
-
-# 10. Binary Tree - BFS
-
----
-
-# Binary Search Tree
 
 ---
 
@@ -187,10 +180,6 @@ Head - начало (голова) связного спика, tail - коне�
 
 ---
 
-# Trie
-
----
-
 # Intervals
 
 ---
@@ -199,7 +188,12 @@ Head - начало (голова) связного спика, tail - коне�
 
 ---
 
-## Fast And Slow Pointers
+# 3. Arrays And Strings
+
+| Level | Name            | Link | Repeatable | 
+|:-----:|:----------------|:-----|:----------:|
+| Easy  | 1. Two Sum      |      |            |
+| Easy  | 167. Two Sum II |      |            |
 
 ---
 
@@ -223,10 +217,6 @@ TODO: каркас DFS
 - Если нам нужны значения, то больше подойдет BFS.
 - Если надо посмотреть по уровням.
 - Можно потерять структуру дерева.
-
----
-
-# Trie
 
 ---
 

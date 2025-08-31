@@ -28,26 +28,6 @@ class Solution977 {
     }
 }
 
-class Solution643 {
-    public double findMaxAverage(int[] nums, int k) {
-        int sum = 0;
-        int start = 0;
-        int end = k - 1;
-        int maxSum = sum;
-
-        for (int i = 0; i < k; i++) {
-            sum += nums[i];
-            maxSum = sum;
-        }
-        for (int i = 1; i <= nums.length - k; i++) {
-            sum = sum - nums[i - 1] + nums[i + k - 1];
-            maxSum = Math.max(sum, maxSum);
-        }
-
-        return (double) maxSum / k;
-    }
-}
-
 class Solution209 {
     public int minSubArrayLen(int target, int[] nums) {
         int left = 0;
