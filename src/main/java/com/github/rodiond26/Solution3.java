@@ -1,5 +1,7 @@
 package com.github.rodiond26;
 
+import com.github.rodiond26.binary_tree.TreeNode;
+
 import java.util.*;
 
 public class Solution3 {
@@ -155,49 +157,11 @@ class RecentCounter {
  * int param_1 = obj.ping(t);
  */
 
-class Solution104 {
-    public int maxDepth(TreeNode root) {
-        if (root == null) {
-            return 0;
-        }
 
-        int left = maxDepth(root.left) + 1;
-        int right = maxDepth(root.right) + 1;
-        return Math.max(left, right);
-    }
-}
 
-class Solution226 {
-    public TreeNode invertTree(TreeNode root) {
-        if (root == null) {
-            return null;
-        }
 
-        TreeNode dummy = root.right;
-        root.right = invertTree(root.left);
-        root.left = invertTree(dummy);
-        return root;
-    }
-}
 
-class Solution101 {
-    public boolean isSymmetric(TreeNode root) {
-        if (root == null) {
-            return true;
-        }
-        return isMirror(root.left, root.right);
-    }
 
-    boolean isMirror(TreeNode left, TreeNode right) {
-        if (left == null && right == null) {
-            return true;
-        }
-        if (left == null || right == null || left.val != right.val) {
-            return false;
-        }
-        return isMirror(left.left, right.right) && isMirror(left.right, right.left);
-    }
-}
 
 /**
  * Definition for a binary tree node.
@@ -223,19 +187,6 @@ class Solution100 {
             return false;
         }
         return isSameTree(left.left, right.left) && isSameTree(left.right, right.right);
-    }
-}
-
-class Solution112 {
-    public boolean hasPathSum(TreeNode root, int targetSum) {
-        if (root == null) {
-            return false;
-        }
-        if (root.left == null && root.right == null) {
-            return root.val == targetSum;
-        }
-        return hasPathSum(root.left, targetSum - root.val)
-                || hasPathSum(root.right, targetSum - root.val);
     }
 }
 

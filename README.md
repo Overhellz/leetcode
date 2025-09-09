@@ -88,33 +88,94 @@ Head - начало (голова) связного спика, tail - коне�
 
 # 4. Hash Map / Set (Хеш-таблица)
 
+- В основе работы структуры данных лежит использование хеш-функции.
+- Коллизия - в одном бакете несколько значений.
+- При изменении количества бакетов все значения перехешируются.
+- Load Factor - процент заполнения текущих бакетов.
+
 | Level | Name | Link | Done | Repeatable | Other |
 |:-----:|:-----|:-----|:----:|:----------:|:------|
-|   *   | *    | *    |  *   |     *      | *     |
+| Easy  | 706. |      |      |     *      |       |
 
 ---
 
 # 5. LRU
 
-| Level | Name | Link | Done | Repeatable | Other |
-|:-----:|:-----|:-----|:----:|:----------:|:------|
-|   *   | *    | *    |  *   |     *      | *     |
+| Level  | Name | Link | Done | Repeatable | Other |
+|:------:|:-----|:-----|:----:|:----------:|:------|
+| Medium | 146. |      |      |     *      |       |
 
 ---
 
 # 6. Stack, Queue (Стек, очередь)
 
-| Level | Name | Link | Done | Repeatable | Other |
-|:-----:|:-----|:-----|:----:|:----------:|:------|
-|   *   | *    | *    |  *   |     *      | *     |
+| Level  | Name  | Link | Done | Repeatable | Other |
+|:------:|:------|:-----|:----:|:----------:|:------|
+|  Easy  | 20.   | *    |  *   |     *      | *     |
+|  Easy  | 1047. | *    |  *   |     *      | *     |
+| Medium | 2390. | *    |  *   |     *      | *     |
+| Medium | 71.   | *    |  *   |     *      | *     |
+|  Easy  | 933.  | *    |  *   |     *      | *     |
 
 ---
 
 # 7. Binary Tree, DFS (Двоичное дерево, DFS)
 
-| Level | Name | Link | Done | Repeatable | Other |
-|:-----:|:-----|:-----|:----:|:----------:|:------|
-|   *   | *    | *    |  *   |     *      | *     |
+Двоичное дерево:
+
+- `root` - голова
+- `left leaf` и `right leaf` - листочки дерева
+- `поддерево`
+- `ветка` - от корня до листочка
+- `уровни дерева`
+
+`DFS` (Deep First Search) - **поиск в глубину** (ныряем максимально глубоко сначала в левую ветку, а потом в правую,
+затем
+всплываем и опять ныряем и т. д.).
+
+- Сложность по вызовам - O(N)
+- Сложность по памяти - O(N)
+- Рекурсия с callstack решает за нас последовательность вызовов
+
+* Обход двоичного дерева с помощью рекурсии:
+
+```text
+def dfs(node):
+    if not node:
+        return
+    // print(node.val) => pre order
+    dfs(node.left)
+    // print(node.val) => in order
+    dfs(node.right)
+    // print(node.val) => post order
+    return
+```
+
+* Обход двоичного дерева с помощью стека:
+
+```text
+def dfs(node):
+    stack <- node
+    
+    while stack:
+        node <- stack
+        stack <- node.right
+        stack <- node.left
+        print(node.val)
+
+    return
+```
+
+| Level | Name                              | Link                                                        | Done | Repeatable | Other |
+|:-----:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|:------|
+| Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ | Done |     +      |       |
+| Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           | Done |     +      |       |
+| Easy  | 101. Symmetric Tree               | https://leetcode.com/problems/symmetric-tree/               | Done |     +      |       |
+| Easy  | 112. Path Sum                     | https://leetcode.com/problems/path-sum/                     | Done |     +      |       |
+| Easy  | 100. Same Tree                    | https://leetcode.com/problems/same-tree/                    | Done |     +      |       |
+| Easy  | 110. Balanced Binary Tree         | https://leetcode.com/problems/balanced-binary-tree/         | Done |     +      |       |
+| Easy  | 543. Diameter of Binary Tree      | https://leetcode.com/problems/diameter-of-binary-tree/      | Done |     +      |       |
+| Easy  | 572. Subtree of Another Tree      | https://leetcode.com/problems/subtree-of-another-tree/      | Done |     +      |       |
 
 ---
 
@@ -122,11 +183,19 @@ Head - начало (голова) связного спика, tail - коне�
 
 | Level | Name | Link | Done | Repeatable | Other |
 |:-----:|:-----|:-----|:----:|:----------:|:------|
-|   *   | *    | *    |  *   |     *      | *     |
+|   *   | 701  | *    |  *   |     *      | *     |
+|   *   | 110  | *    |  *   |     *      | *     |
+|   *   | 102  | *    |  *   |     *      | *     |
+|   *   | 515  | *    |  *   |     *      | *     |
+|   *   | 199  | *    |  *   |     *      | *     |
+|   *   | 117  | *    |  *   |     *      | *     |
+|   *   | 1325 | *    |  *   |     *      | *     |
 
 ---
 
 # 9. Binary Tree, BFS (Двоичное дерево, BFS)
+
+BFS (Breadth First Search) - **поиск в ширину**.
 
 | Level | Name | Link | Done | Repeatable | Other |
 |:-----:|:-----|:-----|:----:|:----------:|:------|
@@ -143,8 +212,6 @@ Head - начало (голова) связного спика, tail - коне�
 ---
 
 # 4. Prefix Sum
-
----
 
 ---
 
@@ -231,7 +298,6 @@ leetcode Priority Queue - Binary Heap
 # Intervals
 
 ---
----
 
 # Graph
 
@@ -310,6 +376,7 @@ ___
 https://leetcode.com/explore/learn/
 
 * Code Visualizer https://pythontutor.com/java.html#mode=edit
+* LRU Cache Visualizer https://lrucache.netlify.app/
 * Exercises https://exercism.org/tracks/java
 
 ## LeetCode Problem books
