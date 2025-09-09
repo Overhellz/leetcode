@@ -173,7 +173,6 @@ def dfs(node):
 | Easy  | 101. Symmetric Tree               | https://leetcode.com/problems/symmetric-tree/               | Done |     +      |       |
 | Easy  | 112. Path Sum                     | https://leetcode.com/problems/path-sum/                     | Done |     +      |       |
 | Easy  | 100. Same Tree                    | https://leetcode.com/problems/same-tree/                    | Done |     +      |       |
-| Easy  | 110. Balanced Binary Tree         | https://leetcode.com/problems/balanced-binary-tree/         | Done |     +      |       |
 | Easy  | 543. Diameter of Binary Tree      | https://leetcode.com/problems/diameter-of-binary-tree/      | Done |     +      |       |
 | Easy  | 572. Subtree of Another Tree      | https://leetcode.com/problems/subtree-of-another-tree/      | Done |     +      |       |
 
@@ -181,15 +180,17 @@ def dfs(node):
 
 # 8. Binary Search Tree
 
-| Level | Name | Link | Done | Repeatable | Other |
-|:-----:|:-----|:-----|:----:|:----------:|:------|
-|   *   | 701  | *    |  *   |     *      | *     |
-|   *   | 110  | *    |  *   |     *      | *     |
-|   *   | 102  | *    |  *   |     *      | *     |
-|   *   | 515  | *    |  *   |     *      | *     |
-|   *   | 199  | *    |  *   |     *      | *     |
-|   *   | 117  | *    |  *   |     *      | *     |
-|   *   | 1325 | *    |  *   |     *      | *     |
+| Level  | Name                                  | Link                                                            | Done | Repeatable | Other |
+|:------:|:--------------------------------------|:----------------------------------------------------------------|:----:|:----------:|:------|
+|  Easy  | 700. Search in a Binary Search Tree   | https://leetcode.com/problems/search-in-a-binary-search-tree/   |  *   |     *      | *     |
+| Medium | 701. Insert into a Binary Search Tree | https://leetcode.com/problems/insert-into-a-binary-search-tree/ |  *   |     *      | *     |
+|  Easy  | 110. Balanced Binary Tree             | https://leetcode.com/problems/balanced-binary-tree/             |  *   |     *      | *     |
+| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      |  *   |     *      | *     |
+|   *    | 102                                   | *                                                               |  *   |     *      | *     |
+|   *    | 515                                   | *                                                               |  *   |     *      | *     |
+|   *    | 199                                   | *                                                               |  *   |     *      | *     |
+|   *    | 117                                   | *                                                               |  *   |     *      | *     |
+|   *    | 1325                                  | *                                                               |  *   |     *      | *     |
 
 ---
 

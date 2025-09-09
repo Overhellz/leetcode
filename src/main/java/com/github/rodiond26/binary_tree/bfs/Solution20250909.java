@@ -77,7 +77,6 @@ class Solution112 {
     }
 }
 
-
 class Solution100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
@@ -93,29 +92,6 @@ class Solution100 {
             return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
         }
         return false;
-    }
-}
-
-class Solution110 {
-
-    public boolean isBalanced(TreeNode root) {
-        if (root == null) {
-            return true;
-        }
-
-        boolean result = true;
-
-        result = result && Math.abs(maxDepth(root.left) - maxDepth(root.right)) <= 1;
-
-        return !result
-                ? false
-                : isBalanced(root.left) && isBalanced(root.right);
-    }
-
-    private int maxDepth(TreeNode root) {
-        return root == null
-                ? 0
-                : 1 + Math.max(maxDepth(root.right), maxDepth(root.left));
     }
 }
 

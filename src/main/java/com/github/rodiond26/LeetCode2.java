@@ -68,6 +68,7 @@ class Solution278 {
         s.firstBadVersion(n);
     }
 }
+
 class Solution1071 {
     public String gcdOfStrings(String str1, String str2) {
         if (str2.length() > str1.length()) {
