@@ -29,19 +29,19 @@ Big O - это оценка алгоритма при худшем случае.
 * Указатели в начале, первый указатель бежит быстрее второго указателя.
 * Указатели бегут параллельно в разных массивах.
 
-| Level  | Name                           | Link | Done | Repeatable | Other |
-|:------:|:-------------------------------|:-----|:----:|:----------:|:------|
-|  Easy  | 344. Reverse String            |      |      |            |       |
-|  Easy  | 125.                           |      |      |            |       |
-| Medium | 167.                           |      |      |            |       |
-| Medium | 15. 3Sum                       |      |      |     *      |       |
-|  Easy  | 977. Squares of a Sorted Array |      |      |            |       |
-| Medium | 11. Container With Most Water  |      |      |            |       |
-|  Easy  | 26.                            |      |      |            |       |
-|  Easy  | 283.Move Zeroes                |      |      |     *      |       |
-|  Easy  | 392. Is Subsequence            |      |      |            |       |
-|  Easy  | 844.                           |      |      |            | Stack |
-|  Easy  | 88. Merge Sorted Array         |      |      |     *      |       |
+| Level  | Name                           | Link | Done | Repeatable |
+|:------:|:-------------------------------|:-----|:----:|:----------:|
+|  Easy  | 344. Reverse String            |      |      |            |
+|  Easy  | 125.                           |      |      |            |
+| Medium | 167.                           |      |      |            |
+| Medium | 15. 3Sum                       |      |      |     *      |
+|  Easy  | 977. Squares of a Sorted Array |      |      |            |
+| Medium | 11. Container With Most Water  |      |      |            |
+|  Easy  | 26.                            |      |      |            |
+|  Easy  | 283.Move Zeroes                |      |      |     *      |
+|  Easy  | 392. Is Subsequence            |      |      |            |
+|  Easy  | 844.                           |      |      |            |
+|  Easy  | 88. Merge Sorted Array         |      |      |     *      |
 
 ---
 
@@ -51,14 +51,14 @@ Big O - это оценка алгоритма при худшем случае.
 
 Пример задачи [здесь](./src/main/java/com/github/rodiond26/sliding_window/LeetCode20250831.java).
 
-| Level  | Name                             | Link                                                      | Done | Repeatable | Other |
-|:------:|:---------------------------------|:----------------------------------------------------------|:----:|:----------:|:------|
-|  Easy  | 643. Maximum Average Subarray I  | https://leetcode.com/problems/maximum-average-subarray-i/ | Done |            |       |
-|  Easy  | 209.                             |                                                           |      |            |       |
-| Medium | 1004.                            |                                                           |      |            |       |
-| Medium | 1493.                            |                                                           |      |            |       |
-| Medium | 904.                             |                                                           |      |            |       |
-|  TODO  | 2090. K Radius Subarray Averages | https://leetcode.com/problems/k-radius-subarray-averages/ |      |            |       |
+| Level  | Name                             | Link                                                      | Done | Repeatable |
+|:------:|:---------------------------------|:----------------------------------------------------------|:----:|:----------:|
+|  Easy  | 643. Maximum Average Subarray I  | https://leetcode.com/problems/maximum-average-subarray-i/ | Done |            |
+|  Easy  | 209.                             |                                                           |      |            |
+| Medium | 1004.                            |                                                           |      |            |
+| Medium | 1493.                            |                                                           |      |            |
+| Medium | 904.                             |                                                           |      |            |
+|  TODO  | 2090. K Radius Subarray Averages | https://leetcode.com/problems/k-radius-subarray-averages/ |      |            |
 
 ---
 
@@ -70,19 +70,19 @@ Head - начало (голова) связного спика, tail - коне�
 
 Своя реализация [здесь](./src/main/java/com/github/rodiond26/linked_list/theory/MyLinkedListImpl.java).
 
-| Level  | Name                    | Link                                              | Done | Repeatable | Other |
-|:------:|:------------------------|:--------------------------------------------------|:----:|:----------:|:------|
-|  Easy  | 141.Linked List Cycle   |                                                   |      |            |       |
-| Medium | 707. Design Linked List | https://leetcode.com/problems/design-linked-list/ | Done |     *      |       |
-|  Easy  | 876.                    |                                                   |      |            |       |
-| Medium | 2095.                   |                                                   |      |            |       |
-|  TODO  | 206.                    |                                                   |      |            |       |
-|  TODO  | 234.                    |                                                   |      |            |       |
-|  TODO  | 83.                     |                                                   |      |            |       |
-|  TODO  | 19.                     |                                                   |      |            |       |
-|  TODO  | 24.                     |                                                   |      |            |       |
-|  TODO  | 21.                     |                                                   |      |            |       |
-|  TODO  | 141.                    |                                                   |      |            |       |
+| Level  | Name                    | Link                                              | Done | Repeatable |
+|:------:|:------------------------|:--------------------------------------------------|:----:|:----------:|
+|  Easy  | 141.Linked List Cycle   |                                                   |      |            |
+| Medium | 707. Design Linked List | https://leetcode.com/problems/design-linked-list/ | Done |     *      |
+|  Easy  | 876.                    |                                                   |      |            |
+| Medium | 2095.                   |                                                   |      |            |
+|  TODO  | 206.                    |                                                   |      |            |
+|  TODO  | 234.                    |                                                   |      |            |
+|  TODO  | 83.                     |                                                   |      |            |
+|  TODO  | 19.                     |                                                   |      |            |
+|  TODO  | 24.                     |                                                   |      |            |
+|  TODO  | 21.                     |                                                   |      |            |
+|  TODO  | 141.                    |                                                   |      |            |
 
 ---
 
@@ -93,9 +93,9 @@ Head - начало (голова) связного спика, tail - коне�
 - При изменении количества бакетов все значения перехешируются.
 - Load Factor - процент заполнения текущих бакетов.
 
-| Level | Name | Link | Done | Repeatable | Other |
-|:-----:|:-----|:-----|:----:|:----------:|:------|
-| Easy  | 706. |      |      |     *      |       |
+| Level | Name | Link | Done | Repeatable |
+|:-----:|:-----|:-----|:----:|:----------:|
+| Easy  | 706. |      |      |     *      |
 
 ---
 
@@ -105,21 +105,27 @@ Head - начало (голова) связного спика, tail - коне�
 - При запросе элемента из кеша или добавлении нового элемента в кеш может удалиться из кеша элемент, который был
   наиболее давно использован.
 
-| Level  | Name           | Link                                     | Done | Repeatable | Other |
-|:------:|:---------------|:-----------------------------------------|:----:|:----------:|:------|
-| Medium | 146. LRU Cache | https://leetcode.com/problems/lru-cache/ | Done |     *      |       |
+| Level  | Name           | Link                                     | Done | Repeatable |
+|:------:|:---------------|:-----------------------------------------|:----:|:----------:|
+| Medium | 146. LRU Cache | https://leetcode.com/problems/lru-cache/ | Done |     *      |
 
 ---
 
 # 6. Stack, Queue (Стек, очередь)
 
-| Level  | Name  | Link | Done | Repeatable | Other |
-|:------:|:------|:-----|:----:|:----------:|:------|
-|  Easy  | 20.   | *    |  *   |     *      | *     |
-|  Easy  | 1047. | *    |  *   |     *      | *     |
-| Medium | 2390. | *    |  *   |     *      | *     |
-| Medium | 71.   | *    |  *   |     *      | *     |
-|  Easy  | 933.  | *    |  *   |     *      | *     |
+- Stack - LIFO
+- Queue - однонаправленная очередь, представляет собой структуру данных, которая строится по принципу FIFO (
+  first-in-first-out).
+- Deque - двунаправленная очередь, которая может работать и как обычная однонаправленная очередь по принципу FIFO, и как
+  Stack по принципу LIFO (last-in-first-out).
+
+| Level  | Name                                           | Link                                                                    | Done | Repeatable |
+|:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 20. Valid Parentheses                          | https://leetcode.com/problems/valid-parentheses/                        | Done |     *      |
+|  Easy  | 1047. Remove All Adjacent Duplicates In String | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ | Done |     *      |
+| Medium | 2390. Removing Stars From a String             | https://leetcode.com/problems/removing-stars-from-a-string/description/ | Done |     *      |
+| Medium | 71. Simplify Path                              | https://leetcode.com/problems/simplify-path/description/                | Done |            |
+|  Easy  | 933. Number of Recent Calls                    | https://leetcode.com/problems/number-of-recent-calls/                   | Done |            |
 
 ---
 
@@ -170,31 +176,31 @@ def dfs(node):
     return
 ```
 
-| Level | Name                              | Link                                                        | Done | Repeatable | Other |
-|:-----:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|:------|
-| Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ | Done |     +      |       |
-| Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           | Done |     +      |       |
-| Easy  | 101. Symmetric Tree               | https://leetcode.com/problems/symmetric-tree/               | Done |     +      |       |
-| Easy  | 112. Path Sum                     | https://leetcode.com/problems/path-sum/                     | Done |     +      |       |
-| Easy  | 100. Same Tree                    | https://leetcode.com/problems/same-tree/                    | Done |     +      |       |
-| Easy  | 543. Diameter of Binary Tree      | https://leetcode.com/problems/diameter-of-binary-tree/      | Done |     +      |       |
-| Easy  | 572. Subtree of Another Tree      | https://leetcode.com/problems/subtree-of-another-tree/      | Done |     +      |       |
+| Level | Name                              | Link                                                        | Done | Repeatable |
+|:-----:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
+| Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ | Done |     +      |
+| Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           | Done |     +      |
+| Easy  | 101. Symmetric Tree               | https://leetcode.com/problems/symmetric-tree/               | Done |     +      |
+| Easy  | 112. Path Sum                     | https://leetcode.com/problems/path-sum/                     | Done |     +      |
+| Easy  | 100. Same Tree                    | https://leetcode.com/problems/same-tree/                    | Done |     +      |
+| Easy  | 543. Diameter of Binary Tree      | https://leetcode.com/problems/diameter-of-binary-tree/      | Done |     +      |
+| Easy  | 572. Subtree of Another Tree      | https://leetcode.com/problems/subtree-of-another-tree/      | Done |     +      |
 
 ---
 
 # 8. Binary Search Tree
 
-| Level  | Name                                  | Link                                                            | Done | Repeatable | Other |
-|:------:|:--------------------------------------|:----------------------------------------------------------------|:----:|:----------:|:------|
-|  Easy  | 700. Search in a Binary Search Tree   | https://leetcode.com/problems/search-in-a-binary-search-tree/   |  *   |     *      | *     |
-| Medium | 701. Insert into a Binary Search Tree | https://leetcode.com/problems/insert-into-a-binary-search-tree/ |  *   |     *      | *     |
-|  Easy  | 110. Balanced Binary Tree             | https://leetcode.com/problems/balanced-binary-tree/             |  *   |     *      | *     |
-| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      |  *   |     *      | *     |
-|   *    | 102                                   | *                                                               |  *   |     *      | *     |
-|   *    | 515                                   | *                                                               |  *   |     *      | *     |
-|   *    | 199                                   | *                                                               |  *   |     *      | *     |
-|   *    | 117                                   | *                                                               |  *   |     *      | *     |
-|   *    | 1325                                  | *                                                               |  *   |     *      | *     |
+| Level  | Name                                  | Link                                                            | Done | Repeatable |
+|:------:|:--------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 700. Search in a Binary Search Tree   | https://leetcode.com/problems/search-in-a-binary-search-tree/   |      |            |
+| Medium | 701. Insert into a Binary Search Tree | https://leetcode.com/problems/insert-into-a-binary-search-tree/ |      |            |
+|  Easy  | 110. Balanced Binary Tree             | https://leetcode.com/problems/balanced-binary-tree/             |      |            |
+| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      |      |            |
+|        | 102                                   |                                                                 |      |            |
+|        | 515                                   |                                                                 |      |            |
+|        | 199                                   |                                                                 |      |            |
+|        | 117                                   |                                                                 |      |            |
+|        | 1325                                  |                                                                 |      |            |
 
 ---
 
@@ -202,17 +208,17 @@ def dfs(node):
 
 BFS (Breadth First Search) - **поиск в ширину**.
 
-| Level | Name | Link | Done | Repeatable | Other |
-|:-----:|:-----|:-----|:----:|:----------:|:------|
-|   *   | *    | *    |  *   |     *      | *     |
+| Level | Name | Link | Done | Repeatable |
+|:-----:|:-----|:-----|:----:|:----------:|
+|       |      |      |      |            |
 
 ---
 
 # 10. Trie, Autocomplete
 
-| Level | Name | Link | Done | Repeatable | Other |
-|:-----:|:-----|:-----|:----:|:----------:|:------|
-|   *   | *    | *    |  *   |     *      | *     |
+| Level | Name | Link | Done | Repeatable |
+|:-----:|:-----|:-----|:----:|:----------:|
+|       |      |      |      |            |
 
 ---
 
