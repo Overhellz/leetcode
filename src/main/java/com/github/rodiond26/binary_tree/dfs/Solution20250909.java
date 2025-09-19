@@ -1,4 +1,4 @@
-package com.github.rodiond26.binary_tree.bfs;
+package com.github.rodiond26.binary_tree.dfs;
 
 import com.github.rodiond26.binary_tree.TreeNode;
 

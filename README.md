@@ -123,8 +123,8 @@ Head - начало (голова) связного спика, tail - коне�
 |:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----:|:----------:|
 |  Easy  | 20. Valid Parentheses                          | https://leetcode.com/problems/valid-parentheses/                        | Done |     *      |
 |  Easy  | 1047. Remove All Adjacent Duplicates In String | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ | Done |     *      |
-| Medium | 2390. Removing Stars From a String             | https://leetcode.com/problems/removing-stars-from-a-string/description/ | Done |     *      |
-| Medium | 71. Simplify Path                              | https://leetcode.com/problems/simplify-path/description/                | Done |            |
+| Medium | 2390. Removing Stars From a String             | https://leetcode.com/problems/removing-stars-from-a-string/             | Done |     *      |
+| Medium | 71. Simplify Path                              | https://leetcode.com/problems/simplify-path/                            | Done |            |
 |  Easy  | 933. Number of Recent Calls                    | https://leetcode.com/problems/number-of-recent-calls/                   | Done |            |
 
 ---
@@ -176,15 +176,16 @@ def dfs(node):
     return
 ```
 
-| Level | Name                              | Link                                                        | Done | Repeatable |
-|:-----:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
-| Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ | Done |     *      |
-| Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           | Done |     *      |
-| Easy  | 101. Symmetric Tree               | https://leetcode.com/problems/symmetric-tree/               | Done |     *      |
-| Easy  | 112. Path Sum                     | https://leetcode.com/problems/path-sum/                     | Done |     *      |
-| Easy  | 100. Same Tree                    | https://leetcode.com/problems/same-tree/                    | Done |     *      |
-| Easy  | 543. Diameter of Binary Tree      | https://leetcode.com/problems/diameter-of-binary-tree/      | Done |     *      |
-| Easy  | 572. Subtree of Another Tree      | https://leetcode.com/problems/subtree-of-another-tree/      | Done |     *      |
+| Level  | Name                                   | Link                                                            | Done | Repeatable |
+|:------:|:---------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 104. Maximum Depth of Binary Tree      | https://leetcode.com/problems/maximum-depth-of-binary-tree/     | Done |     *      |
+|  Easy  | 226. Invert Binary Tree                | https://leetcode.com/problems/invert-binary-tree/               | Done |     *      |
+|  Easy  | 101. Symmetric Tree                    | https://leetcode.com/problems/symmetric-tree/                   | Done |     *      |
+|  Easy  | 112. Path Sum                          | https://leetcode.com/problems/path-sum/                         | Done |     *      |
+|  Easy  | 100. Same Tree                         | https://leetcode.com/problems/same-tree/                        | Done |     *      |
+|  Easy  | 543. Diameter of Binary Tree           | https://leetcode.com/problems/diameter-of-binary-tree/          | Done |     *      |
+|  Easy  | 572. Subtree of Another Tree           | https://leetcode.com/problems/subtree-of-another-tree/          | Done |     *      |
+| Medium | 1325. Delete Leaves With a Given Value | https://leetcode.com/problems/delete-leaves-with-a-given-value/ | Done |            |
 
 ---
 
@@ -195,12 +196,7 @@ def dfs(node):
 |  Easy  | 700. Search in a Binary Search Tree   | https://leetcode.com/problems/search-in-a-binary-search-tree/   | Done |     *      |
 | Medium | 701. Insert into a Binary Search Tree | https://leetcode.com/problems/insert-into-a-binary-search-tree/ | Done |     *      |
 |  Easy  | 110. Balanced Binary Tree             | https://leetcode.com/problems/balanced-binary-tree/             | Done |     *      |
-| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      | TODO |            |
-|        | 102                                   |                                                                 |      |            |
-|        | 515                                   |                                                                 |      |            |
-|        | 199                                   |                                                                 |      |            |
-|        | 117                                   |                                                                 |      |            |
-|        | 1325                                  |                                                                 |      |            |
+| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      |      |            |
 
 ---
 
@@ -208,9 +204,34 @@ def dfs(node):
 
 BFS (Breadth First Search) - **поиск в ширину**.
 
-| Level | Name | Link | Done | Repeatable |
-|:-----:|:-----|:-----|:----:|:----------:|
-|       |      |      |      |            |
+- Рассматриваем дерево по слоям/этажам.
+- Обход двоичного дерева с помощью очереди.
+- Сложность по времени O(N) - обойти каждую ноду один раз.
+- Сложность по памяти O(N) - в худшем случае будет лежать весь самый нижний этаж двоичного дерева = n/2.
+
+```text
+def bfs(node):
+if not node:
+return
+
+    q = deque
+    q.push(root)
+    
+    while q:
+        level_size = len(q)
+        for _ in range(level_size)
+        node = q.popleft()
+        q.push(node.left)
+        q.push(node.right)
+    return
+```
+
+| Level  | Name                                                | Link                                                                          | Done | Repeatable |
+|:------:|:----------------------------------------------------|:------------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 102. Binary Tree Level Order Traversal              | https://leetcode.com/problems/binary-tree-level-order-traversal/              | Done |     *      |
+| Medium | 515. Find Largest Value in Each Tree Row            | https://leetcode.com/problems/find-largest-value-in-each-tree-row/            | Done |            |
+| Medium | 199. Binary Tree Right Side View                    | https://leetcode.com/problems/binary-tree-right-side-view/                    | Done |            |
+| Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ | Done |            |
 
 ---
 
@@ -222,19 +243,27 @@ BFS (Breadth First Search) - **поиск в ширину**.
 
 ---
 
-# 4. Prefix Sum
+# 11. Heap
 
 ---
 
-# Graphs - DFS
+# 12. Intervals
 
 ---
 
-# Graphs - BFS
+# 13 - Dijkstra
 
 ---
 
-# Heap / Priority Queue
+# 14 - Topological sort
+
+---
+
+# 15 - Backtracking
+
+---
+
+# 16 - Dynamic Programming
 
 ---
 
@@ -242,36 +271,12 @@ BFS (Breadth First Search) - **поиск в ширину**.
 
 ---
 
-# Backtracking
-
----
-
-# DP - 1D
-
----
-
-# DP - Multidimensional
-
----
-
-# Bit Manipulation
-
----
-
-# Intervals
-
----
-
-# Monotonic Stack
-
----
-
 # 3. Arrays And Strings
 
-| Level | Name            | Link | Repeatable | 
-|:-----:|:----------------|:-----|:----------:|
-| Easy  | 1. Two Sum      |      |            |
-| Easy  | 167. Two Sum II |      |            |
+| Level | Name            | Link | Done | Repeatable | 
+|:-----:|:----------------|:-----|:----:|:----------:|
+| Easy  | 1. Two Sum      |      |      |            |
+| Easy  | 167. Two Sum II |      |      |            |
 
 ---
 
@@ -306,10 +311,6 @@ leetcode Priority Queue - Binary Heap
 
 ---
 
-# Intervals
-
----
-
 # Graph
 
 V - вершина графа (нода, Node)
@@ -341,25 +342,23 @@ BFS:
 
 Задачи:
 
-| Level | Name                  | Link                                                | Repeatable |
-|:-----:|:----------------------|:----------------------------------------------------|:----------:|
-| Easy  | 509. Fibonacci Number | https://leetcode.com/problems/fibonacci-number/     |            |
-| Easy  | 66. Plus One          | https://leetcode.com/problems/plus-one/description/ |            |
-
-      https://leetcode.com/problems/two-sum/description/
+| Level | Name                  | Link                                            | Repeatable |
+|:-----:|:----------------------|:------------------------------------------------|:----------:|
+| Easy  | 509. Fibonacci Number | https://leetcode.com/problems/fibonacci-number/ |            |
+| Easy  | 66. Plus One          | https://leetcode.com/problems/plus-one/         |            |
 
 * Medium
-    * https://leetcode.com/problems/spiral-matrix/description/
+    * https://leetcode.com/problems/spiral-matrix/
 
 # 1 Two pointers
 
-* https://leetcode.com/problems/reverse-string/description/
+* https://leetcode.com/problems/reverse-string/
 * https://leetcode.com/problems/valid-palindrome/
 * https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
-* https://leetcode.com/problems/3sum/description/
-* https://leetcode.com/problems/squares-of-a-sorted-array/description/
+* https://leetcode.com/problems/3sum/
+* https://leetcode.com/problems/squares-of-a-sorted-array/
 * https://leetcode.com/problems/container-with-most-water/
-* https://leetcode.com/problems/move-zeroes/description/
+* https://leetcode.com/problems/move-zeroes/
 * https://leetcode.com/problems/is-subsequence/
 * https://leetcode.com/problems/backspace-string-compare/
 * https://leetcode.com/problems/merge-sorted-array/
