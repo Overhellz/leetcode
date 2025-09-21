@@ -146,6 +146,8 @@ Head - начало (голова) связного спика, tail - коне�
 - Сложность по вызовам - O(N)
 - Сложность по памяти - O(N)
 - Рекурсия с callstack решает за нас последовательность вызовов
+- Если нам нужны связи между родственниками, то берем DFS.
+- Если нужна максимальная глубина дерева.
 
 * Обход двоичного дерева с помощью рекурсии:
 
@@ -176,20 +178,27 @@ def dfs(node):
     return
 ```
 
-| Level  | Name                                   | Link                                                            | Done | Repeatable |
-|:------:|:---------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 104. Maximum Depth of Binary Tree      | https://leetcode.com/problems/maximum-depth-of-binary-tree/     | Done |     *      |
-|  Easy  | 226. Invert Binary Tree                | https://leetcode.com/problems/invert-binary-tree/               | Done |     *      |
-|  Easy  | 101. Symmetric Tree                    | https://leetcode.com/problems/symmetric-tree/                   | Done |     *      |
-|  Easy  | 112. Path Sum                          | https://leetcode.com/problems/path-sum/                         | Done |     *      |
-|  Easy  | 100. Same Tree                         | https://leetcode.com/problems/same-tree/                        | Done |     *      |
-|  Easy  | 543. Diameter of Binary Tree           | https://leetcode.com/problems/diameter-of-binary-tree/          | Done |     *      |
-|  Easy  | 572. Subtree of Another Tree           | https://leetcode.com/problems/subtree-of-another-tree/          | Done |     *      |
-| Medium | 1325. Delete Leaves With a Given Value | https://leetcode.com/problems/delete-leaves-with-a-given-value/ | Done |            |
+| Level  | Name                                         | Link                                                                   | Done | Repeatable |
+|:------:|:---------------------------------------------|:-----------------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 104. Maximum Depth of Binary Tree            | https://leetcode.com/problems/maximum-depth-of-binary-tree/            | Done |     *      |
+|  Easy  | 226. Invert Binary Tree                      | https://leetcode.com/problems/invert-binary-tree/                      | Done |     *      |
+|  Easy  | 101. Symmetric Tree                          | https://leetcode.com/problems/symmetric-tree/                          | Done |     *      |
+|  Easy  | 112. Path Sum                                | https://leetcode.com/problems/path-sum/                                | Done |     *      |
+|  Easy  | 100. Same Tree                               | https://leetcode.com/problems/same-tree/                               | Done |     *      |
+|  Easy  | 543. Diameter of Binary Tree                 | https://leetcode.com/problems/diameter-of-binary-tree/                 | Done |     *      |
+|  Easy  | 572. Subtree of Another Tree                 | https://leetcode.com/problems/subtree-of-another-tree/                 | Done |     *      |
+| Medium | 1325. Delete Leaves With a Given Value       | https://leetcode.com/problems/delete-leaves-with-a-given-value/        | Done |    ***     |
+| Medium | 236. Lowest Common Ancestor of a Binary Tree | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/ | Done |    ***     |
 
 ---
 
 # 8. Binary Search Tree
+
+Алгоритм решения в общем случае:
+
+1. Рассмотреть пустой root.
+2. Рассмотреть root с 2 двумя листьями.
+3. Рассмотреть более сложный root.
 
 | Level  | Name                                  | Link                                                            | Done | Repeatable |
 |:------:|:--------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
@@ -208,6 +217,9 @@ BFS (Breadth First Search) - **поиск в ширину**.
 - Обход двоичного дерева с помощью очереди.
 - Сложность по времени O(N) - обойти каждую ноду один раз.
 - Сложность по памяти O(N) - в худшем случае будет лежать весь самый нижний этаж двоичного дерева = n/2.
+- Если нам нужны значения, то больше подойдет BFS.
+- Если надо посмотреть по уровням.
+- Можно потерять структуру дерева.
 
 ```text
 def bfs(node):
@@ -232,18 +244,47 @@ return
 | Medium | 515. Find Largest Value in Each Tree Row            | https://leetcode.com/problems/find-largest-value-in-each-tree-row/            | Done |            |
 | Medium | 199. Binary Tree Right Side View                    | https://leetcode.com/problems/binary-tree-right-side-view/                    | Done |            |
 | Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ | Done |            |
+| Medium | 1302. Deepest Leaves Sum                            | https://leetcode.com/problems/deepest-leaves-sum/                             | TODO |            |
+| Medium | 103. Binary Tree Zigzag Level Order Traversal       | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/       | TODO |            |
 
 ---
 
 # 10. Trie, Autocomplete
 
-| Level | Name | Link | Done | Repeatable |
-|:-----:|:-----|:-----|:----:|:----------:|
-|       |      |      |      |            |
+- Trie - префиксное дерево
+- Поиск происходит за O(N).
+- Вставка происходит за O(N).
+
+| Level  | Name                              | Link                                                      | Done | Repeatable |
+|:------:|:----------------------------------|:----------------------------------------------------------|:----:|:----------:|
+| Medium | 208. Implement Trie (Prefix Tree) | https://leetcode.com/problems/implement-trie-prefix-tree/ | Done |            |
+| Medium | 1268. Search Suggestions System   | https://leetcode.com/problems/search-suggestions-system/  | Done |            |
 
 ---
 
 # 11. Heap
+
+Priority Queue и Binary Heap
+
+- Complete Binary Tree - пока не заполнен текущий этаж полностью, нельзя переходить на следующий этаж. Этаж должен
+  заполняться слева направо.
+
+- Виды Binary Heap:
+    - **Max Heap** - значение в каждой ноде должно быть больше или равно значению в детях.
+    - **Min Heap** - значение в каждой ноде должно быть меньше или равно значению в детях.
+
+| Level  | Name                                 | Link                                                           | Done | Repeatable |
+|:------:|:-------------------------------------|:---------------------------------------------------------------|:----:|:----------:|
+| Medium | 215. Kth Largest Element in an Array | https://leetcode.com/problems/kth-largest-element-in-an-array/ | Done |     *      |
+|  Easy  | 703. Kth Largest Element in a Stream | https://leetcode.com/problems/kth-largest-element-in-a-stream/ | Done |            |
+| Medium | 347. Top K Frequent Elements         | https://leetcode.com/problems/top-k-frequent-elements/         | Done |            |
+| Medium | 451. Sort Characters By Frequency    | https://leetcode.com/problems/sort-characters-by-frequency/    | Done |            |
+|  Easy  | 1046. Last Stone Weight              | https://leetcode.com/problems/last-stone-weight/               | Done |            |
+|  Hard  | 502. IPO                             | https://leetcode.com/problems/ipo/                             | TODO |            |
+|  Hard  | 295. Find Median from Data Stream    | https://leetcode.com/problems/find-median-from-data-stream/    | TODO |            |
+|        | 1962                                 |                                                                |      |            |
+|        | 23                                   |                                                                |      |            |
+|        | 642                                  |                                                                |      |            |
 
 ---
 
@@ -277,37 +318,6 @@ return
 |:-----:|:----------------|:-----|:----:|:----------:|
 | Easy  | 1. Two Sum      |      |      |            |
 | Easy  | 167. Two Sum II |      |      |            |
-
----
-
-# Binary Tree
-
-Алгоритм решения в общем случае:
-
-1. Рассмотреть пустой root.
-2. Рассмотреть root с 2 двумя листьями.
-3. Рассмотреть более сложный root.
-
-## DFS
-
-- Если нам нужны связи между родственниками, то берем DFS.
-- Если нужна максимальная глубина дерева.
-
-TODO: каркас DFS
-
-## BFS
-
-- Если нам нужны значения, то больше подойдет BFS.
-- Если надо посмотреть по уровням.
-- Можно потерять структуру дерева.
-
----
-
-# Priority Queue
-
-leetcode Priority Queue - Binary Heap
-
-# Min Heap
 
 ---
 
@@ -387,6 +397,7 @@ https://leetcode.com/explore/learn/
 
 * Code Visualizer https://pythontutor.com/java.html#mode=edit
 * LRU Cache Visualizer https://lrucache.netlify.app/
+* Trie (Prefix Tree) Visualizer https://www.cs.usfca.edu/~galles/visualization/Trie.html
 * Exercises https://exercism.org/tracks/java
 
 ## LeetCode Problem books
@@ -398,3 +409,33 @@ https://leetcode.com/explore/learn/
 - Blind 75 https://leetcode.com/problem-list/oizxjoit/
 - Top 100 Liked https://leetcode.com/studyplan/top-100-liked/
 - Top Interview 150 https://leetcode.com/studyplan/top-interview-150/
+
+---
+
+# Yandex
+
+| Theme          | Level  | Name                          | Link                                                                   | Done |
+|:---------------|:------:|:------------------------------|:-----------------------------------------------------------------------|:----:|
+| binary search  |        |                               | https://leetcode.com/problems/binary-search/                           |      |
+| binary search  |        |                               | https://leetcode.com/problems/search-in-rotated-sorted-array/          |      |
+| hash table     |  Easy  | 136. Single Number            | https://leetcode.com/problems/single-number/                           | Done |
+| hash table     |        |                               | https://leetcode.com/problems/two-sum/                                 |      |
+| queue/stack    |        |                               | https://leetcode.com/problems/valid-parentheses/                       |      |
+| dfs/bfs        |        |                               | https://leetcode.com/problems/number-of-islands/                       |      |
+| sort           |        |                               | https://leetcode.com/problems/merge-intervals/                         |      |
+| two pointers   | Medium | 11. Container With Most Water | https://leetcode.com/problems/container-with-most-water/               | Done |
+| two pointers   |        |                               | https://leetcode.com/problems/partion-labels/                          |      |
+| sliding window |        |                               | https://leetcode.com/problems/sliding-window-median/                   |      |
+| sliding window |        |                               | https://leetcode.com/problems/sliding-window-maximum/                  |      |
+| sliding window |        |                               | https://leetcode.com/problems/longest-repeating-character-replacement/ |      |
+| tree           |        |                               | https://leetcode.com/problems/same-tree/                               |      |
+| tree           |  Easy  | 101. Symmetric Tree           | https://leetcode.com/problems/symmetric-tree/                          | Done |
+
+binary search
+hash table
+queue/stack			 
+dfs/bfs
+sort
+two pointers
+sliding window
+tree
