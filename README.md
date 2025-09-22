@@ -273,6 +273,11 @@ Priority Queue и Binary Heap
     - **Max Heap** - значение в каждой ноде должно быть больше или равно значению в детях.
     - **Min Heap** - значение в каждой ноде должно быть меньше или равно значению в детях.
 
+- В основе лежит массив:
+- Значения i должны быть непрерывны и соответствовать формуле:
+    - `i >= 2i + 1`
+    - `i >= 2i + 2`
+
 | Level  | Name                                 | Link                                                           | Done | Repeatable |
 |:------:|:-------------------------------------|:---------------------------------------------------------------|:----:|:----------:|
 | Medium | 215. Kth Largest Element in an Array | https://leetcode.com/problems/kth-largest-element-in-an-array/ | Done |     *      |
@@ -289,6 +294,16 @@ Priority Queue и Binary Heap
 ---
 
 # 12. Intervals
+
+- Смотрим в хронологическом порядке.
+- Отсортировать по дате начала митинга.
+- Начал следующего митинга происходит после окончания предыдущего интервала.
+
+| Level  | Name                | Link                                           | Done | Repeatable |
+|:------:|:--------------------|:-----------------------------------------------|:----:|:----------:|
+| Medium | 56. Merge Intervals | https://leetcode.com/problems/merge-intervals/ | Done |            |
+| Medium | 57. Insert Interval | https://leetcode.com/problems/insert-interval/ | TODO |            |
+|        |                     |                                                |      |            |
 
 ---
 
@@ -309,6 +324,16 @@ Priority Queue и Binary Heap
 ---
 
 # Binary Search
+
+---
+
+# Сортировки
+
+Виды сортировок:
+
+- квадратные сортировки
+- Merge Sort
+- Quick Sort
 
 ---
 
