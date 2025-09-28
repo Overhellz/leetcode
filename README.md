@@ -307,7 +307,75 @@ Priority Queue и Binary Heap
 
 ---
 
+# 13. Graph
+
+Структура графа:
+
+- V (vertex) - **вершина графа** (Node)
+- E (edge) - **ребра графа** (Edge)
+
+Виды графов:
+
+- **направленный** (от одной вершины к другой) (directed).
+- **ненаправленный** (undirected)
+
+Connected Component - **компонент связности** - граф может состоять из компонент, которые могут быть друг с другом не
+связаны (например, 2 треугольника, островное государство - государство, которое состояит из несвязанных островов).
+
+Сложность обхода: O(V+E) - важны как вершины, так и грани.
+Сложность по памяти: O(V) - храним только вершины
+
+Граф может быть
+
+- Цикличный
+- Ацикличный
+
+Indegree/Outdegree - ссылки на вершину и ссылки на другие вершины
+Indegree - количество входов вершины
+Outdegree - количество выходов из вершины
+
+Граф можно задачть с помощью:
+
+- HashMap <Вершина, Соседи>
+- AL - Список смежности (например, [[0,1], [], [0,2]])
+- Массива
+
+Обход графа с помощью DFS - используем стек: по одному пути ныряем ддо куда можем, а потом выныриваем.
+Обход графа с помощью BFS - используем очередь: кладем в очередь, вытаскиваем и кладем новые вершины.
+
+BFS:
+
+- поиск кратчайшего пути
+- открыть замок с помощью комбинаций
+
+| Level  | Name                                                         | Link                                                                                  | Done | Repeatable |
+|:------:|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 752. Open the Lock                                           | https://leetcode.com/problems/open-the-lock/description/                              |      |            |
+| Medium | 433. Minimum Genetic Mutation                                | https://leetcode.com/problems/minimum-genetic-mutation/                               |      |            |
+| Medium | 994. Rotting Oranges                                         | https://leetcode.com/problems/rotting-oranges/                                        |      |            |
+| Medium | 2101. Detonate the Maximum Bombs                             | https://leetcode.com/problems/detonate-the-maximum-bombs/                             |      |            |
+| Medium | 841. Keys and Rooms                                          | https://leetcode.com/problems/keys-and-rooms/                                         | Done |     *      |
+|  Easy  | 1971. Find if Path Exists in Graph                           | https://leetcode.com/problems/find-if-path-exists-in-graph/                           | Done |            |
+| Medium | 133. Clone Graph                                             | https://leetcode.com/problems/clone-graph/                                            | TODO |            |
+| Medium | 1557. Minimum Number of Vertices to Reach All Nodes          | https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/          | Done |            |
+| Medium | 547. Number of Provinces                                     | https://leetcode.com/problems/number-of-provinces/                                    | TODO |            |
+| Medium | 200. Number of Islands                                       | https://leetcode.com/problems/number-of-islands/                                      | Done |            |
+| Medium | 1466. Reorder Routes to Make All Paths Lead to the City Zero | https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/ | TODO |            |
+| Medium | 695. Max Area of Island                                      | https://leetcode.com/problems/max-area-of-island/                                     | TODO |            |
+| Medium | 2368. Reachable Nodes With Restrictions                      | https://leetcode.com/problems/reachable-nodes-with-restrictions/                      | TODO |            |
+| Medium | 542. 01 Matrix                                               | https://leetcode.com/problems/01-matrix/                                              |      |            |
+
+994
+1129
+1926
+
+
+
+---
+
 # 13 - Dijkstra
+
+Поиск кратчайшего пути
 
 ---
 
@@ -334,42 +402,6 @@ Priority Queue и Binary Heap
 - квадратные сортировки
 - Merge Sort
 - Quick Sort
-
----
-
-# 3. Arrays And Strings
-
-| Level | Name            | Link | Done | Repeatable | 
-|:-----:|:----------------|:-----|:----:|:----------:|
-| Easy  | 1. Two Sum      |      |      |            |
-| Easy  | 167. Two Sum II |      |      |            |
-
----
-
-# Graph
-
-V - вершина графа (нода, Node)
-E - грань графа (Edge)
-Connected Component - компонент связности
-Сложность обхода: O(V+E) - важны как вершины, так и грани.
-Сложность по памяти: O(V) - храним только вершины
-
-- Цикличный
-- Ацикличный
-
-Indegree/Outdegree - ссылки на вершину и ссылки на другие вершины
-
-Граф можно задачть с помощью:
-
-- HashMap
-- AL - Список смежности (например, [[0,1], [], [0,2]])
-
-Обход графа с помощью DFS - используем стек: по одному пути ныряем ддо куда можем, а потом выныриваем.
-Обход графа с помощью BFS - используем очередь: кладем в очередь, вытаскиваем и кладем новые вершины.
-
-BFS:
-
-- поиск кратчайшего пути
 
 ---
 
