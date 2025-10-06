@@ -385,23 +385,37 @@ BFS:
 
 # 15 - Backtracking
 
+46
+77
+
+
 ---
 
 # 16 - Dynamic Programming
 
----
+Dynamic Programming
 
-# Binary Search
+- Top Down - кеш в fib(n)
+- Bottom Up -мМожно строить снизу вверх как в массиве.
 
----
+Решение:
 
-# Сортировки
+1. Найти основную зависимость решения - базовый случай.
+2. Навешать кеш на пересекающиеся решения.
+3. Раскуртиться от базового случая снизу вверх Bottom Up.
+4. А зачем хранить все решения в кеше, если нужны только текущие.
 
-Виды сортировок:
-
-- квадратные сортировки
-- Merge Sort
-- Quick Sort
+| Level | Name                                                       | Link | Done | Repeatable |
+|:-----:|:-----------------------------------------------------------|:-----|:----:|:----------:|
+|       | 509                                                        |      |      |            |
+|       | 70                                                         |      |      |            |
+|       | 746                                                        |      |      |            |
+|       | 322                                                        |      |      |            |
+|       | 198                                                        |      |      |            |
+|       | 91 добавить кеш                                            |      |      |            |
+|       | 62                                                         |      |      |            |
+|       | 64                                                         |      |      |            |
+|       | 72 Расстояние Левенштейна + добавить кеш  конспект отсюда  |      |      |            |
 
 ---
 
@@ -411,11 +425,7 @@ BFS:
 
 | Level | Name                  | Link                                            | Repeatable |
 |:-----:|:----------------------|:------------------------------------------------|:----------:|
-| Easy  | 509. Fibonacci Number | https://leetcode.com/problems/fibonacci-number/ |            |
 | Easy  | 66. Plus One          | https://leetcode.com/problems/plus-one/         |            |
-
-* Medium
-    * https://leetcode.com/problems/spiral-matrix/
 
 # 1 Two pointers
 
@@ -468,31 +478,3 @@ https://leetcode.com/explore/learn/
 - Top Interview 150 https://leetcode.com/studyplan/top-interview-150/
 
 ---
-
-# Yandex
-
-| Theme          | Level  | Name                          | Link                                                                   | Done |
-|:---------------|:------:|:------------------------------|:-----------------------------------------------------------------------|:----:|
-| binary search  |        |                               | https://leetcode.com/problems/binary-search/                           |      |
-| binary search  |        |                               | https://leetcode.com/problems/search-in-rotated-sorted-array/          |      |
-| hash table     |  Easy  | 136. Single Number            | https://leetcode.com/problems/single-number/                           | Done |
-| hash table     |        |                               | https://leetcode.com/problems/two-sum/                                 |      |
-| queue/stack    |        |                               | https://leetcode.com/problems/valid-parentheses/                       |      |
-| dfs/bfs        |        |                               | https://leetcode.com/problems/number-of-islands/                       |      |
-| sort           |        |                               | https://leetcode.com/problems/merge-intervals/                         |      |
-| two pointers   | Medium | 11. Container With Most Water | https://leetcode.com/problems/container-with-most-water/               | Done |
-| two pointers   |        |                               | https://leetcode.com/problems/partion-labels/                          |      |
-| sliding window |        |                               | https://leetcode.com/problems/sliding-window-median/                   |      |
-| sliding window |        |                               | https://leetcode.com/problems/sliding-window-maximum/                  |      |
-| sliding window |        |                               | https://leetcode.com/problems/longest-repeating-character-replacement/ |      |
-| tree           |        |                               | https://leetcode.com/problems/same-tree/                               |      |
-| tree           |  Easy  | 101. Symmetric Tree           | https://leetcode.com/problems/symmetric-tree/                          | Done |
-
-binary search
-hash table
-queue/stack			 
-dfs/bfs
-sort
-two pointers
-sliding window
-tree
