@@ -1,3 +1,11 @@
+#### Get
+
+- Ten
+- Yandex
+- Neetcode 150
+
+---
+
 # Yandex
 
 | Theme          | Level  | Name                          | Link                                                                   | Done |
@@ -26,12 +34,9 @@ two pointers
 sliding window
 tree
 
-
-| Level  | Name                           | Link | Done | Repeatable |
-|:------:|:-------------------------------|:-----|:----:|:----------:|
-|  Easy  | 344. Reverse String            |      |      |            |
-
-
+| Level | Name                | Link | Done | Repeatable |
+|:-----:|:--------------------|:-----|:----:|:----------:|
+| Easy  | 344. Reverse String |      |      |            |
 
 20
 206
@@ -80,7 +85,6 @@ tree
 2743
 2841
 3105
-
 
 Отсортированный список по сложности:
 Easy (от более простых к более сложным):
@@ -133,9 +137,6 @@ Hard (от более простых к более сложным):
 3105 - Longest Strictly Increasing or Strictly Decreasing Subarray
 
 2241 - Design an ATM Machine
-
-
-
 
 🟡 Medium задачи (в порядке увеличения сложности):
 567 - Permutation in String
