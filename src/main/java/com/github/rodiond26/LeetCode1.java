@@ -95,27 +95,6 @@ class Solution13 {
 //    }
 }
 
-class Solution14 {
-    public void reverseString(char[] s) {
-        if (s.length < 2) {
-            return;
-        }
-
-        char temp;
-        for (int i = 0; i < s.length / 2; i++) {
-            temp = s[s.length - 1 - i];
-            s[s.length - 1 - i] = s[i];
-            s[i] = temp;
-            System.out.println(Arrays.toString(s));
-        }
-    }
-
-    public static void main(String[] args) {
-        Solution14 s = new Solution14();
-        s.reverseString(new char[]{'h', 'e', 'l', 'l', 'o'});
-    }
-}
-
 class Solution125 {
     public boolean isPalindrome(String s) {
         if (s.length() < 2) {
