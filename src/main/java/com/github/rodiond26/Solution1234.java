@@ -5,29 +5,6 @@ import java.util.*;
 public class Solution1234 {
 }
 
-class Solution977 {
-    public int[] sortedSquares(int[] nums) {
-        int left = 0;
-        int right = nums.length - 1;
-        int[] result = new int[nums.length];
-        int pos = result.length - 1;
-
-        while (left <= right) {
-            int l = nums[left] * nums[left];
-            int r = nums[right] * nums[right];
-            if (l > r) {
-                result[pos] = l;
-                left++;
-            } else {
-                result[pos] = r;
-                right--;
-            }
-            pos--;
-        }
-        return result;
-    }
-}
-
 class Solution209 {
     public int minSubArrayLen(int target, int[] nums) {
         int left = 0;
@@ -57,56 +34,7 @@ class Solution209 {
     }
 }
 
-class Solution15 {
-    public List<List<Integer>> threeSum(int[] nums) {
-        Arrays.sort(nums);
-
-        Set<List<Integer>> set = new HashSet<>();
-
-        for (int i = 0; i < nums.length - 2; i++) {
-            int left = i + 1;
-            int right = nums.length - 1;
-            while (left < right) {
-                int sum = nums[i] + nums[left] + nums[right];
-                if (sum == 0) {
-                    set.add(List.of(nums[i], nums[left], nums[right]));
-                    left++;
-                } else if (sum < 0) {
-                    left++;
-                } else {
-                    right--;
-                }
-            }
-        }
-        return new ArrayList<>(set);
-    }
-
-    public static void main(String[] args) {
-        Solution15 s = new Solution15();
-        int[] nums1 = {-1, 0, 1, 2, -1, -4};
-        List<List<Integer>> result1 = s.threeSum(nums1);
-        System.out.println(result1);
-
-        int[] nums2 = {0, 1, 1};
-        List<List<Integer>> result2 = s.threeSum(nums2);
-        System.out.println(result2);
-
-        int[] nums3 = {0, 0, 0};
-        List<List<Integer>> result3 = s.threeSum(nums3);
-        System.out.println(result3);
-    }
-}
-
 class Solution11111 {
-//    public int maxArea(int[] height) {
-//        int maxArea = 0;
-//        for (int i = 0; i < height.length - 1; i++) {
-//            for (int j = height.length - 1; j >= 0 && i < j; j--) {
-//                maxArea = Math.max(maxArea, Math.min(height[i], height[j]) * (j - i));
-//            }
-//        }
-//        return maxArea;
-//    }
 
     public int maxArea(int[] height) {
         int maxArea = 0;

@@ -29,19 +29,19 @@ Big O - это оценка алгоритма при худшем случае.
 * Указатели в начале, первый указатель бежит быстрее второго указателя.
 * Указатели бегут параллельно в разных массивах.
 
-| Level  | Name                           | Link | Done | Repeatable |
-|:------:|:-------------------------------|:-----|:----:|:----------:|
-|  Easy  | 344. Reverse String            |      |      |            |
-|  Easy  | 125.                           |      |      |            |
-| Medium | 167.                           |      |      |            |
-| Medium | 15. 3Sum                       |      |      |     *      |
-|  Easy  | 977. Squares of a Sorted Array |      |      |            |
-| Medium | 11. Container With Most Water  |      |      |            |
-|  Easy  | 26.                            |      |      |            |
-|  Easy  | 283.Move Zeroes                |      |      |     *      |
-|  Easy  | 392. Is Subsequence            |      |      |            |
-|  Easy  | 844.                           |      |      |            |
-|  Easy  | 88. Merge Sorted Array         |      |      |     *      |
+| Level  | Name                                    | Link                                                            | Done | Repeatable |
+|:------:|:----------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                   | Done |            |
+|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                 | Done |            |
+| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | Done |            |
+| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                             | Done |            |
+|  Easy  | 977. Squares of a Sorted Array          | https://leetcode.com/problems/squares-of-a-sorted-array/        | Done |            |
+| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/        |      |     *      |
+|  Easy  | 26.                                     |                                                                 |      |            |
+|  Easy  | 283.Move Zeroes                         |                                                                 |      |     *      |
+|  Easy  | 392. Is Subsequence                     |                                                                 |      |            |
+|  Easy  | 844.                                    |                                                                 |      |            |
+|  Easy  | 88. Merge Sorted Array                  |                                                                 |      |     *      |
 
 ---
 
@@ -405,17 +405,17 @@ Dynamic Programming
 3. Раскуртиться от базового случая снизу вверх Bottom Up.
 4. А зачем хранить все решения в кеше, если нужны только текущие.
 
-| Level | Name                                                       | Link | Done | Repeatable |
-|:-----:|:-----------------------------------------------------------|:-----|:----:|:----------:|
-|       | 509                                                        |      |      |            |
-|       | 70                                                         |      |      |            |
-|       | 746                                                        |      |      |            |
-|       | 322                                                        |      |      |            |
-|       | 198                                                        |      |      |            |
-|       | 91 добавить кеш                                            |      |      |            |
-|       | 62                                                         |      |      |            |
-|       | 64                                                         |      |      |            |
-|       | 72 Расстояние Левенштейна + добавить кеш  конспект отсюда  |      |      |            |
+| Level | Name                                                      | Link | Done | Repeatable |
+|:-----:|:----------------------------------------------------------|:-----|:----:|:----------:|
+|       | 509                                                       |      |      |            |
+|       | 70                                                        |      |      |            |
+|       | 746                                                       |      |      |            |
+|       | 322                                                       |      |      |            |
+|       | 198                                                       |      |      |            |
+|       | 91 добавить кеш                                           |      |      |            |
+|       | 62                                                        |      |      |            |
+|       | 64                                                        |      |      |            |
+|       | 72 Расстояние Левенштейна + добавить кеш  конспект отсюда |      |      |            |
 
 ---
 
@@ -423,22 +423,9 @@ Dynamic Programming
 
 Задачи:
 
-| Level | Name                  | Link                                            | Repeatable |
-|:-----:|:----------------------|:------------------------------------------------|:----------:|
-| Easy  | 66. Plus One          | https://leetcode.com/problems/plus-one/         |            |
-
-# 1 Two pointers
-
-* https://leetcode.com/problems/reverse-string/
-* https://leetcode.com/problems/valid-palindrome/
-* https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
-* https://leetcode.com/problems/3sum/
-* https://leetcode.com/problems/squares-of-a-sorted-array/
-* https://leetcode.com/problems/container-with-most-water/
-* https://leetcode.com/problems/move-zeroes/
-* https://leetcode.com/problems/is-subsequence/
-* https://leetcode.com/problems/backspace-string-compare/
-* https://leetcode.com/problems/merge-sorted-array/
+| Level | Name         | Link                                    | Repeatable |
+|:-----:|:-------------|:----------------------------------------|:----------:|
+| Easy  | 66. Plus One | https://leetcode.com/problems/plus-one/ |            |
 
 # 16 Graphs
 
