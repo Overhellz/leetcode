@@ -1,4 +1,4 @@
-package com.github.rodiond26.yandex.prepare.interview_1;
+package com.github.rodiond26.stage_2.yandex.easy;
 
 public class Solution657 {
     public boolean judgeCircle(String moves) {
