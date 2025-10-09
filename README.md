@@ -49,16 +49,21 @@ Big O - это оценка алгоритма при худшем случае.
 
 Необходимо хранить текущее состояние окна.
 
+2 типа задач:
+
+* Окно с фиксированным размером.
+* Окно с изменяемым размером.
+
 Пример задачи [здесь](./src/main/java/com/github/rodiond26/sliding_window/LeetCode20250831.java).
 
-| Level  | Name                             | Link                                                      | Done | Repeatable |
-|:------:|:---------------------------------|:----------------------------------------------------------|:----:|:----------:|
-|  Easy  | 643. Maximum Average Subarray I  | https://leetcode.com/problems/maximum-average-subarray-i/ | Done |            |
-|  Easy  | 209.                             |                                                           |      |            |
-| Medium | 1004.                            |                                                           |      |            |
-| Medium | 1493.                            |                                                           |      |            |
-| Medium | 904.                             |                                                           |      |            |
-|  TODO  | 2090. K Radius Subarray Averages | https://leetcode.com/problems/k-radius-subarray-averages/ |      |            |
+| Level  | Name                                                     | Link                                                                             | Done | Repeatable |
+|:------:|:---------------------------------------------------------|:---------------------------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 643. Maximum Average Subarray I                          | https://leetcode.com/problems/maximum-average-subarray-i/                        |      |            |
+| Medium | 209. Minimum Size Subarray Sum                           | https://leetcode.com/problems/minimum-size-subarray-sum/                         |      |            |
+| Medium | 1004. Max Consecutive Ones III                           | https://leetcode.com/problems/max-consecutive-ones-iii/                          |      |            |
+| Medium | 1493. Longest Subarray of 1's After Deleting One Element | https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/ |      |            |
+| Medium | 904. Fruit Into Baskets                                  | https://leetcode.com/problems/fruit-into-baskets/                                |      |            |
+| Medium | 2090. K Radius Subarray Averages                         | https://leetcode.com/problems/k-radius-subarray-averages/                        |      |            |
 
 ---
 
