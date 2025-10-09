@@ -1,7 +1,5 @@
 package com.github.rodiond26;
 
-import java.util.*;
-
 public class Solution1234 {
 }
 
@@ -32,36 +30,6 @@ class Solution209 {
 
         return len;
     }
-}
-
-class Solution11111 {
-
-    public int maxArea(int[] height) {
-        int maxArea = 0;
-        int left = 0;
-        int right = height.length - 1;
-
-        while (left < right) {
-            maxArea = Math.max(maxArea, Math.min(height[left], height[right]) * (right - left));
-
-            if (height[left] < height[right]) {
-                left++;
-            } else {
-                right--;
-            }
-        }
-
-        return maxArea;
-    }
-
-//    public static void main(String[] args) {
-//        Solution11 s = new Solution11();
-//
-//        int[] height1 = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-//        int result1 = s.maxArea(height1);
-//        System.out.println(result1);
-//
-//    }
 }
 
 class ListNode {

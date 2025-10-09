@@ -29,19 +29,19 @@ Big O - это оценка алгоритма при худшем случае.
 * Указатели в начале, первый указатель бежит быстрее второго указателя.
 * Указатели бегут параллельно в разных массивах.
 
-| Level  | Name                                    | Link                                                            | Done | Repeatable |
-|:------:|:----------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                   | Done |            |
-|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                 | Done |            |
-| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ | Done |            |
-| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                             | Done |            |
-|  Easy  | 977. Squares of a Sorted Array          | https://leetcode.com/problems/squares-of-a-sorted-array/        | Done |            |
-| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/        |      |     *      |
-|  Easy  | 26.                                     |                                                                 |      |            |
-|  Easy  | 283.Move Zeroes                         |                                                                 |      |     *      |
-|  Easy  | 392. Is Subsequence                     |                                                                 |      |            |
-|  Easy  | 844.                                    |                                                                 |      |            |
-|  Easy  | 88. Merge Sorted Array                  |                                                                 |      |     *      |
+| Level  | Name                                    | Link                                                               | Done | Repeatable |
+|:------:|:----------------------------------------|:-------------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 344. Reverse String                     | https://leetcode.com/problems/reverse-string/                      | Done |            |
+|  Easy  | 125. Valid Palindrome                   | https://leetcode.com/problems/valid-palindrome/                    | Done |            |
+| Medium | 167. Two Sum II - Input Array Is Sorted | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/    | Done |            |
+| Medium | 15. 3Sum                                | https://leetcode.com/problems/3sum/                                | Done |            |
+|  Easy  | 977. Squares of a Sorted Array          | https://leetcode.com/problems/squares-of-a-sorted-array/           | Done |            |
+| Medium | 11. Container With Most Water           | https://leetcode.com/problems/container-with-most-water/           | Done |     *      |
+|  Easy  | 26. Remove Duplicates from Sorted Array | https://leetcode.com/problems/remove-duplicates-from-sorted-array/ | Done |            |
+|  Easy  | 283.Move Zeroes                         | https://leetcode.com/problems/move-zeroes/                         | Done |            |
+|  Easy  | 392. Is Subsequence                     | https://leetcode.com/problems/is-subsequence/                      | Done |     *      |
+|  Easy  | 844. Backspace String Compare           | https://leetcode.com/problems/backspace-string-compare/            | Done |            |
+|  Easy  | 88. Merge Sorted Array                  | https://leetcode.com/problems/merge-sorted-array/                  | Done |            |
 
 ---
 
