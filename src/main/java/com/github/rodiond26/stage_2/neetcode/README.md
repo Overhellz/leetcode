@@ -1,22 +1,21 @@
 # NeetCode
 
-Except Ten
+Except Ten and Premium
 
 ---
 
 # Arrays & Hashing
 
-| Level  | Name                         | Link | Done | Repeatable |
-|:------:|:-----------------------------|:-----|:----:|:----------:|
-|  Easy  | Contains Duplicate           |      |      |            |
-|  Easy  | Valid Anagram                |      |      |            |
-|  Easy  | Two Sum                      |      |      |            |
-| Medium | Group Anagrams               |      |      |            |
-| Medium | Top K Frequent Elements      |      |      |            |
-| Medium | Encode and Decode Strings    |      |      |            |
-| Medium | Product of Array Except Self |      |      |            |
-| Medium | Valid Sudoku                 |      |      |            |
-| Medium | Longest Consecutive Sequence |      |      |            |
+| Level  | Name                              | Link                                                        | Done | Repeatable |
+|:------:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 217. Contains Duplicate           | https://leetcode.com/problems/contains-duplicate/           | Done |            |
+|  Easy  | 242. Valid Anagram                | https://leetcode.com/problems/valid-anagram/                | Done |            |
+|  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      | Done |            |
+| Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               | Done |            |
+| Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      | Done |     *      |
+| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ |      |            |
+| Medium | 36. Valid Sudoku                  | https://leetcode.com/problems/valid-sudoku/                 |      |            |
+| Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |      |            |
 
 ---
 
