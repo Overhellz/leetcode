@@ -32,12 +32,12 @@ Except Ten
 
 | Level  | Name                                              | Link                                                                          | Done | Repeatable |
 |:------:|:--------------------------------------------------|:------------------------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 121. Best Time to Buy and Sell Stock              | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/                | Done |            |
-| Medium | 3. Longest Substring Without Repeating Characters | https://leetcode.com/problems/longest-substring-without-repeating-characters/ | Done |            |
-| Medium | 424. Longest Repeating Character Replacement      | https://leetcode.com/problems/longest-repeating-character-replacement/        |      |            |
-| Medium | 567. Permutation in String                        | https://leetcode.com/problems/permutation-in-string/                          | Done |            |
-|  Hard  | 76. Minimum Window Substring                      | https://leetcode.com/problems/minimum-window-substring/                       | Done |            |
-|  Hard  | 239. Sliding Window Maximum                       | https://leetcode.com/problems/sliding-window-maximum/                         |      |            |
+|  Easy  | 121. Best Time to Buy and Sell Stock              | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/                | Done |     *      |
+| Medium | 3. Longest Substring Without Repeating Characters | https://leetcode.com/problems/longest-substring-without-repeating-characters/ | Done |     *      |
+| Medium | 424. Longest Repeating Character Replacement      | https://leetcode.com/problems/longest-repeating-character-replacement/        | Done |     *      |
+| Medium | 567. Permutation in String                        | https://leetcode.com/problems/permutation-in-string/                          | Done |     *      |
+|  Hard  | 76. Minimum Window Substring                      | https://leetcode.com/problems/minimum-window-substring/                       | Done |     *      |
+|  Hard  | 239. Sliding Window Maximum                       | https://leetcode.com/problems/sliding-window-maximum/                         | Done |     *      |
 
 ---
 

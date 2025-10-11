@@ -52,3 +52,37 @@ public class Solution424 {
     }
 }
 
+class Solution424_2 {
+    public int characterReplacement(String s, int k) {
+        int[] arr = new int[64];
+        int left = 0;
+        int max = Integer.MIN_VALUE;
+        int arrMax = 0;
+
+        for (int right = 0; right < s.length(); right++) {
+            push(arr, s.charAt(right));
+            int count = count(arr, s.charAt(right));
+            arrMax = Math.max(arrMax, count);
+
+            while ((right - left + 1) - arrMax > k) {
+                pop(arr, s.charAt(left));
+                left++;
+            }
+            max = Math.max(arrMax, right - left + 1);
+        }
+
+        return max;
+    }
+
+    public void push(int[] arr, char ch) {
+        arr[ch - 64]++;
+    }
+
+    public void pop(int[] arr, char ch) {
+        arr[ch - 64]--;
+    }
+
+    public int count(int[] arr, char ch) {
+        return arr[ch - 64];
+    }
+}
