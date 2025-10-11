@@ -8,104 +8,6 @@ import java.util.List;
 public class Soulition2 {
 }
 
-class Solution1004 {
-    public int longestOnes(int[] nums, int k) {
-        int left = 0;
-        int right = 0;
-        int count = 0;
-        int longest = 0;
-
-        while (right < nums.length) {
-            if (nums[right] == 1) {
-                longest = Math.max(longest, right - left + 1);
-                right++;
-            } else {
-                count++;
-                right++;
-                while (count > k) {
-                    if (nums[left] == 0) {
-                        left++;
-                        count--;
-                    } else {
-                        left++;
-                    }
-                }
-            }
-        }
-        return longest;
-    }
-
-    public static void main(String[] args) {
-        Solution1004 s = new Solution1004();
-        int[] nums = {1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0};
-        int k = 2;
-        int result = s.longestOnes(nums, k);
-        System.out.println(result);
-    }
-}
-
-class Solution1004_2 {
-    public int longestOnes(int[] nums, int k) {
-        int left = 0;
-        int right = 0;
-        int longest = 0;
-        int sum = 0;
-
-        while (right < nums.length) {
-            if (nums[right] == 0) {
-                sum++;
-            }
-            while (sum > k) {
-                if (nums[left] == 0) {
-                    sum--;
-                }
-                left++;
-            }
-            longest = Math.max(longest, right - left + 1);
-            right++;
-        }
-        return longest;
-    }
-
-    public static void main(String[] args) {
-        Solution1004_2 s = new Solution1004_2();
-        int[] nums = {1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0};
-        int k = 2;
-        int result = s.longestOnes(nums, k);
-        System.out.println(result);
-    }
-}
-
-class Solution1493 {
-    public int longestSubarray(int[] nums) {
-        int left = 0;
-        int right = 0;
-        int longest = 0;
-        int sum = 0;
-
-        while (right < nums.length) {
-            if (nums[right] == 0) {
-                sum++;
-            }
-            while (sum > 1) {
-                if (nums[left] == 0) {
-                    sum--;
-                }
-                left++;
-            }
-            longest = Math.max(longest, right - left);
-            right++;
-        }
-        return longest;
-    }
-}
-
-class Solution904 {
-    public int totalFruit(int[] fruits) {
-        return 0;
-    }
-}
-
 class Solution3477 {
     public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
         int count = 0;
@@ -184,9 +86,6 @@ class Solution1488888 {
         }
         return strs[0].substring(0, len);
     }
-}
-
-class Solution295 {
 }
 
 class MedianFinder {

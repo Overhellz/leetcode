@@ -19,21 +19,6 @@ class Solution1 {
     }
 }
 
-class Solution2 {
-    public int maxProfit(int[] prices) {
-        int maxProfit = 0;
-        int minPrice = prices[0];
-        for (int price : prices) {
-            if (price > minPrice) {
-                maxProfit = Math.max(maxProfit, price - minPrice);
-            } else {
-                minPrice = price;
-            }
-        }
-        return maxProfit;
-    }
-}
-
 class Solution3999999 {
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>();

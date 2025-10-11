@@ -3,35 +3,6 @@ package com.github.rodiond26;
 public class Solution1234 {
 }
 
-class Solution209 {
-    public int minSubArrayLen(int target, int[] nums) {
-        int left = 0;
-        int right = 0;
-        int sum = nums[left];
-        int len = 0;
-
-        while (true) {
-            if (sum < target) {
-                right++;
-                if (right >= nums.length) {
-                    break;
-                }
-                sum += nums[right];
-            } else {
-                if (len == 0) {
-                    len = right + 1 - left;
-                }
-                len = Math.min(right + 1 - left, len);
-
-                sum -= nums[left];
-                left++;
-            }
-        }
-
-        return len;
-    }
-}
-
 class ListNode {
     int val;
     ListNode next;
