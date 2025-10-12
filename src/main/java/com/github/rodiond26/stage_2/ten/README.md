@@ -79,12 +79,12 @@ Head - начало (голова) связного спика, tail - коне�
 
 | Level  | Name                                          | Link                                                                   | Done | Repeatable |
 |:------:|:----------------------------------------------|:-----------------------------------------------------------------------|:----:|:----------:|
-| Medium | 707. Design Linked List                       | https://leetcode.com/problems/design-linked-list/                      |      |    ***     |
-|  Easy  | 141.Linked List Cycle                         | https://leetcode.com/problems/linked-list-cycle/                       |      |            |
-|  Easy  | 876. Middle of the Linked List                | https://leetcode.com/problems/middle-of-the-linked-list/               |      |            |
-| Medium | 2095. Delete the Middle Node of a Linked List | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ |      |            |
-|  Easy  | 206. Reverse Linked List                      | https://leetcode.com/problems/reverse-linked-list/                     |      |     *      |
+| Medium | 707. Design Linked List                       | https://leetcode.com/problems/design-linked-list/                      | Done |    ***     |
+|  Easy  | 876. Middle of the Linked List                | https://leetcode.com/problems/middle-of-the-linked-list/               | Done |     *      |
+| Medium | 2095. Delete the Middle Node of a Linked List | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ | Done |     *      |
+|  Easy  | 206. Reverse Linked List                      | https://leetcode.com/problems/reverse-linked-list/                     | Done |    ***     |
 |  Easy  | 234. Palindrome Linked List                   | https://leetcode.com/problems/palindrome-linked-list/                  |      |            |
+|  Easy  | 141. Linked List Cycle                        | https://leetcode.com/problems/linked-list-cycle/                       |      |            |
 |  Easy  | 83. Remove Duplicates from Sorted List        | https://leetcode.com/problems/remove-duplicates-from-sorted-list/      |      |            |
 | Medium | 19. Remove Nth Node From End of List          | https://leetcode.com/problems/remove-nth-node-from-end-of-list/        |      |            |
 | Medium | 24. Swap Nodes in Pairs                       | https://leetcode.com/problems/swap-nodes-in-pairs/                     |      |            |
