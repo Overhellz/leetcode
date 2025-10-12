@@ -5,49 +5,6 @@ import java.util.*;
 public class TwoSum {
 }
 
-class Solution1 {
-    public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(nums[0], 0);
-        for (int i = 1; i < nums.length; i++) {
-            if (map.containsKey(target - nums[i])) {
-                return new int[]{map.get(target - nums[i]), i};
-            }
-            map.put(nums[i], i);
-        }
-        throw new RuntimeException();
-    }
-}
-
-class Solution2 {
-    public int maxProfit(int[] prices) {
-        int maxProfit = 0;
-        int minPrice = prices[0];
-        for (int price : prices) {
-            if (price > minPrice) {
-                maxProfit = Math.max(maxProfit, price - minPrice);
-            } else {
-                minPrice = price;
-            }
-        }
-        return maxProfit;
-    }
-}
-
-class Solution3999999 {
-    public boolean containsDuplicate(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for (int num : nums) {
-            if (set.contains(num)) {
-                return true;
-            } else {
-                set.add(num);
-            }
-        }
-        return false;
-    }
-}
-
 class Solution_temp {
     public int[] productExceptSelf(int[] nums) {
         int[] result = new int[nums.length];
