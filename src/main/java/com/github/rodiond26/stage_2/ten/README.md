@@ -59,8 +59,6 @@ Big O - это оценка алгоритма при худшем случае.
 * Что такое состояние окна?
 * Как сжимать окно?
 
-Пример задачи [здесь](./src/main/java/com/github/rodiond26/sliding_window/LeetCode20250831.java).
-
 | Level  | Name                                                     | Link                                                                             | Done | Repeatable |
 |:------:|:---------------------------------------------------------|:---------------------------------------------------------------------------------|:----:|:----------:|
 |  Easy  | 643. Maximum Average Subarray I                          | https://leetcode.com/problems/maximum-average-subarray-i/                        | Done |            |
@@ -83,13 +81,12 @@ Head - начало (голова) связного спика, tail - коне�
 |  Easy  | 876. Middle of the Linked List                | https://leetcode.com/problems/middle-of-the-linked-list/               | Done |     *      |
 | Medium | 2095. Delete the Middle Node of a Linked List | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ | Done |     *      |
 |  Easy  | 206. Reverse Linked List                      | https://leetcode.com/problems/reverse-linked-list/                     | Done |    ***     |
-|  Easy  | 234. Palindrome Linked List                   | https://leetcode.com/problems/palindrome-linked-list/                  |      |            |
-|  Easy  | 141. Linked List Cycle                        | https://leetcode.com/problems/linked-list-cycle/                       |      |            |
-|  Easy  | 83. Remove Duplicates from Sorted List        | https://leetcode.com/problems/remove-duplicates-from-sorted-list/      |      |            |
+|  Easy  | 234. Palindrome Linked List                   | https://leetcode.com/problems/palindrome-linked-list/                  | Done |     *      |
+|  Easy  | 141. Linked List Cycle                        | https://leetcode.com/problems/linked-list-cycle/                       | Done |     *      |
+|  Easy  | 83. Remove Duplicates from Sorted List        | https://leetcode.com/problems/remove-duplicates-from-sorted-list/      | Done |            |
 | Medium | 19. Remove Nth Node From End of List          | https://leetcode.com/problems/remove-nth-node-from-end-of-list/        |      |            |
 | Medium | 24. Swap Nodes in Pairs                       | https://leetcode.com/problems/swap-nodes-in-pairs/                     |      |            |
 |  Easy  | 21. Merge Two Sorted Lists                    | https://leetcode.com/problems/merge-two-sorted-lists/                  |      |            |
-|  Easy  | 141. Linked List Cycle                        | https://leetcode.com/problems/linked-list-cycle/                       |      |            |
 
 ---
 

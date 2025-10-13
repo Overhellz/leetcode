@@ -1,5 +1,7 @@
 # NeetCode
 
+https://neetcode.io/roadmap
+
 Except Ten and Premium
 
 ---
@@ -13,7 +15,7 @@ Except Ten and Premium
 |  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      | Done |            |
 | Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               | Done |            |
 | Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      | Done |     *      |
-| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ |      |            |
+| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | Done |     *      |
 | Medium | 36. Valid Sudoku                  | https://leetcode.com/problems/valid-sudoku/                 |      |            |
 | Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |      |            |
 
@@ -56,16 +58,11 @@ Except Ten and Premium
 
 # Linked List
 
-| Level  | Name                             | Link | Done | Repeatable |
-|:------:|:---------------------------------|:-----|:----:|:----------:|
-|  Easy  | Reverse Linked List              |      |      |            |
-|  Easy  | Merge Two Sorted Lists           |      |      |            |
-|  Easy  | Linked List Cycle                |      |      |            |
-| Medium | Reorder List                     |      |      |            |
-| Medium | Remove Nth Node From End of List |      |      |            |
-| Medium | Copy List With Random Pointer    |      |      |            |
-| Medium | Add Two Numbers                  |      |      |            |
-| Medium | Find The Duplicate Number        |      |      |            |
-| Medium | LRU Cache                        |      |      |            |
-|  Hard  | Merge K Sorted Lists             |      |      |            |
-|  Hard  | Reverse Nodes In K Group         |      |      |            |
+| Level  | Name                          | Link | Done | Repeatable |
+|:------:|:------------------------------|:-----|:----:|:----------:|
+| Medium | Reorder List                  |      |      |            |
+| Medium | Copy List With Random Pointer |      |      |            |
+| Medium | Add Two Numbers               |      |      |            |
+| Medium | Find The Duplicate Number     |      |      |            |
+|  Hard  | Merge K Sorted Lists          |      |      |            |
+|  Hard  | Reverse Nodes In K Group      |      |      |            |
