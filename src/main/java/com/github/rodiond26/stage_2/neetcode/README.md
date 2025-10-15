@@ -44,14 +44,14 @@ Except Ten and Premium
 
 # Linked List
 
-| Level  | Name                          | Link                                        | Done | Repeatable |
-|:------:|:------------------------------|:--------------------------------------------|:----:|:----------:|
-| Medium | 143. Reorder List             | https://leetcode.com/problems/reorder-list/ | Done |    ***     |
-| Medium | Copy List With Random Pointer |                                             |      |            |
-| Medium | Add Two Numbers               |                                             |      |            |
-| Medium | Find The Duplicate Number     |                                             |      |            |
-|  Hard  | Merge K Sorted Lists          |                                             |      |            |
-|  Hard  | Reverse Nodes In K Group      |                                             |      |            |
+| Level  | Name                               | Link                                                         | Done | Repeatable |
+|:------:|:-----------------------------------|:-------------------------------------------------------------|:----:|:----------:|
+| Medium | 143. Reorder List                  | https://leetcode.com/problems/reorder-list/                  | Done |    ***     |
+| Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ |      |            |
+| Medium | 2. Add Two Numbers                 | https://leetcode.com/problems/add-two-numbers/               | Done |     *      |
+| Medium | 287. Find the Duplicate Number     | https://leetcode.com/problems/find-the-duplicate-number/     |      |            |
+|  Hard  | 23. Merge k Sorted Lists           | https://leetcode.com/problems/merge-k-sorted-lists/          |      |            |
+|  Hard  | 25. Reverse Nodes in k-Group       | https://leetcode.com/problems/reverse-nodes-in-k-group/      |      |            |
 
 ---
 

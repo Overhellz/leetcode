@@ -89,11 +89,11 @@ Head - начало (голова) связного спика, tail - коне�
 | Medium | 2095. Delete the Middle Node of a Linked List | https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/ | Done |     *      |
 |  Easy  | 206. Reverse Linked List                      | https://leetcode.com/problems/reverse-linked-list/                     | Done |    ***     |
 |  Easy  | 234. Palindrome Linked List                   | https://leetcode.com/problems/palindrome-linked-list/                  | Done |     *      |
-|  Easy  | 141. Linked List Cycle                        | https://leetcode.com/problems/linked-list-cycle/                       | Done |     *      |
-|  Easy  | 83. Remove Duplicates from Sorted List        | https://leetcode.com/problems/remove-duplicates-from-sorted-list/      | Done |            |
+|  Easy  | 83. Remove Duplicates from Sorted List        | https://leetcode.com/problems/remove-duplicates-from-sorted-list/      | Done |     *      |
 | Medium | 19. Remove Nth Node From End of List          | https://leetcode.com/problems/remove-nth-node-from-end-of-list/        | Done |    ***     |
-| Medium | 24. Swap Nodes in Pairs                       | https://leetcode.com/problems/swap-nodes-in-pairs/                     |      |            |
-|  Easy  | 21. Merge Two Sorted Lists                    | https://leetcode.com/problems/merge-two-sorted-lists/                  |      |            |
+| Medium | 24. Swap Nodes in Pairs                       | https://leetcode.com/problems/swap-nodes-in-pairs/                     | Done |     *      |
+|  Easy  | 21. Merge Two Sorted Lists                    | https://leetcode.com/problems/merge-two-sorted-lists/                  | Done |     *      |
+|  Easy  | 141. Linked List Cycle                        | https://leetcode.com/problems/linked-list-cycle/                       | Done |     *      |
 
 ---
 
