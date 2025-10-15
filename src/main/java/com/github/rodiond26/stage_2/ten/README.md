@@ -75,6 +75,13 @@ Linked List (Связный список) - это набор Node (узлов),
 
 Head - начало (голова) связного спика, tail - конец (хвост) списка.
 
+Типовые задачи:
+
+- найти середину Linked List,
+- найти N-ноду в Linked List,
+- реверс Linked List,
+- слить два Linked List в один.
+
 | Level  | Name                                          | Link                                                                   | Done | Repeatable |
 |:------:|:----------------------------------------------|:-----------------------------------------------------------------------|:----:|:----------:|
 | Medium | 707. Design Linked List                       | https://leetcode.com/problems/design-linked-list/                      | Done |    ***     |
@@ -84,7 +91,7 @@ Head - начало (голова) связного спика, tail - коне�
 |  Easy  | 234. Palindrome Linked List                   | https://leetcode.com/problems/palindrome-linked-list/                  | Done |     *      |
 |  Easy  | 141. Linked List Cycle                        | https://leetcode.com/problems/linked-list-cycle/                       | Done |     *      |
 |  Easy  | 83. Remove Duplicates from Sorted List        | https://leetcode.com/problems/remove-duplicates-from-sorted-list/      | Done |            |
-| Medium | 19. Remove Nth Node From End of List          | https://leetcode.com/problems/remove-nth-node-from-end-of-list/        |      |            |
+| Medium | 19. Remove Nth Node From End of List          | https://leetcode.com/problems/remove-nth-node-from-end-of-list/        | Done |    ***     |
 | Medium | 24. Swap Nodes in Pairs                       | https://leetcode.com/problems/swap-nodes-in-pairs/                     |      |            |
 |  Easy  | 21. Merge Two Sorted Lists                    | https://leetcode.com/problems/merge-two-sorted-lists/                  |      |            |
 

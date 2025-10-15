@@ -42,6 +42,19 @@ Except Ten and Premium
 
 ---
 
+# Linked List
+
+| Level  | Name                          | Link                                        | Done | Repeatable |
+|:------:|:------------------------------|:--------------------------------------------|:----:|:----------:|
+| Medium | 143. Reorder List             | https://leetcode.com/problems/reorder-list/ | Done |    ***     |
+| Medium | Copy List With Random Pointer |                                             |      |            |
+| Medium | Add Two Numbers               |                                             |      |            |
+| Medium | Find The Duplicate Number     |                                             |      |            |
+|  Hard  | Merge K Sorted Lists          |                                             |      |            |
+|  Hard  | Reverse Nodes In K Group      |                                             |      |            |
+
+---
+
 # Stack
 
 | Level  | Name                             | Link | Done | Repeatable |
@@ -53,16 +66,3 @@ Except Ten and Premium
 | Medium | Daily Temperatures               |      |      |            |
 | Medium | Car Fleet                        |      |      |            |
 |  Hard  | Largest Rectangle In Histogram   |      |      |            |
-
----
-
-# Linked List
-
-| Level  | Name                          | Link | Done | Repeatable |
-|:------:|:------------------------------|:-----|:----:|:----------:|
-| Medium | Reorder List                  |      |      |            |
-| Medium | Copy List With Random Pointer |      |      |            |
-| Medium | Add Two Numbers               |      |      |            |
-| Medium | Find The Duplicate Number     |      |      |            |
-|  Hard  | Merge K Sorted Lists          |      |      |            |
-|  Hard  | Reverse Nodes In K Group      |      |      |            |
