@@ -1,4 +1,4 @@
-package com.github.rodiond26.lru;
+package com.github.rodiond26.stage_2.ten.p5_lru;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -70,13 +70,3 @@ public class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-
-class Node {
-    int key;
-    int value;
-    Node next;
-    Node prev;
-}
-
-class Solution146 {
-}

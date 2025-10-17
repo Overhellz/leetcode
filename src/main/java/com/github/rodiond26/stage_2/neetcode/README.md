@@ -6,21 +6,6 @@ Except Ten and Premium
 
 ---
 
-# Arrays & Hashing
-
-| Level  | Name                              | Link                                                        | Done | Repeatable |
-|:------:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 217. Contains Duplicate           | https://leetcode.com/problems/contains-duplicate/           | Done |            |
-|  Easy  | 242. Valid Anagram                | https://leetcode.com/problems/valid-anagram/                | Done |            |
-|  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      | Done |            |
-| Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               | Done |            |
-| Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      | Done |     *      |
-| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | Done |     *      |
-| Medium | 36. Valid Sudoku                  | https://leetcode.com/problems/valid-sudoku/                 |      |            |
-| Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |      |            |
-
----
-
 # Two Pointers
 
 | Level | Name                    | Link                                               | Done | Repeatable |
@@ -47,11 +32,26 @@ Except Ten and Premium
 | Level  | Name                               | Link                                                         | Done | Repeatable |
 |:------:|:-----------------------------------|:-------------------------------------------------------------|:----:|:----------:|
 | Medium | 143. Reorder List                  | https://leetcode.com/problems/reorder-list/                  | Done |    ***     |
-| Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ |      |            |
+| Medium | 138. Copy List with Random Pointer | https://leetcode.com/problems/copy-list-with-random-pointer/ | Done |     *      |
 | Medium | 2. Add Two Numbers                 | https://leetcode.com/problems/add-two-numbers/               | Done |     *      |
-| Medium | 287. Find the Duplicate Number     | https://leetcode.com/problems/find-the-duplicate-number/     |      |            |
-|  Hard  | 23. Merge k Sorted Lists           | https://leetcode.com/problems/merge-k-sorted-lists/          |      |            |
-|  Hard  | 25. Reverse Nodes in k-Group       | https://leetcode.com/problems/reverse-nodes-in-k-group/      |      |            |
+| Medium | 287. Find the Duplicate Number     | https://leetcode.com/problems/find-the-duplicate-number/     | Done |     *      |
+|  Hard  | 23. Merge k Sorted Lists           | https://leetcode.com/problems/merge-k-sorted-lists/          | Done |     *      |
+|  Hard  | 25. Reverse Nodes in k-Group       | https://leetcode.com/problems/reverse-nodes-in-k-group/      | Done |     *      |
+
+---
+
+# Arrays & Hashing
+
+| Level  | Name                              | Link                                                        | Done | Repeatable |
+|:------:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 217. Contains Duplicate           | https://leetcode.com/problems/contains-duplicate/           | Done |            |
+|  Easy  | 242. Valid Anagram                | https://leetcode.com/problems/valid-anagram/                | Done |            |
+|  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      | Done |            |
+| Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               | Done |            |
+| Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      | Done |     *      |
+| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | Done |     *      |
+| Medium | 36. Valid Sudoku                  | https://leetcode.com/problems/valid-sudoku/                 |      |            |
+| Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |      |            |
 
 ---
 
