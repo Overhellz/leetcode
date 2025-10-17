@@ -57,12 +57,11 @@ Except Ten and Premium
 
 # Stack
 
-| Level  | Name                             | Link | Done | Repeatable |
-|:------:|:---------------------------------|:-----|:----:|:----------:|
-|  Easy  | Valid Parentheses                |      |      |            |
-| Medium | Min Stack                        |      |      |            |
-| Medium | Evaluate Reverse Polish Notation |      |      |            |
-| Medium | Generate Parentheses             |      |      |            |
-| Medium | Daily Temperatures               |      |      |            |
-| Medium | Car Fleet                        |      |      |            |
-|  Hard  | Largest Rectangle In Histogram   |      |      |            |
+| Level  | Name                                  | Link                                                            | Done | Repeatable |
+|:------:|:--------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
+| Medium | 155. Min Stack                        | https://leetcode.com/problems/min-stack/                        |      |            |
+| Medium | 150. Evaluate Reverse Polish Notation | https://leetcode.com/problems/evaluate-reverse-polish-notation/ |      |            |
+| Medium | 22. Generate Parentheses              | https://leetcode.com/problems/generate-parentheses/             |      |            |
+| Medium | 739. Daily Temperatures               | https://leetcode.com/problems/daily-temperatures/               |      |            |
+| Medium | 853. Car Fleet                        | https://leetcode.com/problems/car-fleet/                        |      |            |
+|  Hard  | 84. Largest Rectangle in Histogram    | https://leetcode.com/problems/largest-rectangle-in-histogram/   |      |            |

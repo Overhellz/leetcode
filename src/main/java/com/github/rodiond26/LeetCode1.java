@@ -1,8 +1,5 @@
 package com.github.rodiond26;
 
-import java.util.Arrays;
-import java.util.Stack;
-
 public class LeetCode1 {
 }
 
