@@ -50,8 +50,8 @@ Except Ten and Premium
 | Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               | Done |            |
 | Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      | Done |     *      |
 | Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | Done |     *      |
-| Medium | 36. Valid Sudoku                  | https://leetcode.com/problems/valid-sudoku/                 |      |            |
-| Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ |      |            |
+| Medium | 36. Valid Sudoku                  | https://leetcode.com/problems/valid-sudoku/                 | Done |            |
+| Medium | 128. Longest Consecutive Sequence | https://leetcode.com/problems/longest-consecutive-sequence/ | Done |     *      |
 
 ---
 
