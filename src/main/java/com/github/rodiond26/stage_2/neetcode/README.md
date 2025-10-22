@@ -63,5 +63,5 @@ Except Ten and Premium
 | Medium | 150. Evaluate Reverse Polish Notation | https://leetcode.com/problems/evaluate-reverse-polish-notation/ | Done |            |
 | Medium | 22. Generate Parentheses              | https://leetcode.com/problems/generate-parentheses/             | Done |     *      |
 | Medium | 739. Daily Temperatures               | https://leetcode.com/problems/daily-temperatures/               | Done |     *      |
-| Medium | 853. Car Fleet                        | https://leetcode.com/problems/car-fleet/                        |      |            |
-|  Hard  | 84. Largest Rectangle in Histogram    | https://leetcode.com/problems/largest-rectangle-in-histogram/   |      |            |
+| Medium | 853. Car Fleet                        | https://leetcode.com/problems/car-fleet/                        | Done |     *      |
+|  Hard  | 84. Largest Rectangle in Histogram    | https://leetcode.com/problems/largest-rectangle-in-histogram/   | Done |     *      |
