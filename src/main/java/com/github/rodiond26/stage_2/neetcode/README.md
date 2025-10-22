@@ -65,3 +65,29 @@ Except Ten and Premium
 | Medium | 739. Daily Temperatures               | https://leetcode.com/problems/daily-temperatures/               | Done |     *      |
 | Medium | 853. Car Fleet                        | https://leetcode.com/problems/car-fleet/                        | Done |     *      |
 |  Hard  | 84. Largest Rectangle in Histogram    | https://leetcode.com/problems/largest-rectangle-in-histogram/   | Done |     *      |
+
+---
+
+# Binary Tree
+
+| Level  | Name                                                           | Link                                                                                     | Done | Repeatable |
+|:------:|:---------------------------------------------------------------|:-----------------------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 1448. Count Good Nodes in Binary Tree                          | https://leetcode.com/problems/count-good-nodes-in-binary-tree/                           |      |            |
+| Medium | 230. Kth Smallest Element in a BST                             | https://leetcode.com/problems/kth-smallest-element-in-a-bst/                             |      |            |
+| Medium | 105. Construct Binary Tree from Preorder and Inorder Traversal | https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ |      |            |
+|  Hard  | 124. Binary Tree Maximum Path Sum                              | https://leetcode.com/problems/binary-tree-maximum-path-sum/                              |      |            |
+|  Hard  | 297. Serialize and Deserialize Binary Tree                     | https://leetcode.com/problems/serialize-and-deserialize-binary-tree/                     |      |            |
+
+---
+
+# Binary Search
+
+| Level  | Name                                      | Link                                                                | Done | Repeatable |
+|:------:|:------------------------------------------|:--------------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 704. Binary Search                        | https://leetcode.com/problems/binary-search/                        |      |            |
+| Medium | 74. Search a 2D Matrix                    | https://leetcode.com/problems/search-a-2d-matrix/                   |      |            |
+| Medium | 875. Koko Eating Bananas                  | https://leetcode.com/problems/koko-eating-bananas/                  |      |            |
+| Medium | 153. Find Minimum in Rotated Sorted Array | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ |      |            |
+| Medium | 33. Search in Rotated Sorted Array        | https://leetcode.com/problems/search-in-rotated-sorted-array/       |      |            |
+| Medium | 981. Time Based Key-Value Store           | https://leetcode.com/problems/time-based-key-value-store/           |      |            |
+|  Hard  | 4. Median of Two Sorted Arrays            | https://leetcode.com/problems/median-of-two-sorted-arrays/          |      |            |
