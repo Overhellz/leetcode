@@ -47,4 +47,9 @@ public class Solution104 {
         }
         return depth;
     }
+
+    public int maxDepth4(TreeNode root) {
+        // TODO: use stack
+        return -1;
+    }
 }

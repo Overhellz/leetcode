@@ -189,17 +189,13 @@ def dfs(node):
     return
 ```
 
-| Level  | Name                                         | Link                                                                   | Done | Repeatable |
-|:------:|:---------------------------------------------|:-----------------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 104. Maximum Depth of Binary Tree            | https://leetcode.com/problems/maximum-depth-of-binary-tree/            | Done |     *      |
-|  Easy  | 226. Invert Binary Tree                      | https://leetcode.com/problems/invert-binary-tree/                      | Done |    ***     |
-|  Easy  | 101. Symmetric Tree                          | https://leetcode.com/problems/symmetric-tree/                          | Done |    ***     |
-|  Easy  | 112. Path Sum                                | https://leetcode.com/problems/path-sum/                                |      |     *      |
-|  Easy  | 100. Same Tree                               | https://leetcode.com/problems/same-tree/                               |      |     *      |
-|  Easy  | 543. Diameter of Binary Tree                 | https://leetcode.com/problems/diameter-of-binary-tree/                 |      |     *      |
-|  Easy  | 572. Subtree of Another Tree                 | https://leetcode.com/problems/subtree-of-another-tree/                 |      |     *      |
-| Medium | 1325. Delete Leaves With a Given Value       | https://leetcode.com/problems/delete-leaves-with-a-given-value/        |      |    ***     |
-| Medium | 235. Lowest Common Ancestor of a Binary Tree | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/ |      |    ***     |
+| Level | Name                              | Link                                                        | Done | Repeatable |
+|:-----:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
+| Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ | Done |     *      |
+| Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           | Done |    ***     |
+| Easy  | 100. Same Tree                    | https://leetcode.com/problems/same-tree/                    | Done |     *      |
+| Easy  | 101. Symmetric Tree               | https://leetcode.com/problems/symmetric-tree/               | Done |    ***     |
+| Easy  | 112. Path Sum                     | https://leetcode.com/problems/path-sum/                     | Done |     *      |
 
 ---
 

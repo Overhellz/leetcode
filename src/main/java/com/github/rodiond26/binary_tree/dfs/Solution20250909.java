@@ -5,37 +5,6 @@ import com.github.rodiond26.binary_tree.TreeNode;
 public class Solution20250909 {
 }
 
-class Solution112 {
-    public boolean hasPathSum(TreeNode root, int targetSum) {
-        if (root == null) {
-            return false;
-        }
-        if (root.left == null && root.right == null) {
-            return root.val == targetSum;
-        }
-        return hasPathSum(root.left, targetSum - root.val)
-                || hasPathSum(root.right, targetSum - root.val);
-    }
-}
-
-class Solution100 {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-        if (p == null && q == null) {
-            return true;
-        }
-        if (p != null && q == null) {
-            return false;
-        }
-        if (p == null && q != null) {
-            return false;
-        }
-        if (p.val == q.val) {
-            return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
-        }
-        return false;
-    }
-}
-
 class Solution543 {
     int result = 0;
 
