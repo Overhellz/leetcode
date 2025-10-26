@@ -1,11 +1,6 @@
-package com.github.rodiond26.binary_tree.dfs;
+package com.github.rodiond26.stage_2.neetcode.binary_tree;
 
-import com.github.rodiond26.binary_tree.TreeNode;
-
-public class Solution20250919 {
-}
-
-class Solution1325 {
+public class Solution1325 {
     public TreeNode removeLeafNodes(TreeNode root, int target) {
         if (root == null) {
             return null;

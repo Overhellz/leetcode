@@ -10,37 +10,6 @@ import java.util.List;
 public class Solution20250919 {
 }
 
-class Solution102 {
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> resultList = new ArrayList<>();
-        if (root == null) {
-            return resultList;
-        }
-
-        Deque<TreeNode> deque = new ArrayDeque<>();
-        deque.push(root);
-
-        while (!deque.isEmpty()) {
-            int levelSize = deque.size();
-            List<Integer> levelList = new ArrayList<>();
-
-            for (int i = 0; i < levelSize; i++) {
-                TreeNode node = deque.removeFirst();
-                levelList.add(node.val);
-                if (node.left != null) {
-                    deque.addLast(node.left);
-                }
-                if (node.right != null) {
-                    deque.addLast(node.right);
-                }
-            }
-
-            resultList.add(levelList);
-        }
-
-        return resultList;
-    }
-}
 
 class Solution515 {
     public List<Integer> largestValues(TreeNode root) {
