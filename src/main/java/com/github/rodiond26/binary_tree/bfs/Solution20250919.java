@@ -1,76 +1,9 @@
 package com.github.rodiond26.binary_tree.bfs;
 
-import com.github.rodiond26.binary_tree.TreeNode;
-
 import java.util.ArrayDeque;
-import java.util.ArrayList;
 import java.util.Deque;
-import java.util.List;
 
 public class Solution20250919 {
-}
-
-
-class Solution515 {
-    public List<Integer> largestValues(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        if (root == null) {
-            return result;
-        }
-
-        Deque<TreeNode> deque = new ArrayDeque<>();
-        deque.push(root);
-
-        while (!deque.isEmpty()) {
-            int levelSize = deque.size();
-            List<Integer> levelList = new ArrayList<>();
-            int max = deque.peekFirst().val;
-
-            for (int i = 0; i < levelSize; i++) {
-                TreeNode node = deque.removeFirst();
-                max = Math.max(max, node.val);
-
-                levelList.add(node.val);
-                if (node.left != null) {
-                    deque.addLast(node.left);
-                }
-                if (node.right != null) {
-                    deque.addLast(node.right);
-                }
-            }
-            result.add(max);
-        }
-        return result;
-    }
-}
-
-class Solution199 {
-    public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        if (root == null) {
-            return result;
-        }
-
-        Deque<TreeNode> deque = new ArrayDeque<>();
-        deque.push(root);
-
-        while (!deque.isEmpty()) {
-            int levelSize = deque.size();
-            for (int i = 0; i < levelSize; i++) {
-                TreeNode node = deque.removeFirst();
-                if (i == levelSize - 1) {
-                    result.add(node.val);
-                }
-                if (node.left != null) {
-                    deque.addLast(node.left);
-                }
-                if (node.right != null) {
-                    deque.addLast(node.right);
-                }
-            }
-        }
-        return result;
-    }
 }
 
 class Solution117 {

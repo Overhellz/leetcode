@@ -1,13 +1,13 @@
-package com.github.rodiond26.stage_2.neetcode.binary_tree;
+package com.github.rodiond26.stage_2.ten.p9_binary_tree_bfs;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-public class Solution102 {
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> result = new ArrayList<>();
+public class Solution515 {
+    public List<Integer> largestValues(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
         if (root == null) {
             return result;
         }
@@ -17,12 +17,10 @@ public class Solution102 {
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            List<Integer> list = new ArrayList<>();
-
+            int max = Integer.MIN_VALUE;
             for (int i = 0; i < size; i++) {
                 TreeNode current = queue.poll();
-                list.add(current.val);
-
+                max = Math.max(max, current.val);
                 if (current.left != null) {
                     queue.add(current.left);
                 }
@@ -30,9 +28,8 @@ public class Solution102 {
                     queue.add(current.right);
                 }
             }
-            result.add(list);
+            result.add(max);
         }
-
         return result;
     }
 }
