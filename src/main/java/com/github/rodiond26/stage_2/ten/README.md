@@ -211,8 +211,8 @@ def dfs(node):
 |:------:|:--------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
 |  Easy  | 700. Search in a Binary Search Tree   | https://leetcode.com/problems/search-in-a-binary-search-tree/   | Done |     *      |
 | Medium | 701. Insert into a Binary Search Tree | https://leetcode.com/problems/insert-into-a-binary-search-tree/ | Done |     *      |
+| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      | Done |     *      |
 |  Easy  | 110. Balanced Binary Tree             | https://leetcode.com/problems/balanced-binary-tree/             | Done |     *      |
-| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      |      |            |
 
 ---
 
@@ -476,15 +476,15 @@ https://leetcode.com/explore/learn/
 | #  | Lecture                     | Watched | Exercises |  
 |:--:|:----------------------------|:-------:|:---------:| 
 | 0  | Big O                       |         |           |         
-| 1  | Two Pointers                |         |           |          
-| 2  | Sliding Window              |         |           |         
-| 3  | Linked List                 |         |           |        
-| 4  | Hash Map                    |         |           |       
+| 1  | Two Pointers                |  Done   |   Done    |          
+| 2  | Sliding Window              |  Done   |   Done    |         
+| 3  | Linked List                 |  Done   |   Done    |        
+| 4  | Hash Map                    |    .    |     .     |       
 | 5  | LRU                         |         |           |       
 | 6  | Stack, Queue                |         |           |      
-| 7  | Binary Tree, DFS            |         |           |       
-| 8  | Binary Search Tree          |         |           |       
-| 9  | Binary Tree, BFS            |         |           |       
+| 7  | Binary Tree, DFS            |  Done   |   Done    |       
+| 8  | Binary Search Tree          |  Done   |   Done    |       
+| 9  | Binary Tree, BFS            |    .    |     .     |       
 | 10 | Trie, Autocomplete          |         |           |       
 | 11 | Heap. Part 1                |         |           |       
 | 12 | Heap. Part 2                |         |           |       
