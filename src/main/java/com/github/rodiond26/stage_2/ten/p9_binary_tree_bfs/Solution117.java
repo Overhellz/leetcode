@@ -1,13 +1,11 @@
-package com.github.rodiond26.binary_tree.bfs;
+package com.github.rodiond26.stage_2.ten.p9_binary_tree_bfs;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class Solution20250919 {
-}
-
-class Solution117 {
+public class Solution117 {
     public Node connect(Node root) {
+
         if (root == null) {
             return null;
         }

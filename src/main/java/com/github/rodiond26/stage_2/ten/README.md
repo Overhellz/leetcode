@@ -250,12 +250,12 @@ return
 | Medium | 102. Binary Tree Level Order Traversal              | https://leetcode.com/problems/binary-tree-level-order-traversal/              | Done |     *      |
 | Medium | 515. Find Largest Value in Each Tree Row            | https://leetcode.com/problems/find-largest-value-in-each-tree-row/            | Done |            |
 | Medium | 199. Binary Tree Right Side View                    | https://leetcode.com/problems/binary-tree-right-side-view/                    | Done |            |
-| Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ |      |            |
+| Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ |  *   |            |
 | Medium | 236. Lowest Common Ancestor of a Binary Tree        | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/        | Done |    ***     |
 | Medium | 1325. Delete Leaves With a Given Value              | https://leetcode.com/problems/delete-leaves-with-a-given-value/               | Done |    ***     |
 | Medium | 1302. Deepest Leaves Sum                            | https://leetcode.com/problems/deepest-leaves-sum/                             | Done |            |
 |  Easy  | 543. Diameter of Binary Tree                        | https://leetcode.com/problems/diameter-of-binary-tree/                        | Done |     *      |
-| Medium | 103. Binary Tree Zigzag Level Order Traversal       | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/       |      |            |
+| Medium | 103. Binary Tree Zigzag Level Order Traversal       | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/       |  *   |            |
 
 ---
 

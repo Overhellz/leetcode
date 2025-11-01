@@ -1,4 +1,4 @@
-package com.github.rodiond26.stage_2.neetcode.binary_tree;
+package com.github.rodiond26.stage_2.ten.p9_binary_tree_bfs;
 
 public class Solution1325 {
     public TreeNode removeLeafNodes(TreeNode root, int target) {

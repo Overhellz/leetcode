@@ -73,12 +73,12 @@ Except Ten and Premium
 | Level  | Name                                                           | Link                                                                                     | Done | Repeatable |
 |:------:|:---------------------------------------------------------------|:-----------------------------------------------------------------------------------------|:----:|:----------:|
 |  Easy  | 572. Subtree of Another Tree                                   | https://leetcode.com/problems/subtree-of-another-tree/                                   | Done |     *      |
-| Medium | 235. Lowest Common Ancestor of a Binary Tree                   | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/                   |      |    ***     |
+| Medium | 235. Lowest Common Ancestor of a Binary Search Tree            | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/                   |  *   |    ***     |
 | Medium | 1448. Count Good Nodes in Binary Tree                          | https://leetcode.com/problems/count-good-nodes-in-binary-tree/                           | Done |     *      |
 | Medium | 230. Kth Smallest Element in a BST                             | https://leetcode.com/problems/kth-smallest-element-in-a-bst/                             | Done |     *      |
-| Medium | 105. Construct Binary Tree from Preorder and Inorder Traversal | https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ |      |            |
+| Medium | 105. Construct Binary Tree from Preorder and Inorder Traversal | https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ |  *   |            |
 |  Hard  | 124. Binary Tree Maximum Path Sum                              | https://leetcode.com/problems/binary-tree-maximum-path-sum/                              | Done |     *      |
-|  Hard  | 297. Serialize and Deserialize Binary Tree                     | https://leetcode.com/problems/serialize-and-deserialize-binary-tree/                     |      |            |
+|  Hard  | 297. Serialize and Deserialize Binary Tree                     | https://leetcode.com/problems/serialize-and-deserialize-binary-tree/                     |  *   |            |
 
 ---
 

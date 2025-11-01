@@ -1,17 +1,13 @@
-package com.github.rodiond26.binary_tree.dfs;
+package com.github.rodiond26.stage_2.ten.p9_binary_tree_bfs;
 
-import com.github.rodiond26.binary_tree.TreeNode;
+public class Solution236 {
 
-public class Solution20250920 {
-}
-
-class Solution236 {
+    // ближайший общий предок для p и q
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
             return null;
         }
-
-        if (root.val == p.val || root.val == q.val) {
+        if (root == p || root == q) {
             return root;
         }
 

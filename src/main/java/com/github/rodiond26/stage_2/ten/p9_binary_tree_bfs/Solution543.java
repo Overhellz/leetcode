@@ -1,7 +1,6 @@
-package com.github.rodiond26.stage_2.neetcode.binary_tree;
+package com.github.rodiond26.stage_2.ten.p9_binary_tree_bfs;
 
 public class Solution543 {
-
     int result = 0;
 
     public int diameterOfBinaryTree(TreeNode root) {
