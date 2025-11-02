@@ -86,8 +86,8 @@ Except Ten and Premium
 
 | Level  | Name                                      | Link                                                                | Done | Repeatable |
 |:------:|:------------------------------------------|:--------------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 704. Binary Search                        | https://leetcode.com/problems/binary-search/                        |      |            |
-| Medium | 74. Search a 2D Matrix                    | https://leetcode.com/problems/search-a-2d-matrix/                   |      |            |
+|  Easy  | 704. Binary Search                        | https://leetcode.com/problems/binary-search/                        | Done |    ***     |
+| Medium | 74. Search a 2D Matrix                    | https://leetcode.com/problems/search-a-2d-matrix/                   |  .   |            |
 | Medium | 875. Koko Eating Bananas                  | https://leetcode.com/problems/koko-eating-bananas/                  |      |            |
 | Medium | 153. Find Minimum in Rotated Sorted Array | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ |      |            |
 | Medium | 33. Search in Rotated Sorted Array        | https://leetcode.com/problems/search-in-rotated-sorted-array/       |      |            |
