@@ -189,17 +189,13 @@ def dfs(node):
     return
 ```
 
-| Level  | Name                                         | Link                                                                   | Done | Repeatable |
-|:------:|:---------------------------------------------|:-----------------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 104. Maximum Depth of Binary Tree            | https://leetcode.com/problems/maximum-depth-of-binary-tree/            | Done |     *      |
-|  Easy  | 226. Invert Binary Tree                      | https://leetcode.com/problems/invert-binary-tree/                      | Done |     *      |
-|  Easy  | 101. Symmetric Tree                          | https://leetcode.com/problems/symmetric-tree/                          | Done |     *      |
-|  Easy  | 112. Path Sum                                | https://leetcode.com/problems/path-sum/                                | Done |     *      |
-|  Easy  | 100. Same Tree                               | https://leetcode.com/problems/same-tree/                               | Done |     *      |
-|  Easy  | 543. Diameter of Binary Tree                 | https://leetcode.com/problems/diameter-of-binary-tree/                 | Done |     *      |
-|  Easy  | 572. Subtree of Another Tree                 | https://leetcode.com/problems/subtree-of-another-tree/                 | Done |     *      |
-| Medium | 1325. Delete Leaves With a Given Value       | https://leetcode.com/problems/delete-leaves-with-a-given-value/        | Done |    ***     |
-| Medium | 236. Lowest Common Ancestor of a Binary Tree | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/ | Done |    ***     |
+| Level | Name                              | Link                                                        | Done | Repeatable |
+|:-----:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
+| Easy  | 104. Maximum Depth of Binary Tree | https://leetcode.com/problems/maximum-depth-of-binary-tree/ | Done |     *      |
+| Easy  | 226. Invert Binary Tree           | https://leetcode.com/problems/invert-binary-tree/           | Done |    ***     |
+| Easy  | 100. Same Tree                    | https://leetcode.com/problems/same-tree/                    | Done |     *      |
+| Easy  | 101. Symmetric Tree               | https://leetcode.com/problems/symmetric-tree/               | Done |    ***     |
+| Easy  | 112. Path Sum                     | https://leetcode.com/problems/path-sum/                     | Done |     *      |
 
 ---
 
@@ -215,8 +211,8 @@ def dfs(node):
 |:------:|:--------------------------------------|:----------------------------------------------------------------|:----:|:----------:|
 |  Easy  | 700. Search in a Binary Search Tree   | https://leetcode.com/problems/search-in-a-binary-search-tree/   | Done |     *      |
 | Medium | 701. Insert into a Binary Search Tree | https://leetcode.com/problems/insert-into-a-binary-search-tree/ | Done |     *      |
+| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      | Done |     *      |
 |  Easy  | 110. Balanced Binary Tree             | https://leetcode.com/problems/balanced-binary-tree/             | Done |     *      |
-| Medium | 98. Validate Binary Search Tree       | https://leetcode.com/problems/validate-binary-search-tree/      |      |            |
 
 ---
 
@@ -254,9 +250,12 @@ return
 | Medium | 102. Binary Tree Level Order Traversal              | https://leetcode.com/problems/binary-tree-level-order-traversal/              | Done |     *      |
 | Medium | 515. Find Largest Value in Each Tree Row            | https://leetcode.com/problems/find-largest-value-in-each-tree-row/            | Done |            |
 | Medium | 199. Binary Tree Right Side View                    | https://leetcode.com/problems/binary-tree-right-side-view/                    | Done |            |
-| Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ | Done |            |
-| Medium | 1302. Deepest Leaves Sum                            | https://leetcode.com/problems/deepest-leaves-sum/                             | TODO |            |
-| Medium | 103. Binary Tree Zigzag Level Order Traversal       | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/       | TODO |            |
+| Medium | 117. Populating Next Right Pointers in Each Node II | https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/ | Done |     *      |
+| Medium | 236. Lowest Common Ancestor of a Binary Tree        | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/        | Done |    ***     |
+| Medium | 1325. Delete Leaves With a Given Value              | https://leetcode.com/problems/delete-leaves-with-a-given-value/               | Done |    ***     |
+| Medium | 1302. Deepest Leaves Sum                            | https://leetcode.com/problems/deepest-leaves-sum/                             | Done |            |
+|  Easy  | 543. Diameter of Binary Tree                        | https://leetcode.com/problems/diameter-of-binary-tree/                        | Done |     *      |
+| Medium | 103. Binary Tree Zigzag Level Order Traversal       | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/       | Done |    ***     |
 
 ---
 
@@ -476,3 +475,30 @@ https://leetcode.com/explore/learn/
 - Top Interview 150 https://leetcode.com/studyplan/top-interview-150/
 
 ---
+
+| #  | Lecture                     | Watched | Exercises |  
+|:--:|:----------------------------|:-------:|:---------:| 
+| 0  | Big O                       |         |           |         
+| 1  | Two Pointers                |  Done   |   Done    |          
+| 2  | Sliding Window              |  Done   |   Done    |         
+| 3  | Linked List                 |  Done   |   Done    |        
+| 4  | Hash Map                    |    .    |     .     |       
+| 5  | LRU                         |         |           |       
+| 6  | Stack, Queue                |         |           |      
+| 7  | Binary Tree, DFS            |  Done   |   Done    |       
+| 8  | Binary Search Tree          |  Done   |   Done    |       
+| 9  | Binary Tree, BFS            |    .    |     .     |       
+| 10 | Trie, Autocomplete          |         |           |       
+| 11 | Heap. Part 1                |         |           |       
+| 12 | Heap. Part 2                |         |           |       
+| 13 | Intervals                   |         |           |       
+| 14 | Graph. Intro                |         |           |       
+| 15 | Graph. Part 1               |         |           |       
+| 16 | Graph. Part 2               |         |           |       
+| 17 | Dijkstra                    |         |           |       
+| 18 | Topological sort. Part 1    |         |           |       
+| 19 | Topological sort. Part 2    |         |           |       
+| 20 | Backtracking. Part 1        |         |           |       
+| 21 | Backtracking. Part 2        |         |           |       
+| 22 | Dynamic Programming. Part 1 |         |           |       
+| 23 | Dynamic Programming. Part 2 |         |           |       
