@@ -87,9 +87,18 @@ Except Ten and Premium
 | Level  | Name                                      | Link                                                                | Done | Repeatable |
 |:------:|:------------------------------------------|:--------------------------------------------------------------------|:----:|:----------:|
 |  Easy  | 704. Binary Search                        | https://leetcode.com/problems/binary-search/                        | Done |    ***     |
-| Medium | 74. Search a 2D Matrix                    | https://leetcode.com/problems/search-a-2d-matrix/                   |  .   |            |
+| Medium | 74. Search a 2D Matrix                    | https://leetcode.com/problems/search-a-2d-matrix/                   | Done |            |
 | Medium | 875. Koko Eating Bananas                  | https://leetcode.com/problems/koko-eating-bananas/                  |      |            |
 | Medium | 153. Find Minimum in Rotated Sorted Array | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ |      |            |
 | Medium | 33. Search in Rotated Sorted Array        | https://leetcode.com/problems/search-in-rotated-sorted-array/       |      |            |
 | Medium | 981. Time Based Key-Value Store           | https://leetcode.com/problems/time-based-key-value-store/           |      |            |
-|  Hard  | 4. Median of Two Sorted Arrays            | https://leetcode.com/problems/median-of-two-sorted-arrays/          |      |            |
+|  Hard  | 4. Median of Two Sorted Arrays            | https://leetcode.com/problems/median-of-two-sorted-arrays/          | Done |            |
+
+---
+
+# Trie
+
+| Level  | Name                                            | Link                                                                      | Done | Repeatable |
+|:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 211. Design Add and Search Words Data Structure | https://leetcode.com/problems/design-add-and-search-words-data-structure/ |      |            |
+| Medium | 212. Word Search II                             | https://leetcode.com/problems/word-search-ii/                             |      |            |
