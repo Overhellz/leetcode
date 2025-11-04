@@ -100,5 +100,5 @@ Except Ten and Premium
 
 | Level  | Name                                            | Link                                                                      | Done | Repeatable |
 |:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 211. Design Add and Search Words Data Structure | https://leetcode.com/problems/design-add-and-search-words-data-structure/ |      |            |
+| Medium | 211. Design Add and Search Words Data Structure | https://leetcode.com/problems/design-add-and-search-words-data-structure/ | Done |            |
 | Medium | 212. Word Search II                             | https://leetcode.com/problems/word-search-ii/                             |      |            |

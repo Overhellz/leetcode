@@ -267,8 +267,8 @@ return
 
 | Level  | Name                              | Link                                                      | Done | Repeatable |
 |:------:|:----------------------------------|:----------------------------------------------------------|:----:|:----------:|
-| Medium | 208. Implement Trie (Prefix Tree) | https://leetcode.com/problems/implement-trie-prefix-tree/ | Done |            |
-| Medium | 1268. Search Suggestions System   | https://leetcode.com/problems/search-suggestions-system/  | Done |            |
+| Medium | 208. Implement Trie (Prefix Tree) | https://leetcode.com/problems/implement-trie-prefix-tree/ | Done |     *      |
+| Medium | 1268. Search Suggestions System   | https://leetcode.com/problems/search-suggestions-system/  | Done |     *      |
 
 ---
 
