@@ -303,11 +303,11 @@ Priority Queue и Binary Heap
 
 | Level  | Name                                      | Link                                                               | Done | Repeatable |
 |:------:|:------------------------------------------|:-------------------------------------------------------------------|:----:|:----------:|
-|  Easy  | 1046. Last Stone Weight                   | https://leetcode.com/problems/last-stone-weight/                   |      |            |
-|  Hard  | 502. IPO                                  | https://leetcode.com/problems/ipo/                                 |      |            |
-|  Hard  | 295. Find Median from Data Stream         | https://leetcode.com/problems/find-median-from-data-stream/        |      |            |
-| Medium | 1962. Remove Stones to Minimize the Total | https://leetcode.com/problems/remove-stones-to-minimize-the-total/ |      |            |
-|  Hard  | 23. Merge k Sorted Lists                  | https://leetcode.com/problems/merge-k-sorted-lists/                |      |            |
+|  Easy  | 1046. Last Stone Weight                   | https://leetcode.com/problems/last-stone-weight/                   | Done |     *      |
+|  Hard  | 502. IPO                                  | https://leetcode.com/problems/ipo/                                 | Done |     *      |
+|  Hard  | 295. Find Median from Data Stream         | https://leetcode.com/problems/find-median-from-data-stream/        | Done |     *      |
+| Medium | 1962. Remove Stones to Minimize the Total | https://leetcode.com/problems/remove-stones-to-minimize-the-total/ | Done |            |
+|  Hard  | 23. Merge k Sorted Lists                  | https://leetcode.com/problems/merge-k-sorted-lists/                | Done |     *      |
 
 ---
 
@@ -484,7 +484,7 @@ https://leetcode.com/explore/learn/
 | 9  | Binary Tree, BFS            |  Done   |   Done    |       
 | 10 | Trie, Autocomplete          |  Done   |   Done    |       
 | 11 | Heap. Part 1                |    .    |   Done    |       
-| 12 | Heap. Part 2                |    .    |     .     |       
+| 12 | Heap. Part 2                |  Done   |   Done    |       
 | 13 | Intervals                   |         |           |       
 | -- | --------------------------- | ------- | --------- |       
 | 14 | Graph. Intro                |         |           |       
