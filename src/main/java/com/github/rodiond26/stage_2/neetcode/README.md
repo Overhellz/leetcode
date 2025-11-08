@@ -109,7 +109,7 @@ Except Ten and Premium
 
 | Level  | Name                            | Link                                                      | Done | Repeatable |
 |:------:|:--------------------------------|:----------------------------------------------------------|:----:|:----------:|
-| Medium | 973. K Closest Points to Origin | https://leetcode.com/problems/k-closest-points-to-origin/ |      |            |
+| Medium | 973. K Closest Points to Origin | https://leetcode.com/problems/k-closest-points-to-origin/ | Done |            |
 | Medium | 621. Task Scheduler             | https://leetcode.com/problems/task-scheduler/             |      |            |
 | Medium | 355. Design Twitter             | https://leetcode.com/problems/design-twitter/             |      |            |
 
