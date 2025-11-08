@@ -102,3 +102,15 @@ Except Ten and Premium
 |:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:----:|:----------:|
 | Medium | 211. Design Add and Search Words Data Structure | https://leetcode.com/problems/design-add-and-search-words-data-structure/ | Done |            |
 | Medium | 212. Word Search II                             | https://leetcode.com/problems/word-search-ii/                             |      |            |
+
+---
+
+# Heap
+
+| Level  | Name                            | Link                                                      | Done | Repeatable |
+|:------:|:--------------------------------|:----------------------------------------------------------|:----:|:----------:|
+| Medium | 973. K Closest Points to Origin | https://leetcode.com/problems/k-closest-points-to-origin/ |      |            |
+| Medium | 621. Task Scheduler             | https://leetcode.com/problems/task-scheduler/             |      |            |
+| Medium | 355. Design Twitter             | https://leetcode.com/problems/design-twitter/             |      |            |
+
+---

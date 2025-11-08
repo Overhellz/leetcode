@@ -199,7 +199,7 @@ def dfs(node):
 
 ---
 
-# 8. Binary Search Tree
+# 8. Binary Search Tree (Двоичное дерево поиска, BST)
 
 Алгоритм решения в общем случае:
 
@@ -259,7 +259,7 @@ return
 
 ---
 
-# 10. Trie, Autocomplete
+# 10. Trie, Autocomplete (Префиксное дерево)
 
 - Trie - префиксное дерево
 - Поиск происходит за O(N).
@@ -272,9 +272,11 @@ return
 
 ---
 
-# 11. Heap
+# 11. Heap (Куча, Двоичная куча, Очередь с приоритетом), part 1
 
 Priority Queue и Binary Heap
+
+- Binary Heap - это одна из реализаций Priority Queue - ментально представляем себе дерево, а на самом деле это массив.
 
 - Complete Binary Tree - пока не заполнен текущий этаж полностью, нельзя переходить на следующий этаж. Этаж должен
   заполняться слева направо.
@@ -290,20 +292,26 @@ Priority Queue и Binary Heap
 
 | Level  | Name                                 | Link                                                           | Done | Repeatable |
 |:------:|:-------------------------------------|:---------------------------------------------------------------|:----:|:----------:|
-| Medium | 215. Kth Largest Element in an Array | https://leetcode.com/problems/kth-largest-element-in-an-array/ | Done |     *      |
-|  Easy  | 703. Kth Largest Element in a Stream | https://leetcode.com/problems/kth-largest-element-in-a-stream/ | Done |            |
-| Medium | 347. Top K Frequent Elements         | https://leetcode.com/problems/top-k-frequent-elements/         | Done |            |
-| Medium | 451. Sort Characters By Frequency    | https://leetcode.com/problems/sort-characters-by-frequency/    | Done |            |
-|  Easy  | 1046. Last Stone Weight              | https://leetcode.com/problems/last-stone-weight/               | Done |            |
-|  Hard  | 502. IPO                             | https://leetcode.com/problems/ipo/                             | TODO |            |
-|  Hard  | 295. Find Median from Data Stream    | https://leetcode.com/problems/find-median-from-data-stream/    | TODO |            |
-|        | 1962                                 |                                                                |      |            |
-|        | 23                                   |                                                                |      |            |
-|        | 642                                  |                                                                |      |            |
+| Medium | 215. Kth Largest Element in an Array | https://leetcode.com/problems/kth-largest-element-in-an-array/ |  *   |     *      |
+|  Easy  | 703. Kth Largest Element in a Stream | https://leetcode.com/problems/kth-largest-element-in-a-stream/ |  *   |     *      |
+| Medium | 347. Top K Frequent Elements         | https://leetcode.com/problems/top-k-frequent-elements/         |  *   |     *      |
+| Medium | 451. Sort Characters By Frequency    | https://leetcode.com/problems/sort-characters-by-frequency/    |  *   |     *      |
 
 ---
 
-# 12. Intervals
+# 11. Heap (Куча, Двоичная куча, Очередь с приоритетом), part 2
+
+| Level  | Name                                      | Link                                                               | Done | Repeatable |
+|:------:|:------------------------------------------|:-------------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 1046. Last Stone Weight                   | https://leetcode.com/problems/last-stone-weight/                   |      |            |
+|  Hard  | 502. IPO                                  | https://leetcode.com/problems/ipo/                                 |      |            |
+|  Hard  | 295. Find Median from Data Stream         | https://leetcode.com/problems/find-median-from-data-stream/        |      |            |
+| Medium | 1962. Remove Stones to Minimize the Total | https://leetcode.com/problems/remove-stones-to-minimize-the-total/ |      |            |
+|  Hard  | 23. Merge k Sorted Lists                  | https://leetcode.com/problems/merge-k-sorted-lists/                |      |            |
+
+---
+
+# 13. Intervals
 
 - Смотрим в хронологическом порядке.
 - Отсортировать по дате начала митинга.
@@ -317,7 +325,7 @@ Priority Queue и Binary Heap
 
 ---
 
-# 13. Graph
+# 14. Graph
 
 Структура графа:
 
@@ -360,7 +368,7 @@ BFS:
 
 | Level  | Name                                                         | Link                                                                                  | Done | Repeatable |
 |:------:|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 752. Open the Lock                                           | https://leetcode.com/problems/open-the-lock/description/                              |      |            |
+| Medium | 752. Open the Lock                                           | https://leetcode.com/problems/open-the-lock/                                          |      |            |
 | Medium | 433. Minimum Genetic Mutation                                | https://leetcode.com/problems/minimum-genetic-mutation/                               |      |            |
 | Medium | 994. Rotting Oranges                                         | https://leetcode.com/problems/rotting-oranges/                                        |      |            |
 | Medium | 2101. Detonate the Maximum Bombs                             | https://leetcode.com/problems/detonate-the-maximum-bombs/                             |      |            |
@@ -383,17 +391,17 @@ BFS:
 
 ---
 
-# 13 - Dijkstra
+# 17. Dijkstra
 
 Поиск кратчайшего пути
 
 ---
 
-# 14 - Topological sort
+# 18. Topological sort
 
 ---
 
-# 15 - Backtracking
+# 20. Backtracking
 
 46
 77
@@ -401,7 +409,7 @@ BFS:
 
 ---
 
-# 16 - Dynamic Programming
+# 16. Dynamic Programming
 
 Dynamic Programming
 
@@ -437,22 +445,6 @@ Dynamic Programming
 |:-----:|:-------------|:----------------------------------------|:----------:|
 | Easy  | 66. Plus One | https://leetcode.com/problems/plus-one/ |            |
 
-# 16 Graphs
-
-Introduction to the A* Algorithm from Red Blob Games:
-https://www.redblobgames.com/pathfinding/a-star/introduction.html
-
-Taxicab geometry:
-https://en.wikipedia.org/wiki/Taxicab_geometry
-
-Computer Scientists Establish the Best Way to Traverse a Graph:
-https://www.quantamagazine.org/computer-scientists-establish-the-best-way-to-traverse-a-graph-20241025/
-
-# 18 Topological sort
-
-A Gentle Introduction to Graph Neural Networks:
-https://distill.pub/2021/gnn-intro/
-
 ___
 
 # Etc
@@ -479,19 +471,22 @@ https://leetcode.com/explore/learn/
 | #  | Lecture                     | Watched | Exercises |  
 |:--:|:----------------------------|:-------:|:---------:| 
 | 0  | Big O                       |         |           |         
+| -- | --------------------------- | ------- | --------- |       
 | 1  | Two Pointers                |  Done   |   Done    |          
 | 2  | Sliding Window              |  Done   |   Done    |         
 | 3  | Linked List                 |  Done   |   Done    |        
 | 4  | Hash Map                    |    .    |     .     |       
 | 5  | LRU                         |         |           |       
 | 6  | Stack, Queue                |         |           |      
+| -- | --------------------------- | ------- | --------- |       
 | 7  | Binary Tree, DFS            |  Done   |   Done    |       
 | 8  | Binary Search Tree          |  Done   |   Done    |       
-| 9  | Binary Tree, BFS            |    .    |     .     |       
-| 10 | Trie, Autocomplete          |         |           |       
-| 11 | Heap. Part 1                |         |           |       
-| 12 | Heap. Part 2                |         |           |       
+| 9  | Binary Tree, BFS            |  Done   |   Done    |       
+| 10 | Trie, Autocomplete          |  Done   |   Done    |       
+| 11 | Heap. Part 1                |    .    |   Done    |       
+| 12 | Heap. Part 2                |    .    |     .     |       
 | 13 | Intervals                   |         |           |       
+| -- | --------------------------- | ------- | --------- |       
 | 14 | Graph. Intro                |         |           |       
 | 15 | Graph. Part 1               |         |           |       
 | 16 | Graph. Part 2               |         |           |       
