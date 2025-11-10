@@ -319,9 +319,8 @@ Priority Queue и Binary Heap
 
 | Level  | Name                | Link                                           | Done | Repeatable |
 |:------:|:--------------------|:-----------------------------------------------|:----:|:----------:|
-| Medium | 56. Merge Intervals | https://leetcode.com/problems/merge-intervals/ | Done |            |
-| Medium | 57. Insert Interval | https://leetcode.com/problems/insert-interval/ | TODO |            |
-|        |                     |                                                |      |            |
+| Medium | 56. Merge Intervals | https://leetcode.com/problems/merge-intervals/ | Done |     *      |
+| Medium | 57. Insert Interval | https://leetcode.com/problems/insert-interval/ | Done |     *      |
 
 ---
 
@@ -485,7 +484,7 @@ https://leetcode.com/explore/learn/
 | 10 | Trie, Autocomplete          |  Done   |   Done    |       
 | 11 | Heap. Part 1                |    .    |   Done    |       
 | 12 | Heap. Part 2                |  Done   |   Done    |       
-| 13 | Intervals                   |         |           |       
+| 13 | Intervals                   |  Done   |   Done    |       
 | -- | --------------------------- | ------- | --------- |       
 | 14 | Graph. Intro                |         |           |       
 | 15 | Graph. Part 1               |         |           |       
