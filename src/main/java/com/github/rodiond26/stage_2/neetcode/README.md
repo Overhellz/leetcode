@@ -46,7 +46,6 @@ Except Ten and Premium
 |:------:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
 |  Easy  | 217. Contains Duplicate           | https://leetcode.com/problems/contains-duplicate/           | Done |            |
 |  Easy  | 242. Valid Anagram                | https://leetcode.com/problems/valid-anagram/                | Done |            |
-|  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      | Done |            |
 | Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               | Done |            |
 | Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      | Done |     *      |
 | Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | Done |     *      |
