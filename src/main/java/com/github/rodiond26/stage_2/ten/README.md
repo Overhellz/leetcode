@@ -19,6 +19,10 @@ Big O - это оценка алгоритма при худшем случае.
 
 * Big O Cheatsheet https://www.bigocheatsheet.com/
 
+| Level | Name       | Link                                   | Status | Repeatable |
+|:-----:|:-----------|:---------------------------------------|:------:|:----------:|
+| Easy  | 1. Two Sum | https://leetcode.com/problems/two-sum/ |  Done  |            |
+
 ---
 
 # 1. Two Pointers (Два указателя)
@@ -322,6 +326,13 @@ Priority Queue и Binary Heap
 | Medium | 56. Merge Intervals | https://leetcode.com/problems/merge-intervals/ | Done |     *      |
 | Medium | 57. Insert Interval | https://leetcode.com/problems/insert-interval/ | Done |     *      |
 
+# 13. Intervals
+
+| Level  | Name                | Link                                           | Status | Repeatable |
+|:------:|:--------------------|:-----------------------------------------------|:------:|:----------:|
+| Medium | 56. Merge Intervals | https://leetcode.com/problems/merge-intervals/ |        |            |
+| Medium | 57. Insert Interval | https://leetcode.com/problems/insert-interval/ |        |            |
+
 ---
 
 # 14. Graph
@@ -436,57 +447,26 @@ Dynamic Programming
 
 ---
 
-# 0 Big O
-
-Задачи:
-
-| Level | Name         | Link                                    | Repeatable |
-|:-----:|:-------------|:----------------------------------------|:----------:|
-| Easy  | 66. Plus One | https://leetcode.com/problems/plus-one/ |            |
-
-___
-
-# Etc
-
-https://leetcode.com/explore/learn/
-
-* Code Visualizer https://pythontutor.com/java.html#mode=edit
-* LRU Cache Visualizer https://lrucache.netlify.app/
-* Trie (Prefix Tree) Visualizer https://www.cs.usfca.edu/~galles/visualization/Trie.html
-* Exercises https://exercism.org/tracks/java
-
-## LeetCode Problem books
-
-- LeetCode 75 https://leetcode.com/studyplan/leetcode-75/
-- NeetCode 150 https://leetcode.com/problem-list/rr2ss0g5/
-- Grind 75 https://leetcode.com/problem-list/rab78cw1/
-- Grind 169 https://leetcode.com/problem-list/rabvlt31/
-- Blind 75 https://leetcode.com/problem-list/oizxjoit/
-- Top 100 Liked https://leetcode.com/studyplan/top-100-liked/
-- Top Interview 150 https://leetcode.com/studyplan/top-interview-150/
-
----
-
 | #  | Lecture                     | Watched | Exercises |  
 |:--:|:----------------------------|:-------:|:---------:| 
-| 0  | Big O                       |         |           |         
-| -- | --------------------------- | ------- | --------- |       
+| 0  | Big O                       |  Done   |   Done    |         
+|    |                             |         |           |       
 | 1  | Two Pointers                |  Done   |   Done    |          
 | 2  | Sliding Window              |  Done   |   Done    |         
 | 3  | Linked List                 |  Done   |   Done    |        
-| 4  | Hash Map                    |    .    |     .     |       
-| 5  | LRU                         |         |           |       
-| 6  | Stack, Queue                |         |           |      
-| -- | --------------------------- | ------- | --------- |       
+| 4  | Hash Map                    |  Done   |   Done    |       
+| 5  | LRU                         |  Done   |   Done    |       
+| 6  | Stack, Queue                |  Done   |   Done    |      
+|    |                             |         |           |       
 | 7  | Binary Tree, DFS            |  Done   |   Done    |       
 | 8  | Binary Search Tree          |  Done   |   Done    |       
 | 9  | Binary Tree, BFS            |  Done   |   Done    |       
 | 10 | Trie, Autocomplete          |  Done   |   Done    |       
 | 11 | Heap. Part 1                |    .    |   Done    |       
 | 12 | Heap. Part 2                |  Done   |   Done    |       
-| 13 | Intervals                   |  Done   |   Done    |       
-| -- | --------------------------- | ------- | --------- |       
-| 14 | Graph. Intro                |         |           |       
+| 13 | Intervals                   |  Done   |     .     |       
+|    |                             |         |           |       
+| 14 | Graph. Intro                |    .    |     .     |       
 | 15 | Graph. Part 1               |         |           |       
 | 16 | Graph. Part 2               |         |           |       
 | 17 | Dijkstra                    |         |           |       
