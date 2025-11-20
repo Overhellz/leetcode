@@ -303,7 +303,7 @@ Priority Queue и Binary Heap
 
 ---
 
-# 11. Heap (Куча, Двоичная куча, Очередь с приоритетом), part 2
+# 12. Heap (Куча, Двоичная куча, Очередь с приоритетом), part 2
 
 | Level  | Name                                      | Link                                                               | Done | Repeatable |
 |:------:|:------------------------------------------|:-------------------------------------------------------------------|:----:|:----------:|
@@ -326,16 +326,9 @@ Priority Queue и Binary Heap
 | Medium | 56. Merge Intervals | https://leetcode.com/problems/merge-intervals/ | Done |     *      |
 | Medium | 57. Insert Interval | https://leetcode.com/problems/insert-interval/ | Done |     *      |
 
-# 13. Intervals
-
-| Level  | Name                | Link                                           | Status | Repeatable |
-|:------:|:--------------------|:-----------------------------------------------|:------:|:----------:|
-| Medium | 56. Merge Intervals | https://leetcode.com/problems/merge-intervals/ |        |            |
-| Medium | 57. Insert Interval | https://leetcode.com/problems/insert-interval/ |        |            |
-
 ---
 
-# 14. Graph
+# 14. Graph, intro
 
 Структура графа:
 
@@ -376,18 +369,33 @@ BFS:
 - поиск кратчайшего пути
 - открыть замок с помощью комбинаций
 
+| Level  | Name                                                | Link                                                                         | Done | Repeatable |
+|:------:|:----------------------------------------------------|:-----------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 841. Keys and Rooms                                 | https://leetcode.com/problems/keys-and-rooms/                                | Done |     *      |
+| Medium | 1971. Find if Path Exists in Graph                  | https://leetcode.com/problems/find-if-path-exists-in-graph/                  | Done |     *      |
+| Medium | 133. Clone Graph                                    | https://leetcode.com/problems/clone-graph/                                   | Done |     *      |
+| Medium | 1557. Minimum Number of Vertices to Reach All Nodes | https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/ | Done |     *      |
+
+---
+
+# 15. Graph, part 1
+
+| Level  | Name                     | Link                                               | Done | Repeatable |
+|:------:|:-------------------------|:---------------------------------------------------|:----:|:----------:|
+| Medium | 547. Number of Provinces | https://leetcode.com/problems/number-of-provinces/ | Done |     *      |
+| Medium | 200. Number of Islands   | https://leetcode.com/problems/number-of-islands/   |      |            |
+
+---
+
+# 16. Graph, part 2
+
+752
+433
+994
+2101
+
 | Level  | Name                                                         | Link                                                                                  | Done | Repeatable |
 |:------:|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 752. Open the Lock                                           | https://leetcode.com/problems/open-the-lock/                                          |      |            |
-| Medium | 433. Minimum Genetic Mutation                                | https://leetcode.com/problems/minimum-genetic-mutation/                               |      |            |
-| Medium | 994. Rotting Oranges                                         | https://leetcode.com/problems/rotting-oranges/                                        |      |            |
-| Medium | 2101. Detonate the Maximum Bombs                             | https://leetcode.com/problems/detonate-the-maximum-bombs/                             |      |            |
-| Medium | 841. Keys and Rooms                                          | https://leetcode.com/problems/keys-and-rooms/                                         | Done |     *      |
-|  Easy  | 1971. Find if Path Exists in Graph                           | https://leetcode.com/problems/find-if-path-exists-in-graph/                           | Done |            |
-| Medium | 133. Clone Graph                                             | https://leetcode.com/problems/clone-graph/                                            | TODO |            |
-| Medium | 1557. Minimum Number of Vertices to Reach All Nodes          | https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/          | Done |            |
-| Medium | 547. Number of Provinces                                     | https://leetcode.com/problems/number-of-provinces/                                    | TODO |            |
-| Medium | 200. Number of Islands                                       | https://leetcode.com/problems/number-of-islands/                                      | Done |            |
 | Medium | 1466. Reorder Routes to Make All Paths Lead to the City Zero | https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/ | TODO |            |
 | Medium | 695. Max Area of Island                                      | https://leetcode.com/problems/max-area-of-island/                                     | TODO |            |
 | Medium | 2368. Reachable Nodes With Restrictions                      | https://leetcode.com/problems/reachable-nodes-with-restrictions/                      | TODO |            |
@@ -447,32 +455,32 @@ Dynamic Programming
 
 ---
 
-| #  | Lecture                     | Watched | Exercises |  
-|:--:|:----------------------------|:-------:|:---------:| 
-| 0  | Big O                       |  Done   |   Done    |         
-|    |                             |         |           |       
-| 1  | Two Pointers                |  Done   |   Done    |          
-| 2  | Sliding Window              |  Done   |   Done    |         
-| 3  | Linked List                 |  Done   |   Done    |        
-| 4  | Hash Map                    |  Done   |   Done    |       
-| 5  | LRU                         |  Done   |   Done    |       
-| 6  | Stack, Queue                |  Done   |   Done    |      
-|    |                             |         |           |       
-| 7  | Binary Tree, DFS            |  Done   |   Done    |       
-| 8  | Binary Search Tree          |  Done   |   Done    |       
-| 9  | Binary Tree, BFS            |  Done   |   Done    |       
-| 10 | Trie, Autocomplete          |  Done   |   Done    |       
-| 11 | Heap. Part 1                |    .    |   Done    |       
-| 12 | Heap. Part 2                |  Done   |   Done    |       
-| 13 | Intervals                   |  Done   |     .     |       
-|    |                             |         |           |       
-| 14 | Graph. Intro                |    .    |     .     |       
-| 15 | Graph. Part 1               |         |           |       
-| 16 | Graph. Part 2               |         |           |       
-| 17 | Dijkstra                    |         |           |       
-| 18 | Topological sort. Part 1    |         |           |       
-| 19 | Topological sort. Part 2    |         |           |       
-| 20 | Backtracking. Part 1        |         |           |       
-| 21 | Backtracking. Part 2        |         |           |       
-| 22 | Dynamic Programming. Part 1 |         |           |       
-| 23 | Dynamic Programming. Part 2 |         |           |       
+| #  | Lecture                     | Theory | Exercises |  
+|:--:|:----------------------------|:------:|:---------:| 
+| 0  | Big O                       |  Done  |   Done    |         
+|    |                             |        |           |       
+| 1  | Two Pointers                |  Done  |   Done    |          
+| 2  | Sliding Window              |  Done  |   Done    |         
+| 3  | Linked List                 |  Done  |   Done    |        
+| 4  | Hash Map                    |  Done  |   Done    |       
+| 5  | LRU                         |  Done  |   Done    |       
+| 6  | Stack, Queue                |  Done  |   Done    |      
+|    |                             |        |           |       
+| 7  | Binary Tree, DFS            |  Done  |   Done    |       
+| 8  | Binary Search Tree          |  Done  |   Done    |       
+| 9  | Binary Tree, BFS            |  Done  |   Done    |       
+| 10 | Trie, Autocomplete          |  Done  |   Done    |       
+| 11 | Heap. Part 1                |   .    |   Done    |       
+| 12 | Heap. Part 2                |  Done  |   Done    |       
+| 13 | Intervals                   |  Done  |     .     |       
+|    |                             |        |           |       
+| 14 | Graph. Intro                |   .    |   Done    |       
+| 15 | Graph. Part 1               |   .    |     .     |       
+| 16 | Graph. Part 2               |        |           |       
+| 17 | Dijkstra                    |        |           |       
+| 18 | Topological sort. Part 1    |        |           |       
+| 19 | Topological sort. Part 2    |        |           |       
+| 20 | Backtracking. Part 1        |        |           |       
+| 21 | Backtracking. Part 2        |        |           |       
+| 22 | Dynamic Programming. Part 1 |        |           |       
+| 23 | Dynamic Programming. Part 2 |        |           |       
