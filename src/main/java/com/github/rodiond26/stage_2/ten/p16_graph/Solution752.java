@@ -1,52 +1,6 @@
-package com.github.rodiond26.graph;
+package com.github.rodiond26.stage_2.ten.p16_graph;
 
 import java.util.*;
-
-public class Solution20250928 {
-}
-
-class Solution_200_NumberOfIslands {
-    public int numIslands(char[][] grid) {
-        if (grid == null) {
-            return 0;
-        }
-
-        int length = grid.length;
-        int height = grid[0].length;
-        int num = 0;
-
-        for (int i = 0; i < length; i++) {
-            for (int j = 0; j < height; j++) {
-                if (grid[i][j] == '1') {
-                    num++;
-                    Queue<int[]> queue = new ArrayDeque<>();
-                    queue.add(new int[]{i, j});
-
-                    while (!queue.isEmpty()) {
-                        int[] coordinates = queue.poll();
-                        int x = coordinates[0];
-                        int y = coordinates[1];
-
-                        if (isValidCoordinates(x, y, length, height, grid)) {
-                            grid[x][y] = '0';
-                            queue.add(new int[]{x + 1, y});
-                            queue.add(new int[]{x - 1, y});
-                            queue.add(new int[]{x, y + 1});
-                            queue.add(new int[]{x, y - 1});
-                        }
-                    }
-                }
-            }
-        }
-        return num;
-    }
-
-    private boolean isValidCoordinates(int x, int y, int length, int height, char[][] grid) {
-        return x >= 0 && x < length &&
-                y >= 0 && y < height &&
-                grid[x][y] == '1';
-    }
-}
 
 class Solution752 {
     public int openLock(String[] deadends, String target) {

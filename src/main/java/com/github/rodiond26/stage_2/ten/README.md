@@ -396,12 +396,12 @@ BFS:
 | Level  | Name                                        | Link                                                                 | Done | Repeatable |
 |:------:|:--------------------------------------------|:---------------------------------------------------------------------|:----:|:----------:|
 | Medium | 1129. Shortest Path with Alternating Colors | https://leetcode.com/problems/shortest-path-with-alternating-colors/ | Done |     *      |  
-|        | 752                                         |                                                                      |      |            |
-|        | 433                                         |                                                                      |      |            |
-|        | 994                                         |                                                                      |      |            |
+| Medium | 1926. Nearest Exit from Entrance in Maze    | https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/    | Done |     *      |  
+| Medium | 1091. Shortest Path in Binary Matrix        | https://leetcode.com/problems/shortest-path-in-binary-matrix/        | Done |     *      |  
+| Medium | 752. Open the Lock                          | https://leetcode.com/problems/open-the-lock/                         | Done |     *      |
+| Medium | 433. Minimum Genetic Mutation               | https://leetcode.com/problems/minimum-genetic-mutation/              | TODO |     *      |
+| Medium | 994. Rotting Oranges                        | https://leetcode.com/problems/rotting-oranges/                       |  *   |     *      |
 |        | 2101                                        |                                                                      |      |            |
-|        | 994                                         |                                                                      |      |            |
-|        | 1129                                        |                                                                      |      |            |
 
 ---
 
