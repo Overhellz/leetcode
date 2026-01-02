@@ -46,7 +46,6 @@ Except Ten and Premium
 |:------:|:----------------------------------|:------------------------------------------------------------|:----:|:----------:|
 |  Easy  | 217. Contains Duplicate           | https://leetcode.com/problems/contains-duplicate/           | Done |            |
 |  Easy  | 242. Valid Anagram                | https://leetcode.com/problems/valid-anagram/                | Done |            |
-|  Easy  | 1. Two Sum                        | https://leetcode.com/problems/two-sum/                      | Done |            |
 | Medium | 49. Group Anagrams                | https://leetcode.com/problems/group-anagrams/               | Done |            |
 | Medium | 347. Top K Frequent Elements      | https://leetcode.com/problems/top-k-frequent-elements/      | Done |     *      |
 | Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | Done |     *      |
@@ -100,5 +99,38 @@ Except Ten and Premium
 
 | Level  | Name                                            | Link                                                                      | Done | Repeatable |
 |:------:|:------------------------------------------------|:--------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 211. Design Add and Search Words Data Structure | https://leetcode.com/problems/design-add-and-search-words-data-structure/ |      |            |
+| Medium | 211. Design Add and Search Words Data Structure | https://leetcode.com/problems/design-add-and-search-words-data-structure/ | Done |            |
 | Medium | 212. Word Search II                             | https://leetcode.com/problems/word-search-ii/                             |      |            |
+
+---
+
+# Heap
+
+| Level  | Name                            | Link                                                      | Done | Repeatable |
+|:------:|:--------------------------------|:----------------------------------------------------------|:----:|:----------:|
+| Medium | 973. K Closest Points to Origin | https://leetcode.com/problems/k-closest-points-to-origin/ | Done |            |
+| Medium | 621. Task Scheduler             | https://leetcode.com/problems/task-scheduler/             |      |            |
+| Medium | 355. Design Twitter             | https://leetcode.com/problems/design-twitter/             |      |            |
+
+---
+
+# Intervals
+
+| Level  | Name                                         | Link                                                                  | Done | Repeatable |
+|:------:|:---------------------------------------------|:----------------------------------------------------------------------|:----:|:----------:|
+| Medium | 435. Non-overlapping Intervals               | https://leetcode.com/problems/non-overlapping-intervals/              |      |            |
+|  Hard  | 1851. Minimum Interval to Include Each Query | https://leetcode.com/problems/minimum-interval-to-include-each-query/ |      |            |
+
+---
+
+# Graphs
+
+| Level  | Name                             | Link                                                       | Done | Repeatable |
+|:------:|:---------------------------------|:-----------------------------------------------------------|:----:|:----------:|
+| Medium | 994. Rotting Oranges             | https://leetcode.com/problems/rotting-oranges/             |      |            |
+| Medium | 417. Pacific Atlantic Water Flow | https://leetcode.com/problems/pacific-atlantic-water-flow/ |      |            |
+| Medium | 130. Surrounded Regions          | https://leetcode.com/problems/surrounded-regions/          |      |            |
+| Medium | 207. Course Schedule             | https://leetcode.com/problems/course-schedule/             |      |            |
+| Medium | 210. Course Schedule II          | https://leetcode.com/problems/course-schedule-ii/          |      |            |
+| Medium | 684. Redundant Connection        | https://leetcode.com/problems/redundant-connection/        |      |            |
+| Medium | 127. Word Ladder                 | https://leetcode.com/problems/word-ladder/                 |      |            |

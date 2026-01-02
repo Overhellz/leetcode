@@ -19,6 +19,10 @@ Big O - это оценка алгоритма при худшем случае.
 
 * Big O Cheatsheet https://www.bigocheatsheet.com/
 
+| Level | Name       | Link                                   | Status | Repeatable |
+|:-----:|:-----------|:---------------------------------------|:------:|:----------:|
+| Easy  | 1. Two Sum | https://leetcode.com/problems/two-sum/ |  Done  |            |
+
 ---
 
 # 1. Two Pointers (Два указателя)
@@ -199,7 +203,7 @@ def dfs(node):
 
 ---
 
-# 8. Binary Search Tree
+# 8. Binary Search Tree (Двоичное дерево поиска, BST)
 
 Алгоритм решения в общем случае:
 
@@ -259,7 +263,7 @@ return
 
 ---
 
-# 10. Trie, Autocomplete
+# 10. Trie, Autocomplete (Префиксное дерево)
 
 - Trie - префиксное дерево
 - Поиск происходит за O(N).
@@ -267,14 +271,16 @@ return
 
 | Level  | Name                              | Link                                                      | Done | Repeatable |
 |:------:|:----------------------------------|:----------------------------------------------------------|:----:|:----------:|
-| Medium | 208. Implement Trie (Prefix Tree) | https://leetcode.com/problems/implement-trie-prefix-tree/ | Done |            |
-| Medium | 1268. Search Suggestions System   | https://leetcode.com/problems/search-suggestions-system/  | Done |            |
+| Medium | 208. Implement Trie (Prefix Tree) | https://leetcode.com/problems/implement-trie-prefix-tree/ | Done |     *      |
+| Medium | 1268. Search Suggestions System   | https://leetcode.com/problems/search-suggestions-system/  | Done |     *      |
 
 ---
 
-# 11. Heap
+# 11. Heap (Куча, Двоичная куча, Очередь с приоритетом), part 1
 
 Priority Queue и Binary Heap
+
+- Binary Heap - это одна из реализаций Priority Queue - ментально представляем себе дерево, а на самом деле это массив.
 
 - Complete Binary Tree - пока не заполнен текущий этаж полностью, нельзя переходить на следующий этаж. Этаж должен
   заполняться слева направо.
@@ -290,20 +296,26 @@ Priority Queue и Binary Heap
 
 | Level  | Name                                 | Link                                                           | Done | Repeatable |
 |:------:|:-------------------------------------|:---------------------------------------------------------------|:----:|:----------:|
-| Medium | 215. Kth Largest Element in an Array | https://leetcode.com/problems/kth-largest-element-in-an-array/ | Done |     *      |
-|  Easy  | 703. Kth Largest Element in a Stream | https://leetcode.com/problems/kth-largest-element-in-a-stream/ | Done |            |
-| Medium | 347. Top K Frequent Elements         | https://leetcode.com/problems/top-k-frequent-elements/         | Done |            |
-| Medium | 451. Sort Characters By Frequency    | https://leetcode.com/problems/sort-characters-by-frequency/    | Done |            |
-|  Easy  | 1046. Last Stone Weight              | https://leetcode.com/problems/last-stone-weight/               | Done |            |
-|  Hard  | 502. IPO                             | https://leetcode.com/problems/ipo/                             | TODO |            |
-|  Hard  | 295. Find Median from Data Stream    | https://leetcode.com/problems/find-median-from-data-stream/    | TODO |            |
-|        | 1962                                 |                                                                |      |            |
-|        | 23                                   |                                                                |      |            |
-|        | 642                                  |                                                                |      |            |
+| Medium | 215. Kth Largest Element in an Array | https://leetcode.com/problems/kth-largest-element-in-an-array/ |  *   |     *      |
+|  Easy  | 703. Kth Largest Element in a Stream | https://leetcode.com/problems/kth-largest-element-in-a-stream/ |  *   |     *      |
+| Medium | 347. Top K Frequent Elements         | https://leetcode.com/problems/top-k-frequent-elements/         |  *   |     *      |
+| Medium | 451. Sort Characters By Frequency    | https://leetcode.com/problems/sort-characters-by-frequency/    |  *   |     *      |
 
 ---
 
-# 12. Intervals
+# 12. Heap (Куча, Двоичная куча, Очередь с приоритетом), part 2
+
+| Level  | Name                                      | Link                                                               | Done | Repeatable |
+|:------:|:------------------------------------------|:-------------------------------------------------------------------|:----:|:----------:|
+|  Easy  | 1046. Last Stone Weight                   | https://leetcode.com/problems/last-stone-weight/                   | Done |     *      |
+|  Hard  | 502. IPO                                  | https://leetcode.com/problems/ipo/                                 | Done |     *      |
+|  Hard  | 295. Find Median from Data Stream         | https://leetcode.com/problems/find-median-from-data-stream/        | Done |     *      |
+| Medium | 1962. Remove Stones to Minimize the Total | https://leetcode.com/problems/remove-stones-to-minimize-the-total/ | Done |            |
+|  Hard  | 23. Merge k Sorted Lists                  | https://leetcode.com/problems/merge-k-sorted-lists/                | Done |     *      |
+
+---
+
+# 13. Intervals
 
 - Смотрим в хронологическом порядке.
 - Отсортировать по дате начала митинга.
@@ -311,13 +323,12 @@ Priority Queue и Binary Heap
 
 | Level  | Name                | Link                                           | Done | Repeatable |
 |:------:|:--------------------|:-----------------------------------------------|:----:|:----------:|
-| Medium | 56. Merge Intervals | https://leetcode.com/problems/merge-intervals/ | Done |            |
-| Medium | 57. Insert Interval | https://leetcode.com/problems/insert-interval/ | TODO |            |
-|        |                     |                                                |      |            |
+| Medium | 56. Merge Intervals | https://leetcode.com/problems/merge-intervals/ | Done |     *      |
+| Medium | 57. Insert Interval | https://leetcode.com/problems/insert-interval/ | Done |     *      |
 
 ---
 
-# 13. Graph
+# 14. Graph, intro
 
 Структура графа:
 
@@ -358,50 +369,67 @@ BFS:
 - поиск кратчайшего пути
 - открыть замок с помощью комбинаций
 
-| Level  | Name                                                         | Link                                                                                  | Done | Repeatable |
-|:------:|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 752. Open the Lock                                           | https://leetcode.com/problems/open-the-lock/description/                              |      |            |
-| Medium | 433. Minimum Genetic Mutation                                | https://leetcode.com/problems/minimum-genetic-mutation/                               |      |            |
-| Medium | 994. Rotting Oranges                                         | https://leetcode.com/problems/rotting-oranges/                                        |      |            |
-| Medium | 2101. Detonate the Maximum Bombs                             | https://leetcode.com/problems/detonate-the-maximum-bombs/                             |      |            |
-| Medium | 841. Keys and Rooms                                          | https://leetcode.com/problems/keys-and-rooms/                                         | Done |     *      |
-|  Easy  | 1971. Find if Path Exists in Graph                           | https://leetcode.com/problems/find-if-path-exists-in-graph/                           | Done |            |
-| Medium | 133. Clone Graph                                             | https://leetcode.com/problems/clone-graph/                                            | TODO |            |
-| Medium | 1557. Minimum Number of Vertices to Reach All Nodes          | https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/          | Done |            |
-| Medium | 547. Number of Provinces                                     | https://leetcode.com/problems/number-of-provinces/                                    | TODO |            |
-| Medium | 200. Number of Islands                                       | https://leetcode.com/problems/number-of-islands/                                      | Done |            |
-| Medium | 1466. Reorder Routes to Make All Paths Lead to the City Zero | https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/ | TODO |            |
-| Medium | 695. Max Area of Island                                      | https://leetcode.com/problems/max-area-of-island/                                     | TODO |            |
-| Medium | 2368. Reachable Nodes With Restrictions                      | https://leetcode.com/problems/reachable-nodes-with-restrictions/                      | TODO |            |
-| Medium | 542. 01 Matrix                                               | https://leetcode.com/problems/01-matrix/                                              |      |            |
-
-994
-1129
-1926
-
-
+| Level  | Name                                                | Link                                                                         | Done | Repeatable |
+|:------:|:----------------------------------------------------|:-----------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 841. Keys and Rooms                                 | https://leetcode.com/problems/keys-and-rooms/                                | Done |     *      |
+| Medium | 1971. Find if Path Exists in Graph                  | https://leetcode.com/problems/find-if-path-exists-in-graph/                  | Done |     *      |
+| Medium | 133. Clone Graph                                    | https://leetcode.com/problems/clone-graph/                                   | Done |     *      |
+| Medium | 1557. Minimum Number of Vertices to Reach All Nodes | https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/ | Done |     *      |
 
 ---
 
-# 13 - Dijkstra
+# 15. Graph, part 1
+
+| Level  | Name                                                         | Link                                                                                  | Done | Repeatable |
+|:------:|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 547. Number of Provinces                                     | https://leetcode.com/problems/number-of-provinces/                                    | Done |     *      |
+| Medium | 200. Number of Islands                                       | https://leetcode.com/problems/number-of-islands/                                      | Done |     *      |
+| Medium | 1466. Reorder Routes to Make All Paths Lead to the City Zero | https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/ | Done |     *      |
+| Medium | 695. Max Area of Island                                      | https://leetcode.com/problems/max-area-of-island/                                     | Done |     *      |
+| Medium | 2368. Reachable Nodes With Restrictions                      | https://leetcode.com/problems/reachable-nodes-with-restrictions/                      | Done |     *      |
+| Medium | 542. 01 Matrix                                               | https://leetcode.com/problems/01-matrix/                                              | Done |     *      |
+
+---
+
+# 16. Graph, part 2
+
+| Level  | Name                                        | Link                                                                 | Done | Repeatable |
+|:------:|:--------------------------------------------|:---------------------------------------------------------------------|:----:|:----------:|
+| Medium | 1129. Shortest Path with Alternating Colors | https://leetcode.com/problems/shortest-path-with-alternating-colors/ | Done |     *      | 
+| Medium | 1926. Nearest Exit from Entrance in Maze    | https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/    | Done |     *      | 
+| Medium | 1091. Shortest Path in Binary Matrix        | https://leetcode.com/problems/shortest-path-in-binary-matrix/        | Done |     *      | 
+| Medium | 752. Open the Lock                          | https://leetcode.com/problems/open-the-lock/                         | Done |     *      |
+| Medium | 433. Minimum Genetic Mutation               | https://leetcode.com/problems/minimum-genetic-mutation/              | Done |     *      |
+| Medium | 994. Rotting Oranges                        | https://leetcode.com/problems/rotting-oranges/                       | Done |     *      |
+
+---
+
+# 17. Dijkstra
 
 Поиск кратчайшего пути
 
 ---
 
-# 14 - Topological sort
+# 18. Topological sort, part 1
 
 ---
 
-# 15 - Backtracking
+# 19. Topological sort, part 2
+
+---
+
+# 20. Backtracking, part 1
 
 46
 77
 
+---
+
+# 21. Backtracking, part 2
 
 ---
 
-# 16 - Dynamic Programming
+# 22. Dynamic Programming, part 1
 
 Dynamic Programming
 
@@ -414,91 +442,50 @@ Dynamic Programming
 2. Навешать кеш на пересекающиеся решения.
 3. Раскуртиться от базового случая снизу вверх Bottom Up.
 4. А зачем хранить все решения в кеше, если нужны только текущие.
-
-| Level | Name                                                      | Link | Done | Repeatable |
-|:-----:|:----------------------------------------------------------|:-----|:----:|:----------:|
-|       | 509                                                       |      |      |            |
-|       | 70                                                        |      |      |            |
-|       | 746                                                       |      |      |            |
-|       | 322                                                       |      |      |            |
-|       | 198                                                       |      |      |            |
-|       | 91 добавить кеш                                           |      |      |            |
-|       | 62                                                        |      |      |            |
-|       | 64                                                        |      |      |            |
-|       | 72 Расстояние Левенштейна + добавить кеш  конспект отсюда |      |      |            |
-
----
-
-# 0 Big O
-
-Задачи:
-
-| Level | Name         | Link                                    | Repeatable |
-|:-----:|:-------------|:----------------------------------------|:----------:|
-| Easy  | 66. Plus One | https://leetcode.com/problems/plus-one/ |            |
-
-# 16 Graphs
-
-Introduction to the A* Algorithm from Red Blob Games:
-https://www.redblobgames.com/pathfinding/a-star/introduction.html
-
-Taxicab geometry:
-https://en.wikipedia.org/wiki/Taxicab_geometry
-
-Computer Scientists Establish the Best Way to Traverse a Graph:
-https://www.quantamagazine.org/computer-scientists-establish-the-best-way-to-traverse-a-graph-20241025/
-
-# 18 Topological sort
-
-A Gentle Introduction to Graph Neural Networks:
-https://distill.pub/2021/gnn-intro/
-
-___
-
-# Etc
-
-https://leetcode.com/explore/learn/
-
-* Code Visualizer https://pythontutor.com/java.html#mode=edit
-* LRU Cache Visualizer https://lrucache.netlify.app/
-* Trie (Prefix Tree) Visualizer https://www.cs.usfca.edu/~galles/visualization/Trie.html
-* Exercises https://exercism.org/tracks/java
-
-## LeetCode Problem books
-
-- LeetCode 75 https://leetcode.com/studyplan/leetcode-75/
-- NeetCode 150 https://leetcode.com/problem-list/rr2ss0g5/
-- Grind 75 https://leetcode.com/problem-list/rab78cw1/
-- Grind 169 https://leetcode.com/problem-list/rabvlt31/
-- Blind 75 https://leetcode.com/problem-list/oizxjoit/
-- Top 100 Liked https://leetcode.com/studyplan/top-100-liked/
-- Top Interview 150 https://leetcode.com/studyplan/top-interview-150/
+   | Level | Name | Link | Done | Repeatable |
+   |:-----:|:---------------------------------------------------------|:-----|:----:|:----------:|
+   | | 509 | | | |
+   | | 70 | | | |
+   | | 746 | | | |
+   | | 322 | | | |
+   | | 198 | | | |
+   | | 91 добавить кеш | | | |
+   | | 62 | | | |
+   | | 64 | | | |
+   | | 72 Расстояние Левенштейна + добавить кеш конспект отсюда | | | |
 
 ---
 
-| #  | Lecture                     | Watched | Exercises |  
-|:--:|:----------------------------|:-------:|:---------:| 
-| 0  | Big O                       |         |           |         
-| 1  | Two Pointers                |  Done   |   Done    |          
-| 2  | Sliding Window              |  Done   |   Done    |         
-| 3  | Linked List                 |  Done   |   Done    |        
-| 4  | Hash Map                    |    .    |     .     |       
-| 5  | LRU                         |         |           |       
-| 6  | Stack, Queue                |         |           |      
-| 7  | Binary Tree, DFS            |  Done   |   Done    |       
-| 8  | Binary Search Tree          |  Done   |   Done    |       
-| 9  | Binary Tree, BFS            |    .    |     .     |       
-| 10 | Trie, Autocomplete          |         |           |       
-| 11 | Heap. Part 1                |         |           |       
-| 12 | Heap. Part 2                |         |           |       
-| 13 | Intervals                   |         |           |       
-| 14 | Graph. Intro                |         |           |       
-| 15 | Graph. Part 1               |         |           |       
-| 16 | Graph. Part 2               |         |           |       
-| 17 | Dijkstra                    |         |           |       
-| 18 | Topological sort. Part 1    |         |           |       
-| 19 | Topological sort. Part 2    |         |           |       
-| 20 | Backtracking. Part 1        |         |           |       
-| 21 | Backtracking. Part 2        |         |           |       
-| 22 | Dynamic Programming. Part 1 |         |           |       
-| 23 | Dynamic Programming. Part 2 |         |           |       
+# 23. Dynamic Programming, part 2
+
+---
+
+| #  | Lecture                     | Theory | Exercises | 
+|:--:|:----------------------------|:------:|:---------:| 
+| 0  | Big O                       |  Done  |   Done    | 
+|    |                             |        |           |
+| 1  | Two Pointers                |  Done  |   Done    | 
+| 2  | Sliding Window              |  Done  |   Done    | 
+| 3  | Linked List                 |  Done  |   Done    | 
+| 4  | Hash Map                    |  Done  |   Done    |
+| 5  | LRU                         |  Done  |   Done    |
+| 6  | Stack, Queue                |  Done  |   Done    | 
+|    |                             |        |           |
+| 7  | Binary Tree, DFS            |  Done  |   Done    |
+| 8  | Binary Search Tree          |  Done  |   Done    |
+| 9  | Binary Tree, BFS            |  Done  |   Done    |
+| 10 | Trie, Autocomplete          |  Done  |   Done    |
+| 11 | Heap. Part 1                |   .    |   Done    |
+| 12 | Heap. Part 2                |  Done  |   Done    |
+| 13 | Intervals                   |  Done  |   Done    |
+|    |                             |        |           |
+| 14 | Graph. Intro                |   .    |   Done    |
+| 15 | Graph. Part 1               |  Done  |   Done    |
+| 16 | Graph. Part 2               |  Done  |   Done    |
+| 17 | Dijkstra                    |   .    |           |
+| 18 | Topological sort. Part 1    |        |           |
+| 19 | Topological sort. Part 2    |        |           |
+| 20 | Backtracking. Part 1        |        |           |
+| 21 | Backtracking. Part 2        |        |           |
+| 22 | Dynamic Programming. Part 1 |        |           |
+| 23 | Dynamic Programming. Part 2 |        |           |
