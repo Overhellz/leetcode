@@ -395,13 +395,12 @@ BFS:
 
 | Level  | Name                                        | Link                                                                 | Done | Repeatable |
 |:------:|:--------------------------------------------|:---------------------------------------------------------------------|:----:|:----------:|
-| Medium | 1129. Shortest Path with Alternating Colors | https://leetcode.com/problems/shortest-path-with-alternating-colors/ | Done |     *      |  
-| Medium | 1926. Nearest Exit from Entrance in Maze    | https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/    | Done |     *      |  
-| Medium | 1091. Shortest Path in Binary Matrix        | https://leetcode.com/problems/shortest-path-in-binary-matrix/        | Done |     *      |  
+| Medium | 1129. Shortest Path with Alternating Colors | https://leetcode.com/problems/shortest-path-with-alternating-colors/ | Done |     *      | 
+| Medium | 1926. Nearest Exit from Entrance in Maze    | https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/    | Done |     *      | 
+| Medium | 1091. Shortest Path in Binary Matrix        | https://leetcode.com/problems/shortest-path-in-binary-matrix/        | Done |     *      | 
 | Medium | 752. Open the Lock                          | https://leetcode.com/problems/open-the-lock/                         | Done |     *      |
-| Medium | 433. Minimum Genetic Mutation               | https://leetcode.com/problems/minimum-genetic-mutation/              | TODO |     *      |
-| Medium | 994. Rotting Oranges                        | https://leetcode.com/problems/rotting-oranges/                       |  *   |     *      |
-|        | 2101                                        |                                                                      |      |            |
+| Medium | 433. Minimum Genetic Mutation               | https://leetcode.com/problems/minimum-genetic-mutation/              | Done |     *      |
+| Medium | 994. Rotting Oranges                        | https://leetcode.com/problems/rotting-oranges/                       | Done |     *      |
 
 ---
 
@@ -411,19 +410,26 @@ BFS:
 
 ---
 
-# 18. Topological sort
+# 18. Topological sort, part 1
 
 ---
 
-# 20. Backtracking
+# 19. Topological sort, part 2
+
+---
+
+# 20. Backtracking, part 1
 
 46
 77
 
+---
+
+# 21. Backtracking, part 2
 
 ---
 
-# 16. Dynamic Programming
+# 22. Dynamic Programming, part 1
 
 Dynamic Programming
 
@@ -436,47 +442,50 @@ Dynamic Programming
 2. Навешать кеш на пересекающиеся решения.
 3. Раскуртиться от базового случая снизу вверх Bottom Up.
 4. А зачем хранить все решения в кеше, если нужны только текущие.
-
-| Level | Name                                                      | Link | Done | Repeatable |
-|:-----:|:----------------------------------------------------------|:-----|:----:|:----------:|
-|       | 509                                                       |      |      |            |
-|       | 70                                                        |      |      |            |
-|       | 746                                                       |      |      |            |
-|       | 322                                                       |      |      |            |
-|       | 198                                                       |      |      |            |
-|       | 91 добавить кеш                                           |      |      |            |
-|       | 62                                                        |      |      |            |
-|       | 64                                                        |      |      |            |
-|       | 72 Расстояние Левенштейна + добавить кеш  конспект отсюда |      |      |            |
+   | Level | Name | Link | Done | Repeatable |
+   |:-----:|:---------------------------------------------------------|:-----|:----:|:----------:|
+   | | 509 | | | |
+   | | 70 | | | |
+   | | 746 | | | |
+   | | 322 | | | |
+   | | 198 | | | |
+   | | 91 добавить кеш | | | |
+   | | 62 | | | |
+   | | 64 | | | |
+   | | 72 Расстояние Левенштейна + добавить кеш конспект отсюда | | | |
 
 ---
 
-| #  | Lecture                     | Theory | Exercises |  
+# 23. Dynamic Programming, part 2
+
+---
+
+| #  | Lecture                     | Theory | Exercises | 
 |:--:|:----------------------------|:------:|:---------:| 
-| 0  | Big O                       |  Done  |   Done    |         
-|    |                             |        |           |       
-| 1  | Two Pointers                |  Done  |   Done    |          
-| 2  | Sliding Window              |  Done  |   Done    |         
-| 3  | Linked List                 |  Done  |   Done    |        
-| 4  | Hash Map                    |  Done  |   Done    |       
-| 5  | LRU                         |  Done  |   Done    |       
-| 6  | Stack, Queue                |  Done  |   Done    |      
-|    |                             |        |           |       
-| 7  | Binary Tree, DFS            |  Done  |   Done    |       
-| 8  | Binary Search Tree          |  Done  |   Done    |       
-| 9  | Binary Tree, BFS            |  Done  |   Done    |       
-| 10 | Trie, Autocomplete          |  Done  |   Done    |       
-| 11 | Heap. Part 1                |   .    |   Done    |       
-| 12 | Heap. Part 2                |  Done  |   Done    |       
-| 13 | Intervals                   |  Done  |     .     |       
-|    |                             |        |           |       
-| 14 | Graph. Intro                |   .    |   Done    |       
-| 15 | Graph. Part 1               |   .    |     .     |       
-| 16 | Graph. Part 2               |        |           |       
-| 17 | Dijkstra                    |        |           |       
-| 18 | Topological sort. Part 1    |        |           |       
-| 19 | Topological sort. Part 2    |        |           |       
-| 20 | Backtracking. Part 1        |        |           |       
-| 21 | Backtracking. Part 2        |        |           |       
-| 22 | Dynamic Programming. Part 1 |        |           |       
-| 23 | Dynamic Programming. Part 2 |        |           |       
+| 0  | Big O                       |  Done  |   Done    | 
+|    |                             |        |           |
+| 1  | Two Pointers                |  Done  |   Done    | 
+| 2  | Sliding Window              |  Done  |   Done    | 
+| 3  | Linked List                 |  Done  |   Done    | 
+| 4  | Hash Map                    |  Done  |   Done    |
+| 5  | LRU                         |  Done  |   Done    |
+| 6  | Stack, Queue                |  Done  |   Done    | 
+|    |                             |        |           |
+| 7  | Binary Tree, DFS            |  Done  |   Done    |
+| 8  | Binary Search Tree          |  Done  |   Done    |
+| 9  | Binary Tree, BFS            |  Done  |   Done    |
+| 10 | Trie, Autocomplete          |  Done  |   Done    |
+| 11 | Heap. Part 1                |   .    |   Done    |
+| 12 | Heap. Part 2                |  Done  |   Done    |
+| 13 | Intervals                   |  Done  |   Done    |
+|    |                             |        |           |
+| 14 | Graph. Intro                |   .    |   Done    |
+| 15 | Graph. Part 1               |  Done  |   Done    |
+| 16 | Graph. Part 2               |  Done  |   Done    |
+| 17 | Dijkstra                    |   .    |           |
+| 18 | Topological sort. Part 1    |        |           |
+| 19 | Topological sort. Part 2    |        |           |
+| 20 | Backtracking. Part 1        |        |           |
+| 21 | Backtracking. Part 2        |        |           |
+| 22 | Dynamic Programming. Part 1 |        |           |
+| 23 | Dynamic Programming. Part 2 |        |           |
