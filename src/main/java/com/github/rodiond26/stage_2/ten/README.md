@@ -380,32 +380,28 @@ BFS:
 
 # 15. Graph, part 1
 
-| Level  | Name                     | Link                                               | Done | Repeatable |
-|:------:|:-------------------------|:---------------------------------------------------|:----:|:----------:|
-| Medium | 547. Number of Provinces | https://leetcode.com/problems/number-of-provinces/ | Done |     *      |
-| Medium | 200. Number of Islands   | https://leetcode.com/problems/number-of-islands/   |      |            |
+| Level  | Name                                                         | Link                                                                                  | Done | Repeatable |
+|:------:|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 547. Number of Provinces                                     | https://leetcode.com/problems/number-of-provinces/                                    | Done |     *      |
+| Medium | 200. Number of Islands                                       | https://leetcode.com/problems/number-of-islands/                                      | Done |     *      |
+| Medium | 1466. Reorder Routes to Make All Paths Lead to the City Zero | https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/ | Done |     *      |
+| Medium | 695. Max Area of Island                                      | https://leetcode.com/problems/max-area-of-island/                                     | Done |     *      |
+| Medium | 2368. Reachable Nodes With Restrictions                      | https://leetcode.com/problems/reachable-nodes-with-restrictions/                      | Done |     *      |
+| Medium | 542. 01 Matrix                                               | https://leetcode.com/problems/01-matrix/                                              | Done |     *      |
 
 ---
 
 # 16. Graph, part 2
 
-752
-433
-994
-2101
-
-| Level  | Name                                                         | Link                                                                                  | Done | Repeatable |
-|:------:|:-------------------------------------------------------------|:--------------------------------------------------------------------------------------|:----:|:----------:|
-| Medium | 1466. Reorder Routes to Make All Paths Lead to the City Zero | https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/ | TODO |            |
-| Medium | 695. Max Area of Island                                      | https://leetcode.com/problems/max-area-of-island/                                     | TODO |            |
-| Medium | 2368. Reachable Nodes With Restrictions                      | https://leetcode.com/problems/reachable-nodes-with-restrictions/                      | TODO |            |
-| Medium | 542. 01 Matrix                                               | https://leetcode.com/problems/01-matrix/                                              |      |            |
-
-994
-1129
-1926
-
-
+| Level  | Name                                        | Link                                                                 | Done | Repeatable |
+|:------:|:--------------------------------------------|:---------------------------------------------------------------------|:----:|:----------:|
+| Medium | 1129. Shortest Path with Alternating Colors | https://leetcode.com/problems/shortest-path-with-alternating-colors/ | Done |     *      |  
+|        | 752                                         |                                                                      |      |            |
+|        | 433                                         |                                                                      |      |            |
+|        | 994                                         |                                                                      |      |            |
+|        | 2101                                        |                                                                      |      |            |
+|        | 994                                         |                                                                      |      |            |
+|        | 1129                                        |                                                                      |      |            |
 
 ---
 

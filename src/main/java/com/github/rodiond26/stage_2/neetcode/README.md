@@ -114,9 +114,23 @@ Except Ten and Premium
 
 ---
 
-# 13. Intervals
+# Intervals
 
 | Level  | Name                                         | Link                                                                  | Done | Repeatable |
 |:------:|:---------------------------------------------|:----------------------------------------------------------------------|:----:|:----------:|
 | Medium | 435. Non-overlapping Intervals               | https://leetcode.com/problems/non-overlapping-intervals/              |      |            |
 |  Hard  | 1851. Minimum Interval to Include Each Query | https://leetcode.com/problems/minimum-interval-to-include-each-query/ |      |            |
+
+---
+
+# Graphs
+
+| Level  | Name                             | Link                                                       | Done | Repeatable |
+|:------:|:---------------------------------|:-----------------------------------------------------------|:----:|:----------:|
+| Medium | 994. Rotting Oranges             | https://leetcode.com/problems/rotting-oranges/             |      |            |
+| Medium | 417. Pacific Atlantic Water Flow | https://leetcode.com/problems/pacific-atlantic-water-flow/ |      |            |
+| Medium | 130. Surrounded Regions          | https://leetcode.com/problems/surrounded-regions/          |      |            |
+| Medium | 207. Course Schedule             | https://leetcode.com/problems/course-schedule/             |      |            |
+| Medium | 210. Course Schedule II          | https://leetcode.com/problems/course-schedule-ii/          |      |            |
+| Medium | 684. Redundant Connection        | https://leetcode.com/problems/redundant-connection/        |      |            |
+| Medium | 127. Word Ladder                 | https://leetcode.com/problems/word-ladder/                 |      |            |
