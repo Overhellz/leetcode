@@ -406,7 +406,17 @@ BFS:
 
 # 17. Dijkstra
 
-Поиск кратчайшего пути
+Алгоритм Дейкстры - это поиск кратчайшего пути по графу, где вершины графа соединены ребрами, у каждого из которых есть
+вес.
+
+Алгоритм А* (А-стар) - это Дейкстра + функция, которая выдает значения в зависимости от приближения или удаления от
+цели.
+
+| Level  | Name                                 | Link                                                           | Done | Repeatable |
+|:------:|:-------------------------------------|:---------------------------------------------------------------|:----:|:----------:|
+| Medium | 743. Network Delay Time              | https://leetcode.com/problems/network-delay-time/              | Done |     *      | 
+| Medium | 1514. Path with Maximum Probability  | https://leetcode.com/problems/path-with-maximum-probability/   | Done |     *      | 
+| Medium | 787. Cheapest Flights Within K Stops | https://leetcode.com/problems/cheapest-flights-within-k-stops/ | Done |     *      | 
 
 ---
 
@@ -442,17 +452,18 @@ Dynamic Programming
 2. Навешать кеш на пересекающиеся решения.
 3. Раскуртиться от базового случая снизу вверх Bottom Up.
 4. А зачем хранить все решения в кеше, если нужны только текущие.
-   | Level | Name | Link | Done | Repeatable |
-   |:-----:|:---------------------------------------------------------|:-----|:----:|:----------:|
-   | | 509 | | | |
-   | | 70 | | | |
-   | | 746 | | | |
-   | | 322 | | | |
-   | | 198 | | | |
-   | | 91 добавить кеш | | | |
-   | | 62 | | | |
-   | | 64 | | | |
-   | | 72 Расстояние Левенштейна + добавить кеш конспект отсюда | | | |
+
+| Level  | Name                                                     | Link | Done | Repeatable |
+|:------:|:---------------------------------------------------------|:-----|:----:|:----------:|
+| Medium | 509                                                      |      |      |            | 
+| Medium | 70                                                       |      |      |            | 
+| Medium | 746                                                      |      |      |            | 
+| Medium | 322                                                      |      |      |            |
+| Medium | 198                                                      |      |      |            |
+| Medium | 91 добавить кеш                                          |      |      |            |
+| Medium | 62                                                       |      |      |            |
+| Medium | 64                                                       |      |      |            |
+| Medium | 72 Расстояние Левенштейна + добавить кеш конспект отсюда |      |      |            |
 
 ---
 
@@ -482,7 +493,7 @@ Dynamic Programming
 | 14 | Graph. Intro                |   .    |   Done    |
 | 15 | Graph. Part 1               |  Done  |   Done    |
 | 16 | Graph. Part 2               |  Done  |   Done    |
-| 17 | Dijkstra                    |   .    |           |
+| 17 | Dijkstra                    |  Done  |   Done    |
 | 18 | Topological sort. Part 1    |        |           |
 | 19 | Topological sort. Part 2    |        |           |
 | 20 | Backtracking. Part 1        |        |           |
