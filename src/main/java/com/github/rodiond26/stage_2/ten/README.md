@@ -422,9 +422,25 @@ BFS:
 
 # 18. Topological sort, part 1
 
+Топологическая сортировка - перейти от базовых компонентов к составным компонентам (пример с приготовлением бутерброда).
+
+Топологическая сортировка решает задачу: можем ли мы достигнуть какой-то ноды или нет. Достижимость ноды означает:
+сможем ли мы выполнить все условия для достижения ноды.
+
+| Level  | Name                                                | Link                                                                         | Done | Repeatable |
+|:------:|:----------------------------------------------------|:-----------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 2115. Find All Possible Recipes from Given Supplies | https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/ | Done |     *      | 
+
 ---
 
 # 19. Topological sort, part 2
+
+Алгоритм Кана - поместить все ноды в мапу с количеством зависимостей, пройтись по графу и уменьшать зависимости.
+
+| Level  | Name                    | Link                                              | Done | Repeatable |
+|:------:|:------------------------|:--------------------------------------------------|:----:|:----------:|
+| Medium | 207. Course Schedule    | https://leetcode.com/problems/course-schedule/    | Done |     *      | 
+| Medium | 210. Course Schedule II | https://leetcode.com/problems/course-schedule-ii/ | Done |     *      | 
 
 ---
 
@@ -494,8 +510,8 @@ Dynamic Programming
 | 15 | Graph. Part 1               |  Done  |   Done    |
 | 16 | Graph. Part 2               |  Done  |   Done    |
 | 17 | Dijkstra                    |  Done  |   Done    |
-| 18 | Topological sort. Part 1    |        |           |
-| 19 | Topological sort. Part 2    |        |           |
+| 18 | Topological sort. Part 1    |  Done  |   Done    |
+| 19 | Topological sort. Part 2    |  Done  |   Done    |
 | 20 | Backtracking. Part 1        |        |           |
 | 21 | Backtracking. Part 2        |        |           |
 | 22 | Dynamic Programming. Part 1 |        |           |
