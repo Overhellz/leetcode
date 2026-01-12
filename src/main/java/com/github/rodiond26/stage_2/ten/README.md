@@ -446,12 +446,31 @@ BFS:
 
 # 20. Backtracking, part 1
 
-46
-77
+Backtracking - перевод с возвратом (например валидная скобочная последовательность). Exaustive Search - перебор всего,
+при этом отрезание заранее невалидных путей (веток).
+
+Backtracking - один из подходов решений задач на перебор.
+
+| Level  | Name                     | Link                                                | Done | Repeatable |
+|:------:|:-------------------------|:----------------------------------------------------|:----:|:----------:|
+| Medium | 46. Permutations         | https://leetcode.com/problems/permutations/         | Done |     *      |
+| Medium | 77. Combinations         | https://leetcode.com/problems/combinations/         | Done |     *      |
+| Medium | 78. Subsets              | https://leetcode.com/problems/subsets/              | Done |     *      |
+| Medium | 22. Generate Parentheses | https://leetcode.com/problems/generate-parentheses/ | Done |     *      |
 
 ---
 
 # 21. Backtracking, part 2
+
+**Инвариант**: Теперь, когда будешь решать задачи, спрашивай себя: "А что здесь никогда не меняется?" Это и будет твой
+инвариант!
+
+| Level  | Name                                      | Link                                                                 | Done | Repeatable |
+|:------:|:------------------------------------------|:---------------------------------------------------------------------|:----:|:----------:|
+| Medium | 216. Combination Sum III                  | https://leetcode.com/problems/combination-sum-iii/                   | Done |     *      |
+| Medium | 17. Letter Combinations of a Phone Number | https://leetcode.com/problems/letter-combinations-of-a-phone-number/ | Done |     *      |
+|  Hard  | 51. N-Queens                              | https://leetcode.com/problems/n-queens/                              | Done |     *      |
+|  Hard  | 489. Robot room cleaner                   | https://leetcode.com/problems/robot-room-cleaner/                    | Done |     *      |
 
 ---
 
@@ -512,7 +531,7 @@ Dynamic Programming
 | 17 | Dijkstra                    |  Done  |   Done    |
 | 18 | Topological sort. Part 1    |  Done  |   Done    |
 | 19 | Topological sort. Part 2    |  Done  |   Done    |
-| 20 | Backtracking. Part 1        |        |           |
-| 21 | Backtracking. Part 2        |        |           |
+| 20 | Backtracking. Part 1        |  Done  |   Done    |
+| 21 | Backtracking. Part 2        |  Done  |   Done    |
 | 22 | Dynamic Programming. Part 1 |        |           |
 | 23 | Dynamic Programming. Part 2 |        |           |

@@ -1,0 +1,76 @@
+package com.github.rodiond26.stage_2.ten.p21_backtracking;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class Solution51 {
+
+    public List<List<String>> solveNQueens(int n) {
+        List<List<String>> result = new ArrayList<>();
+        char[][] board = new char[n][n];
+
+        // Инициализируем доску точками
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(board[i], '.');
+        }
+
+        backtrack(result, board, 0, n);
+        return result;
+    }
+
+    private void backtrack(List<List<String>> result, char[][] board, int row, int n) {
+        // Базовый случай: разместили ферзей во всех строках
+        if (row == n) {
+            result.add(constructSolution(board));
+            return;
+        }
+
+        // Пробуем разместить ферзя в каждом столбце текущей строки
+        for (int col = 0; col < n; col++) {
+            if (isValid(board, row, col, n)) {
+                // Размещаем ферзя
+                board[row][col] = 'Q';
+
+                // Рекурсивно размещаем в следующей строке
+                backtrack(result, board, row + 1, n);
+
+                // Backtracking: убираем ферзя
+                board[row][col] = '.';
+            }
+        }
+    }
+
+    private boolean isValid(char[][] board, int row, int col, int n) {
+        // Проверяем столбец
+        for (int i = 0; i < row; i++) {
+            if (board[i][col] == 'Q') {
+                return false;
+            }
+        }
+
+        // Проверяем левую верхнюю диагональ
+        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
+            if (board[i][j] == 'Q') {
+                return false;
+            }
+        }
+
+        // Проверяем правую верхнюю диагональ
+        for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {
+            if (board[i][j] == 'Q') {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private List<String> constructSolution(char[][] board) {
+        List<String> solution = new ArrayList<>();
+        for (char[] row : board) {
+            solution.add(new String(row));
+        }
+        return solution;
+    }
+}
