@@ -1,9 +1,7 @@
-package com.github.rodiond26.dynamic;
-
-public class Solution20251004 {
-}
+package com.github.rodiond26.stage_2.ten.p22_dynamic_programming;
 
 class Solution509 {
+
     public int fib(int n) {
         if (n == 0) {
             return 0;

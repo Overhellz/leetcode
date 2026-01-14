@@ -406,57 +406,113 @@ BFS:
 
 # 17. Dijkstra
 
-Поиск кратчайшего пути
+Алгоритм Дейкстры - это поиск кратчайшего пути по графу, где вершины графа соединены ребрами, у каждого из которых есть
+вес.
+
+Алгоритм А* (А-стар) - это Дейкстра + функция, которая выдает значения в зависимости от приближения или удаления от
+цели.
+
+| Level  | Name                                 | Link                                                           | Done | Repeatable |
+|:------:|:-------------------------------------|:---------------------------------------------------------------|:----:|:----------:|
+| Medium | 743. Network Delay Time              | https://leetcode.com/problems/network-delay-time/              | Done |     *      | 
+| Medium | 1514. Path with Maximum Probability  | https://leetcode.com/problems/path-with-maximum-probability/   | Done |     *      | 
+| Medium | 787. Cheapest Flights Within K Stops | https://leetcode.com/problems/cheapest-flights-within-k-stops/ | Done |     *      | 
 
 ---
 
 # 18. Topological sort, part 1
 
+Топологическая сортировка - перейти от базовых компонентов к составным компонентам (пример с приготовлением бутерброда).
+
+Топологическая сортировка решает задачу: можем ли мы достигнуть какой-то ноды или нет. Достижимость ноды означает:
+сможем ли мы выполнить все условия для достижения ноды.
+
+| Level  | Name                                                | Link                                                                         | Done | Repeatable |
+|:------:|:----------------------------------------------------|:-----------------------------------------------------------------------------|:----:|:----------:|
+| Medium | 2115. Find All Possible Recipes from Given Supplies | https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/ | Done |     *      | 
+
 ---
 
 # 19. Topological sort, part 2
+
+Алгоритм Кана - поместить все ноды в мапу с количеством зависимостей, пройтись по графу и уменьшать зависимости.
+
+| Level  | Name                    | Link                                              | Done | Repeatable |
+|:------:|:------------------------|:--------------------------------------------------|:----:|:----------:|
+| Medium | 207. Course Schedule    | https://leetcode.com/problems/course-schedule/    | Done |     *      | 
+| Medium | 210. Course Schedule II | https://leetcode.com/problems/course-schedule-ii/ | Done |     *      | 
 
 ---
 
 # 20. Backtracking, part 1
 
-46
-77
+Backtracking - перевод с возвратом (например валидная скобочная последовательность). Exaustive Search - перебор всего,
+при этом отрезание заранее невалидных путей (веток).
+
+Backtracking - один из подходов решений задач на перебор.
+
+| Level  | Name                     | Link                                                | Done | Repeatable |
+|:------:|:-------------------------|:----------------------------------------------------|:----:|:----------:|
+| Medium | 46. Permutations         | https://leetcode.com/problems/permutations/         | Done |     *      |
+| Medium | 77. Combinations         | https://leetcode.com/problems/combinations/         | Done |     *      |
+| Medium | 78. Subsets              | https://leetcode.com/problems/subsets/              | Done |     *      |
+| Medium | 22. Generate Parentheses | https://leetcode.com/problems/generate-parentheses/ | Done |     *      |
 
 ---
 
 # 21. Backtracking, part 2
 
+**Инвариант**: Теперь, когда будешь решать задачи, спрашивай себя: "А что здесь никогда не меняется?" Это и будет твой
+инвариант!
+
+| Level  | Name                                      | Link                                                                 | Done | Repeatable |
+|:------:|:------------------------------------------|:---------------------------------------------------------------------|:----:|:----------:|
+| Medium | 216. Combination Sum III                  | https://leetcode.com/problems/combination-sum-iii/                   | Done |     *      |
+| Medium | 17. Letter Combinations of a Phone Number | https://leetcode.com/problems/letter-combinations-of-a-phone-number/ | Done |     *      |
+|  Hard  | 51. N-Queens                              | https://leetcode.com/problems/n-queens/                              | Done |     *      |
+|  Hard  | 489. Robot room cleaner                   | https://leetcode.com/problems/robot-room-cleaner/                    | Done |     *      |
+
 ---
 
 # 22. Dynamic Programming, part 1
 
+Суть динамического программирования - это способ решения задач, когда исходная задача разбивается на подзадачи,
+переиспользуются пересекающиеся решения подзадач, которые оптимизируют решение основной задачи.
+
 Dynamic Programming
 
 - Top Down - кеш в fib(n)
-- Bottom Up -мМожно строить снизу вверх как в массиве.
+- Bottom Up - можно строить снизу вверх как в массиве.
 
-Решение:
+Подход по решению задач на динамическое программирование:
 
-1. Найти основную зависимость решения - базовый случай.
-2. Навешать кеш на пересекающиеся решения.
-3. Раскуртиться от базового случая снизу вверх Bottom Up.
-4. А зачем хранить все решения в кеше, если нужны только текущие.
-   | Level | Name | Link | Done | Repeatable |
-   |:-----:|:---------------------------------------------------------|:-----|:----:|:----------:|
-   | | 509 | | | |
-   | | 70 | | | |
-   | | 746 | | | |
-   | | 322 | | | |
-   | | 198 | | | |
-   | | 91 добавить кеш | | | |
-   | | 62 | | | |
-   | | 64 | | | |
-   | | 72 Расстояние Левенштейна + добавить кеш конспект отсюда | | | |
+1. Вы пишите наивный подход - сверху вниз переборами.
+2. Вы находите базовый случай.
+3. Вы ищите где в переборном подходе появляются пересечения.
+4. Вы кешируете пересечения.
+5. Вы раскручиваете снизу вверх Bottom Up пересечения от базового случая.
+6. Вы смотрите, когда раскручиваете снизу вверх, а сколько надо держать предыдущих значений, - может быть не все (может
+   быть хватит двоих).
+7. Вы оптимизируете решение.
+
+| Level  | Name                          | Link                                                    | Done | Repeatable |
+|:------:|:------------------------------|:--------------------------------------------------------|:----:|:----------:|
+|  Easy  | 509. Fibonacci Number         | https://leetcode.com/problems/fibonacci-number/         | Done |    ***     | 
+|  Easy  | 70. Climbing Stairs           | https://leetcode.com/problems/climbing-stairs/          | Done |    ***     | 
+|  Easy  | 746. Min Cost Climbing Stairs | https://leetcode.com/problems/min-cost-climbing-stairs/ | Done |    ***     | 
+| Medium | 322. Coin Change              | https://leetcode.com/problems/coin-change/              | Done |    ***     |
+| Medium | 198. House Robber             | https://leetcode.com/problems/house-robber/             | Done |    ***     |
 
 ---
 
 # 23. Dynamic Programming, part 2
+
+| Level  | Name                 | Link                                            | Done | Repeatable |
+|:------:|:---------------------|:------------------------------------------------|:----:|:----------:|
+| Medium | 91. Decode Ways      | https://leetcode.com/problems/decode-ways/      | Done |     *      |
+| Medium | 62. Unique Paths     | https://leetcode.com/problems/unique-paths/     | Done |     *      |
+| Medium | 64. Minimum Path Sum | https://leetcode.com/problems/minimum-path-sum/ | Done |     *      |            |
+| Medium | 72. Edit Distance    | https://leetcode.com/problems/edit-distance/    | Done |     *      |
 
 ---
 
@@ -482,10 +538,10 @@ Dynamic Programming
 | 14 | Graph. Intro                |   .    |   Done    |
 | 15 | Graph. Part 1               |  Done  |   Done    |
 | 16 | Graph. Part 2               |  Done  |   Done    |
-| 17 | Dijkstra                    |   .    |           |
-| 18 | Topological sort. Part 1    |        |           |
-| 19 | Topological sort. Part 2    |        |           |
-| 20 | Backtracking. Part 1        |        |           |
-| 21 | Backtracking. Part 2        |        |           |
-| 22 | Dynamic Programming. Part 1 |        |           |
-| 23 | Dynamic Programming. Part 2 |        |           |
+| 17 | Dijkstra                    |  Done  |   Done    |
+| 18 | Topological sort. Part 1    |  Done  |   Done    |
+| 19 | Topological sort. Part 2    |  Done  |   Done    |
+| 20 | Backtracking. Part 1        |  Done  |   Done    |
+| 21 | Backtracking. Part 2        |  Done  |   Done    |
+| 22 | Dynamic Programming. Part 1 |  Done  |   Done    |
+| 23 | Dynamic Programming. Part 2 |  Done  |   Done    |
